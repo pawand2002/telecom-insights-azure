@@ -1,0 +1,204 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "type": "SecureString"
+        },
+        "workspaces_telecominsights_syn_analytics_name": {
+            "defaultValue": "telecominsights-syn-analytics",
+            "type": "String"
+        },
+        "storageAccounts_telecominsights7435_externalid": {
+            "defaultValue": "/subscriptions/04f41737-9b3b-4d5b-bfe3-ed8969ba8aec/resourceGroups/telecom-insights-rg/providers/Microsoft.Storage/storageAccounts/telecominsights7435",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Synapse/workspaces",
+            "apiVersion": "2021-06-01",
+            "name": "[parameters('workspaces_telecominsights_syn_analytics_name')]",
+            "location": "westus",
+            "identity": {
+                "type": "SystemAssigned"
+            },
+            "properties": {
+                "defaultDataLakeStorage": {
+                    "resourceId": "[parameters('storageAccounts_telecominsights7435_externalid')]",
+                    "createManagedPrivateEndpoint": true,
+                    "accountUrl": "https://telecominsights7435.dfs.core.windows.net",
+                    "filesystem": "gold"
+                },
+                "encryption": {},
+                "managedVirtualNetwork": "default",
+                "managedResourceGroupName": "telecominsights-mg",
+                "sqlAdministratorLogin": "sqladmin",
+                "privateEndpointConnections": [],
+                "managedVirtualNetworkSettings": {
+                    "preventDataExfiltration": false,
+                    "allowedAadTenantIdsForLinking": []
+                },
+                "publicNetworkAccess": "Enabled",
+                "cspWorkspaceAdminProperties": {
+                    "initialWorkspaceAdminObjectId": "bfab34ad-1fa3-45af-8202-0f06ccf0c1a9"
+                },
+                "azureADOnlyAuthentication": false,
+                "trustedServiceBypassEnabled": false
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/auditingSettings",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/Default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "retentionDays": 0,
+                "auditActionsAndGroups": [],
+                "isStorageSecondaryKeyInUse": false,
+                "isAzureMonitorTargetEnabled": false,
+                "state": "Disabled",
+                "storageAccountSubscriptionId": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/azureADOnlyAuthentications",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "azureADOnlyAuthentication": false
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/dedicatedSQLminimalTlsSettings",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/default')]",
+            "location": "westus",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "minimalTlsVersion": "1.2"
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/extendedAuditingSettings",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/Default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "retentionDays": 0,
+                "auditActionsAndGroups": [],
+                "isStorageSecondaryKeyInUse": false,
+                "isAzureMonitorTargetEnabled": false,
+                "state": "Disabled",
+                "storageAccountSubscriptionId": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/firewallRules",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/allowAll')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "startIpAddress": "0.0.0.0",
+                "endIpAddress": "255.255.255.255"
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/integrationruntimes",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/AutoResolveIntegrationRuntime')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "type": "Managed",
+                "typeProperties": {
+                    "computeProperties": {
+                        "location": "AutoResolve"
+                    }
+                },
+                "managedVirtualNetwork": {
+                    "referenceName": "default",
+                    "type": "ManagedVirtualNetworkReference",
+                    "id": "9e4529f0-c3ac-4bf0-ad89-9d1781d579fa"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/privateEndpointConnections",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/', parameters('workspaces_telecominsights_syn_analytics_name'), '.synapse-ws-sqlondemand--telecominsights-.37637990-4ec7cf20-6ca3-4a1c-aa08-47a667c50a92')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "privateEndpoint": {},
+                "privateLinkServiceConnectionState": {
+                    "status": "Approved",
+                    "description": "Approved by Microsoft.Synapse Resource Provider"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/privateEndpointConnections",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/', parameters('workspaces_telecominsights_syn_analytics_name'), '.synapse-ws-sql--', parameters('workspaces_telecominsights_syn_analytics_name'), '-f8379258-8798-4a20-a954-91d1325dee8c')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "privateEndpoint": {},
+                "privateLinkServiceConnectionState": {
+                    "status": "Approved",
+                    "description": "Approved by Microsoft.Synapse Resource Provider"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/securityAlertPolicies",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/Default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "state": "Disabled",
+                "disabledAlerts": [
+                    ""
+                ],
+                "emailAddresses": [
+                    ""
+                ],
+                "emailAccountAdmins": false,
+                "retentionDays": 0
+            }
+        },
+        {
+            "type": "Microsoft.Synapse/workspaces/vulnerabilityAssessments",
+            "apiVersion": "2021-06-01",
+            "name": "[concat(parameters('workspaces_telecominsights_syn_analytics_name'), '/Default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Synapse/workspaces', parameters('workspaces_telecominsights_syn_analytics_name'))]"
+            ],
+            "properties": {
+                "recurringScans": {
+                    "isEnabled": false,
+                    "emailSubscriptionAdmins": true
+                },
+                "storageContainerPath": "[parameters('vulnerabilityAssessments_Default_storageContainerPath')]"
+            }
+        }
+    ]
+}
