@@ -282,6 +282,19 @@ MSISDN values with zero application-level changes. Audit logs capture every
 access for regulatory compliance.
 
 ---
+## 📈 Dashboard Screenshots
+
+### Executive Overview
+![Executive Overview](powerbi/Executive_overview.jpg)
+
+### ARPU Analysis
+![ARPU Analysis](powerbi/ARPU_Analysis.jpg)
+
+### Churn Intelligence
+![Churn Intelligence](powerbi/Churn_Intelligence.jpg)
+
+### Network Operations
+![Network Operations](powerbi/Network_Operations.jpg)
 
 ## Author
 
