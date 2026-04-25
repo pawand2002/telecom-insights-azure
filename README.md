@@ -26,6 +26,8 @@ Lakehouse architecture.
 
 ## Architecture
 
+![Architecture daigram](architecture/telecominsights_architecture.png)
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                         DATA SOURCES                                │
