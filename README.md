@@ -1,6 +1,3 @@
-
----
-
 ```markdown
 # TelecomInsights — Azure Lakehouse Analytics Platform
 
