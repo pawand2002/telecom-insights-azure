@@ -1,4 +1,6 @@
-```markdown
+
+---
+
 # TelecomInsights — Azure Lakehouse Analytics Platform
 
 ![Azure](https://img.shields.io/badge/Azure-Data%20Platform-0078D4?logo=microsoft-azure)
