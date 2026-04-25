@@ -149,15 +149,5 @@ python simulate_stream.py
 | Azure Monitor | Pipeline + cost monitoring |
 | Unity Catalog | Data governance + MSISDN masking |
 
-## Interview Story
-
-> *"I built TelecomInsights — an end-to-end Azure Lakehouse platform for Telecom analytics.
-> CDR files land in ADLS Bronze via ADF with watermark-based incremental loads.
-> Real-time network events flow through Event Hub (32 partitions, 2 TUs) into Databricks Structured Streaming.
-> PySpark Silver notebooks cleanse and enrich CDRs, computing features like call drop rate and data consumption trends.
-> Gold aggregations compute ARPU, recharge frequency, and high-value customer flags — served via Synapse to Power BI.
-> A RandomForest churn model trained with MLflow scores customers daily; high-risk customers (score > 0.7) are written to Cosmos DB for the CRM team's real-time intervention API.
-> Unity Catalog masks MSISDN in Silver, Key Vault holds all credentials, Azure Monitor alerts on any pipeline failure within 60 seconds."*
-
 ---
 Built by Pawan Dubey — Azure & GCP Data Architect
