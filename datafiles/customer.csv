@@ -1,0 +1,1001 @@
+customer_id,msisdn,first_name,last_name,age,nationality,language,region,device_type,plan_type,plan_name,monthly_fee_qar,data_allowance_gb,activation_date,tenure_months,segment,churn_risk,is_active,created_at,updated_at
+CUST00001,+97433678690,Customer1,LastName1,31,Indian,English,Al Khor,Tablet,Prepaid,Basic 10,10,1,2022-04-02,33,High Value,Medium,1,2022-04-02,2026-04-18 02:52:01
+CUST00002,+97472711892,Customer2,LastName2,31,Bangladeshi,Arabic,Al Wakrah,Tablet,Prepaid,Smart 25,25,5,2022-03-27,33,Low Value,Low,1,2022-03-27,2026-04-18 02:52:01
+CUST00003,+97474470576,Customer3,LastName3,31,Pakistani,Tagalog,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-05-31,80,Low Value,High,1,2018-05-31,2026-04-18 02:52:01
+CUST00004,+97479734369,Customer4,LastName4,36,Bangladeshi,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2024-01-15,11,Low Value,Medium,1,2024-01-15,2026-04-18 02:52:01
+CUST00005,+97438663279,Customer5,LastName5,32,Qatari,Urdu,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2021-10-03,39,Mid Value,Low,1,2021-10-03,2026-04-18 02:52:01
+CUST00006,+97435826843,Customer6,LastName6,33,Lebanese,Urdu,Doha,Tablet,Prepaid,Smart 25,25,5,2020-07-27,53,Mid Value,Low,1,2020-07-27,2026-04-18 02:52:01
+CUST00007,+97458656120,Customer7,LastName7,23,Sri Lankan,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-03-31,33,Mid Value,Medium,0,2022-03-31,2026-04-18 02:52:01
+CUST00008,+97471143633,Customer8,LastName8,26,Filipino,Tagalog,Doha,Smartphone,Postpaid,Premium 500,500,150,2023-09-22,15,VIP,Low,1,2023-09-22,2026-04-18 02:52:01
+CUST00009,+97458030288,Customer9,LastName9,31,Indian,Arabic,Lusail,Smartphone,Prepaid,Super 100,100,30,2024-04-19,8,Low Value,Medium,1,2024-04-19,2026-04-18 02:52:01
+CUST00010,+97467530686,Customer10,LastName10,30,British,Hindi,Al Khor,Smartphone,Postpaid,Premium 500,500,150,2023-10-26,14,Mid Value,Low,1,2023-10-26,2026-04-18 02:52:01
+CUST00011,+97478569019,Customer11,LastName11,20,Jordanian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2019-07-12,66,Mid Value,Low,1,2019-07-12,2026-04-18 02:52:01
+CUST00012,+97456705609,Customer12,LastName12,38,Bangladeshi,Arabic,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2023-08-11,16,Mid Value,Low,1,2023-08-11,2026-04-18 02:52:01
+CUST00013,+97434257519,Customer13,LastName13,39,Indian,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2020-03-18,58,High Value,Low,1,2020-03-18,2026-04-18 02:52:01
+CUST00014,+97477683306,Customer14,LastName14,56,Filipino,Arabic,Doha,Tablet,Prepaid,Value 50,50,15,2023-12-29,12,Low Value,Low,1,2023-12-29,2026-04-18 02:52:01
+CUST00015,+97476761204,Customer15,LastName15,56,Bangladeshi,Bengali,Al Khor,MiFi/Router,Postpaid,Elite 1000,1000,300,2024-11-02,1,Low Value,High,1,2024-11-02,2026-04-18 02:52:01
+CUST00016,+97454031241,Customer16,LastName16,32,Indian,Urdu,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2022-01-09,36,High Value,Low,1,2022-01-09,2026-04-18 02:52:01
+CUST00017,+97435452942,Customer17,LastName17,59,Indian,Tagalog,Lusail,Tablet,Prepaid,Super 100,100,30,2022-03-22,33,Mid Value,Low,1,2022-03-22,2026-04-18 02:52:01
+CUST00018,+97476772257,Customer18,LastName18,32,Indian,English,Doha,Smartphone,Prepaid,Super 100,100,30,2021-08-22,40,Low Value,Medium,1,2021-08-22,2026-04-18 02:52:01
+CUST00019,+97438890458,Customer19,LastName19,33,Qatari,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2023-07-27,17,Low Value,High,1,2023-07-27,2026-04-18 02:52:01
+CUST00020,+97436379167,Customer20,LastName20,30,Qatari,Bengali,Al Rayyan,MiFi/Router,Postpaid,Executive 350,350,100,2024-09-29,3,Mid Value,High,1,2024-09-29,2026-04-18 02:52:01
+CUST00021,+97454325928,Customer21,LastName21,33,Indian,Arabic,Lusail,Smartphone,Postpaid,Business 200,200,50,2018-06-27,79,High Value,Low,1,2018-06-27,2026-04-18 02:52:01
+CUST00022,+97464276570,Customer22,LastName22,35,Bangladeshi,Tagalog,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2019-01-13,72,Low Value,Low,1,2019-01-13,2026-04-18 02:52:01
+CUST00023,+97454262495,Customer23,LastName23,28,Jordanian,English,Doha,Smartphone,Prepaid,Super 100,100,30,2022-11-21,25,Mid Value,Medium,1,2022-11-21,2026-04-18 02:52:01
+CUST00024,+97458309226,Customer24,LastName24,23,Qatari,Bengali,Lusail,Smartphone,Postpaid,Executive 350,350,100,2021-08-11,41,High Value,Low,1,2021-08-11,2026-04-18 02:52:01
+CUST00025,+97474725375,Customer25,LastName25,33,Filipino,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-01-20,35,Low Value,High,1,2022-01-20,2026-04-18 02:52:01
+CUST00026,+97433113573,Customer26,LastName26,38,Sri Lankan,Arabic,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2019-07-25,66,Mid Value,Low,1,2019-07-25,2026-04-18 02:52:01
+CUST00027,+97436450317,Customer27,LastName27,47,Indian,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2018-07-13,78,Mid Value,Low,1,2018-07-13,2026-04-18 02:52:01
+CUST00028,+97461541754,Customer28,LastName28,42,Indian,Arabic,Al Rayyan,Tablet,Postpaid,Elite 1000,1000,300,2018-01-22,84,Low Value,Low,1,2018-01-22,2026-04-18 02:52:01
+CUST00029,+97474461964,Customer29,LastName29,23,Qatari,English,Doha,Smartphone,Prepaid,Smart 25,25,5,2019-01-05,72,Mid Value,Low,1,2019-01-05,2026-04-18 02:52:01
+CUST00030,+97432851000,Customer30,LastName30,24,Qatari,English,Doha,Smartphone,Prepaid,Smart 25,25,5,2020-07-26,53,Low Value,High,1,2020-07-26,2026-04-18 02:52:01
+CUST00031,+97467217819,Customer31,LastName31,32,Filipino,Bengali,Al Wakrah,Tablet,Prepaid,Basic 10,10,1,2024-02-03,11,High Value,Low,1,2024-02-03,2026-04-18 02:52:01
+CUST00032,+97462340246,Customer32,LastName32,18,Indian,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2021-12-06,37,Mid Value,Medium,1,2021-12-06,2026-04-18 02:52:01
+CUST00033,+97457010725,Customer33,LastName33,25,British,Urdu,Lusail,Smartphone,Postpaid,Elite 1000,1000,300,2022-06-23,30,High Value,Medium,1,2022-06-23,2026-04-18 02:52:01
+CUST00034,+97433288123,Customer34,LastName34,31,Indian,Bengali,Doha,MiFi/Router,Prepaid,Smart 25,25,5,2019-10-23,63,Mid Value,Medium,1,2019-10-23,2026-04-18 02:52:01
+CUST00035,+97439974715,Customer35,LastName35,34,Bangladeshi,Arabic,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-01-15,72,Mid Value,Medium,1,2019-01-15,2026-04-18 02:52:01
+CUST00036,+97477019136,Customer36,LastName36,32,Indian,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2019-02-18,71,Mid Value,High,1,2019-02-18,2026-04-18 02:52:01
+CUST00037,+97468068284,Customer37,LastName37,26,Indian,English,Mesaieed,Feature Phone,Postpaid,Elite 1000,1000,300,2019-06-16,67,Low Value,Medium,1,2019-06-16,2026-04-18 02:52:01
+CUST00038,+97456206514,Customer38,LastName38,36,Qatari,Hindi,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2024-05-17,7,Low Value,Low,1,2024-05-17,2026-04-18 02:52:01
+CUST00039,+97472101629,Customer39,LastName39,33,Egyptian,English,Doha,Tablet,Postpaid,Premium 500,500,150,2020-03-30,57,VIP,Low,1,2020-03-30,2026-04-18 02:52:01
+CUST00040,+97462251678,Customer40,LastName40,51,Qatari,English,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2024-05-21,7,High Value,Medium,1,2024-05-21,2026-04-18 02:52:01
+CUST00041,+97478927201,Customer41,LastName41,37,Indian,Tagalog,Doha,Tablet,Prepaid,Value 50,50,15,2023-11-22,13,Mid Value,Low,1,2023-11-22,2026-04-18 02:52:01
+CUST00042,+97467120174,Customer42,LastName42,36,Egyptian,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2019-09-16,64,VIP,Low,1,2019-09-16,2026-04-18 02:52:01
+CUST00043,+97459719865,Customer43,LastName43,60,Pakistani,Tagalog,Al Khor,MiFi/Router,Prepaid,Super 100,100,30,2019-01-11,72,High Value,High,1,2019-01-11,2026-04-18 02:52:01
+CUST00044,+97477265865,Customer44,LastName44,44,Indian,Bengali,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2018-05-01,81,High Value,Low,1,2018-05-01,2026-04-18 02:52:01
+CUST00045,+97432222008,Customer45,LastName45,36,Qatari,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-03-06,34,Low Value,Medium,1,2022-03-06,2026-04-18 02:52:01
+CUST00046,+97475486540,Customer46,LastName46,31,Pakistani,Hindi,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2023-11-22,13,High Value,Low,1,2023-11-22,2026-04-18 02:52:01
+CUST00047,+97453805830,Customer47,LastName47,23,Lebanese,Bengali,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2019-08-12,65,Mid Value,Low,1,2019-08-12,2026-04-18 02:52:01
+CUST00048,+97455642096,Customer48,LastName48,18,Bangladeshi,Hindi,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2023-06-14,18,High Value,Medium,1,2023-06-14,2026-04-18 02:52:01
+CUST00049,+97472480590,Customer49,LastName49,32,Pakistani,Hindi,Al Khor,Smartphone,Prepaid,Super 100,100,30,2021-07-28,41,Low Value,Low,1,2021-07-28,2026-04-18 02:52:01
+CUST00050,+97476723597,Customer50,LastName50,59,Indian,Bengali,Doha,Smartphone,Prepaid,Basic 10,10,1,2024-02-24,10,Mid Value,Medium,1,2024-02-24,2026-04-18 02:52:01
+CUST00051,+97455515889,Customer51,LastName51,36,Egyptian,Hindi,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-02-28,83,Low Value,Medium,1,2018-02-28,2026-04-18 02:52:01
+CUST00052,+97479381178,Customer52,LastName52,33,Qatari,Arabic,Al Rayyan,MiFi/Router,Postpaid,Premium 500,500,150,2018-02-11,83,Low Value,Medium,1,2018-02-11,2026-04-18 02:52:01
+CUST00053,+97455314421,Customer53,LastName53,31,Pakistani,Arabic,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2022-01-10,36,Low Value,Medium,1,2022-01-10,2026-04-18 02:52:01
+CUST00054,+97471677390,Customer54,LastName54,32,Qatari,Urdu,Al Khor,Smartphone,Prepaid,Smart 25,25,5,2023-01-12,23,Low Value,High,1,2023-01-12,2026-04-18 02:52:01
+CUST00055,+97477573917,Customer55,LastName55,27,Lebanese,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2021-09-26,39,Mid Value,Medium,1,2021-09-26,2026-04-18 02:52:01
+CUST00056,+97473612510,Customer56,LastName56,52,Indian,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2020-07-16,54,Low Value,Medium,1,2020-07-16,2026-04-18 02:52:01
+CUST00057,+97468320867,Customer57,LastName57,32,Bangladeshi,Bengali,Doha,Smartphone,Postpaid,Executive 350,350,100,2021-09-17,40,High Value,Low,1,2021-09-17,2026-04-18 02:52:01
+CUST00058,+97454911581,Customer58,LastName58,34,Sri Lankan,Arabic,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2021-08-12,41,High Value,Low,1,2021-08-12,2026-04-18 02:52:01
+CUST00059,+97437468936,Customer59,LastName59,37,Indian,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2023-11-02,14,Mid Value,Low,1,2023-11-02,2026-04-18 02:52:01
+CUST00060,+97464892429,Customer60,LastName60,28,Indian,Tagalog,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2021-05-31,43,VIP,Low,1,2021-05-31,2026-04-18 02:52:01
+CUST00061,+97463705711,Customer61,LastName61,28,Indian,Hindi,Lusail,Smartphone,Prepaid,Basic 10,10,1,2023-01-07,24,High Value,Low,0,2023-01-07,2026-04-18 02:52:01
+CUST00062,+97452711679,Customer62,LastName62,35,Indian,Urdu,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2024-03-28,9,Low Value,Medium,1,2024-03-28,2026-04-18 02:52:01
+CUST00063,+97473679733,Customer63,LastName63,31,Jordanian,Tagalog,Al Rayyan,Feature Phone,Prepaid,Value 50,50,15,2018-04-03,82,Low Value,High,1,2018-04-03,2026-04-18 02:52:01
+CUST00064,+97472991490,Customer64,LastName64,28,Sri Lankan,Arabic,Al Rayyan,MiFi/Router,Prepaid,Super 100,100,30,2020-03-19,58,Mid Value,Low,1,2020-03-19,2026-04-18 02:52:01
+CUST00065,+97472308551,Customer65,LastName65,29,Jordanian,Hindi,Lusail,Smartphone,Prepaid,Basic 10,10,1,2024-03-13,9,Mid Value,Medium,1,2024-03-13,2026-04-18 02:52:01
+CUST00066,+97472191247,Customer66,LastName66,30,Filipino,English,Lusail,Smartphone,Prepaid,Smart 25,25,5,2019-01-06,72,VIP,Low,1,2019-01-06,2026-04-18 02:52:01
+CUST00067,+97476073486,Customer67,LastName67,32,Qatari,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2020-12-21,49,Mid Value,Low,1,2020-12-21,2026-04-18 02:52:01
+CUST00068,+97431154218,Customer68,LastName68,34,Indian,Bengali,Lusail,MiFi/Router,Prepaid,Value 50,50,15,2020-11-08,50,Mid Value,Low,1,2020-11-08,2026-04-18 02:52:01
+CUST00069,+97455091139,Customer69,LastName69,33,Indian,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2021-09-23,39,Mid Value,Low,1,2021-09-23,2026-04-18 02:52:01
+CUST00070,+97434874835,Customer70,LastName70,32,Filipino,Urdu,Al Khor,MiFi/Router,Prepaid,Smart 25,25,5,2022-06-08,31,Low Value,Medium,1,2022-06-08,2026-04-18 02:52:01
+CUST00071,+97434983480,Customer71,LastName71,31,Indian,Arabic,Al Khor,Smartphone,Postpaid,Executive 350,350,100,2018-01-16,84,VIP,Low,1,2018-01-16,2026-04-18 02:52:01
+CUST00072,+97478959321,Customer72,LastName72,36,Egyptian,Arabic,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2023-12-14,12,Mid Value,Low,1,2023-12-14,2026-04-18 02:52:01
+CUST00073,+97458003634,Customer73,LastName73,57,Qatari,Hindi,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2021-05-22,43,High Value,Medium,1,2021-05-22,2026-04-18 02:52:01
+CUST00074,+97463202233,Customer74,LastName74,33,Qatari,English,Doha,Feature Phone,Prepaid,Super 100,100,30,2020-07-27,53,Mid Value,Low,1,2020-07-27,2026-04-18 02:52:01
+CUST00075,+97474335450,Customer75,LastName75,28,Pakistani,Tagalog,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2021-04-07,45,Low Value,Medium,1,2021-04-07,2026-04-18 02:52:01
+CUST00076,+97476381255,Customer76,LastName76,30,Pakistani,English,Doha,Tablet,Postpaid,Business 200,200,50,2021-02-19,47,Mid Value,High,1,2021-02-19,2026-04-18 02:52:01
+CUST00077,+97437555456,Customer77,LastName77,20,Sri Lankan,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2018-08-19,77,Mid Value,Medium,1,2018-08-19,2026-04-18 02:52:01
+CUST00078,+97464400352,Customer78,LastName78,29,Indian,Tagalog,Al Wakrah,Tablet,Prepaid,Basic 10,10,1,2021-05-26,43,Low Value,High,1,2021-05-26,2026-04-18 02:52:01
+CUST00079,+97453420522,Customer79,LastName79,25,Pakistani,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2023-02-16,22,High Value,Low,1,2023-02-16,2026-04-18 02:52:01
+CUST00080,+97455397259,Customer80,LastName80,28,Pakistani,English,Doha,Smartphone,Prepaid,Value 50,50,15,2020-05-08,56,Mid Value,Medium,1,2020-05-08,2026-04-18 02:52:01
+CUST00081,+97453684846,Customer81,LastName81,35,Indian,English,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2024-08-24,4,Mid Value,High,1,2024-08-24,2026-04-18 02:52:01
+CUST00082,+97474038798,Customer82,LastName82,36,Indian,Tagalog,Al Rayyan,MiFi/Router,Prepaid,Value 50,50,15,2024-01-11,11,Low Value,High,1,2024-01-11,2026-04-18 02:52:01
+CUST00083,+97431309406,Customer83,LastName83,40,Filipino,Urdu,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2022-11-27,25,Mid Value,Medium,0,2022-11-27,2026-04-18 02:52:01
+CUST00084,+97458421571,Customer84,LastName84,29,Indian,Arabic,Lusail,Smartphone,Postpaid,Business 200,200,50,2020-02-19,59,Mid Value,High,0,2020-02-19,2026-04-18 02:52:01
+CUST00085,+97452928789,Customer85,LastName85,36,Indian,Urdu,Doha,MiFi/Router,Prepaid,Super 100,100,30,2023-05-16,19,Low Value,Medium,1,2023-05-16,2026-04-18 02:52:01
+CUST00086,+97455178899,Customer86,LastName86,46,Egyptian,English,Doha,MiFi/Router,Prepaid,Value 50,50,15,2024-07-21,5,High Value,Medium,1,2024-07-21,2026-04-18 02:52:01
+CUST00087,+97435010776,Customer87,LastName87,31,Indian,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2020-11-19,50,High Value,Low,1,2020-11-19,2026-04-18 02:52:01
+CUST00088,+97457169612,Customer88,LastName88,33,Egyptian,Hindi,Doha,Smartphone,Prepaid,Basic 10,10,1,2023-11-01,14,Mid Value,Medium,1,2023-11-01,2026-04-18 02:52:01
+CUST00089,+97459780491,Customer89,LastName89,33,Pakistani,Bengali,Doha,Feature Phone,Postpaid,Executive 350,350,100,2019-03-19,70,Mid Value,Low,1,2019-03-19,2026-04-18 02:52:01
+CUST00090,+97465357820,Customer90,LastName90,52,British,Arabic,Doha,MiFi/Router,Postpaid,Executive 350,350,100,2024-05-11,7,VIP,Low,1,2024-05-11,2026-04-18 02:52:01
+CUST00091,+97456190193,Customer91,LastName91,27,Indian,Tagalog,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2023-03-12,22,High Value,Low,1,2023-03-12,2026-04-18 02:52:01
+CUST00092,+97476278129,Customer92,LastName92,41,Bangladeshi,Arabic,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-03-23,58,Mid Value,Medium,1,2020-03-23,2026-04-18 02:52:01
+CUST00093,+97439853332,Customer93,LastName93,30,Indian,Arabic,Doha,Smartphone,Postpaid,Executive 350,350,100,2023-12-26,12,Mid Value,Medium,1,2023-12-26,2026-04-18 02:52:01
+CUST00094,+97452428411,Customer94,LastName94,30,Indian,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2019-05-13,68,High Value,Medium,1,2019-05-13,2026-04-18 02:52:01
+CUST00095,+97439798665,Customer95,LastName95,53,Indian,Urdu,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2020-10-08,51,Low Value,High,1,2020-10-08,2026-04-18 02:52:01
+CUST00096,+97459593954,Customer96,LastName96,29,Lebanese,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2020-05-31,55,Low Value,Low,1,2020-05-31,2026-04-18 02:52:01
+CUST00097,+97434723307,Customer97,LastName97,19,Indian,Urdu,Doha,MiFi/Router,Prepaid,Value 50,50,15,2023-01-13,23,Low Value,High,1,2023-01-13,2026-04-18 02:52:01
+CUST00098,+97465919475,Customer98,LastName98,50,Sri Lankan,English,Doha,Tablet,Postpaid,Premium 500,500,150,2022-12-16,24,Low Value,Low,1,2022-12-16,2026-04-18 02:52:01
+CUST00099,+97431993385,Customer99,LastName99,28,Pakistani,Arabic,Doha,Feature Phone,Prepaid,Basic 10,10,1,2019-08-29,65,Low Value,Low,1,2019-08-29,2026-04-18 02:52:01
+CUST00100,+97476756593,Customer100,LastName100,55,Pakistani,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2024-10-15,2,Low Value,Medium,1,2024-10-15,2026-04-18 02:52:01
+CUST00101,+97478715872,Customer101,LastName101,31,Bangladeshi,Bengali,Al Wakrah,Smartphone,Prepaid,Smart 25,25,5,2022-07-07,30,Low Value,High,1,2022-07-07,2026-04-18 02:52:01
+CUST00102,+97434409036,Customer102,LastName102,31,Jordanian,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-11-06,74,High Value,Medium,1,2018-11-06,2026-04-18 02:52:01
+CUST00103,+97473020358,Customer103,LastName103,29,Bangladeshi,Tagalog,Al Wakrah,MiFi/Router,Postpaid,Elite 1000,1000,300,2023-05-12,19,Low Value,Low,1,2023-05-12,2026-04-18 02:52:01
+CUST00104,+97467918748,Customer104,LastName104,29,Indian,Hindi,Doha,Feature Phone,Prepaid,Basic 10,10,1,2023-12-15,12,Mid Value,High,1,2023-12-15,2026-04-18 02:52:01
+CUST00105,+97476833813,Customer105,LastName105,36,Qatari,Tagalog,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2018-12-02,74,Mid Value,Low,1,2018-12-02,2026-04-18 02:52:01
+CUST00106,+97431088935,Customer106,LastName106,31,Sri Lankan,Urdu,Al Wakrah,MiFi/Router,Prepaid,Super 100,100,30,2022-11-05,26,Mid Value,Medium,1,2022-11-05,2026-04-18 02:52:01
+CUST00107,+97471661710,Customer107,LastName107,28,Egyptian,Hindi,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2019-10-27,63,Low Value,Low,1,2019-10-27,2026-04-18 02:52:01
+CUST00108,+97479697769,Customer108,LastName108,23,Indian,Arabic,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-10-23,75,Mid Value,Medium,1,2018-10-23,2026-04-18 02:52:01
+CUST00109,+97475125515,Customer109,LastName109,33,Indian,Arabic,Doha,Smartphone,Prepaid,Value 50,50,15,2020-05-30,55,Mid Value,High,1,2020-05-30,2026-04-18 02:52:01
+CUST00110,+97467225408,Customer110,LastName110,35,Indian,Hindi,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2023-05-24,19,Low Value,Low,1,2023-05-24,2026-04-18 02:52:01
+CUST00111,+97465193769,Customer111,LastName111,33,Egyptian,Urdu,Mesaieed,Smartphone,Postpaid,Business 200,200,50,2021-08-29,40,Low Value,Low,1,2021-08-29,2026-04-18 02:52:01
+CUST00112,+97471945574,Customer112,LastName112,39,Indian,Tagalog,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2022-10-05,27,High Value,Medium,1,2022-10-05,2026-04-18 02:52:01
+CUST00113,+97433977984,Customer113,LastName113,30,Pakistani,Urdu,Doha,MiFi/Router,Prepaid,Super 100,100,30,2023-07-15,17,Mid Value,Low,1,2023-07-15,2026-04-18 02:52:01
+CUST00114,+97471917474,Customer114,LastName114,65,Filipino,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2018-11-13,74,Mid Value,Low,1,2018-11-13,2026-04-18 02:52:01
+CUST00115,+97452994324,Customer115,LastName115,34,Indian,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-01-18,84,Low Value,High,1,2018-01-18,2026-04-18 02:52:01
+CUST00116,+97435574382,Customer116,LastName116,51,Indian,Tagalog,Doha,Smartphone,Prepaid,Smart 25,25,5,2022-10-24,26,Mid Value,High,1,2022-10-24,2026-04-18 02:52:01
+CUST00117,+97431876613,Customer117,LastName117,32,British,English,Doha,Smartphone,Postpaid,Business 200,200,50,2022-12-04,25,Low Value,Medium,1,2022-12-04,2026-04-18 02:52:01
+CUST00118,+97478858286,Customer118,LastName118,35,Bangladeshi,Tagalog,Doha,Feature Phone,Prepaid,Super 100,100,30,2018-12-03,74,High Value,Medium,1,2018-12-03,2026-04-18 02:52:01
+CUST00119,+97466909521,Customer119,LastName119,29,Pakistani,English,Lusail,Smartphone,Prepaid,Basic 10,10,1,2022-10-03,27,Low Value,Medium,1,2022-10-03,2026-04-18 02:52:01
+CUST00120,+97461512676,Customer120,LastName120,60,Pakistani,English,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2023-07-02,18,Mid Value,Medium,1,2023-07-02,2026-04-18 02:52:01
+CUST00121,+97476638238,Customer121,LastName121,29,Pakistani,Bengali,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2023-09-18,15,Mid Value,Low,1,2023-09-18,2026-04-18 02:52:01
+CUST00122,+97471631696,Customer122,LastName122,69,Qatari,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2024-06-12,6,Low Value,High,1,2024-06-12,2026-04-18 02:52:01
+CUST00123,+97452746674,Customer123,LastName123,55,Pakistani,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2019-07-12,66,Low Value,Medium,1,2019-07-12,2026-04-18 02:52:01
+CUST00124,+97464566415,Customer124,LastName124,67,Bangladeshi,Tagalog,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2024-11-21,1,Mid Value,Medium,1,2024-11-21,2026-04-18 02:52:01
+CUST00125,+97471887619,Customer125,LastName125,29,Indian,English,Al Rayyan,MiFi/Router,Postpaid,Executive 350,350,100,2018-07-19,78,High Value,Low,1,2018-07-19,2026-04-18 02:52:01
+CUST00126,+97467259786,Customer126,LastName126,31,Indian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2024-02-21,10,High Value,Low,1,2024-02-21,2026-04-18 02:52:01
+CUST00127,+97456698333,Customer127,LastName127,30,Qatari,Hindi,Al Wakrah,Smartphone,Prepaid,Super 100,100,30,2020-04-02,57,Low Value,High,1,2020-04-02,2026-04-18 02:52:01
+CUST00128,+97465268783,Customer128,LastName128,51,Indian,Hindi,Lusail,Smartphone,Postpaid,Executive 350,350,100,2023-12-04,13,Mid Value,Low,1,2023-12-04,2026-04-18 02:52:01
+CUST00129,+97433100554,Customer129,LastName129,36,Jordanian,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2023-02-12,22,Low Value,Low,1,2023-02-12,2026-04-18 02:52:01
+CUST00130,+97453876888,Customer130,LastName130,33,British,Bengali,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-03-04,83,High Value,Low,1,2018-03-04,2026-04-18 02:52:01
+CUST00131,+97452569440,Customer131,LastName131,49,Pakistani,Bengali,Al Khor,Tablet,Postpaid,Executive 350,350,100,2023-05-02,20,Mid Value,Medium,1,2023-05-02,2026-04-18 02:52:01
+CUST00132,+97475479238,Customer132,LastName132,34,Filipino,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2023-09-11,15,Mid Value,High,1,2023-09-11,2026-04-18 02:52:01
+CUST00133,+97437872267,Customer133,LastName133,49,British,Bengali,Doha,Smartphone,Postpaid,Premium 500,500,150,2020-12-02,49,Mid Value,Medium,0,2020-12-02,2026-04-18 02:52:01
+CUST00134,+97468963237,Customer134,LastName134,39,British,Tagalog,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2019-11-07,62,Low Value,Medium,1,2019-11-07,2026-04-18 02:52:01
+CUST00135,+97474301725,Customer135,LastName135,52,Indian,Tagalog,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2021-07-30,41,Mid Value,Medium,1,2021-07-30,2026-04-18 02:52:01
+CUST00136,+97436008982,Customer136,LastName136,69,Lebanese,Hindi,Al Khor,Feature Phone,Postpaid,Executive 350,350,100,2023-05-08,20,VIP,Medium,1,2023-05-08,2026-04-18 02:52:01
+CUST00137,+97457862346,Customer137,LastName137,65,Indian,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2018-09-21,76,High Value,Low,1,2018-09-21,2026-04-18 02:52:01
+CUST00138,+97472394311,Customer138,LastName138,69,Pakistani,Bengali,Lusail,Smartphone,Prepaid,Super 100,100,30,2019-07-05,66,Mid Value,Medium,1,2019-07-05,2026-04-18 02:52:01
+CUST00139,+97456505591,Customer139,LastName139,31,Indian,Arabic,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-09-14,3,Mid Value,Medium,1,2024-09-14,2026-04-18 02:52:01
+CUST00140,+97464791257,Customer140,LastName140,30,British,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2022-03-06,34,Mid Value,Medium,1,2022-03-06,2026-04-18 02:52:01
+CUST00141,+97458905269,Customer141,LastName141,38,Indian,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2023-06-29,18,VIP,Low,1,2023-06-29,2026-04-18 02:52:01
+CUST00142,+97474698330,Customer142,LastName142,39,Qatari,Urdu,Doha,Feature Phone,Prepaid,Value 50,50,15,2023-06-14,18,Low Value,High,1,2023-06-14,2026-04-18 02:52:01
+CUST00143,+97479711922,Customer143,LastName143,36,Qatari,Urdu,Doha,Smartphone,Postpaid,Premium 500,500,150,2019-05-30,68,Mid Value,Medium,1,2019-05-30,2026-04-18 02:52:01
+CUST00144,+97436182732,Customer144,LastName144,24,Sri Lankan,English,Doha,Smartphone,Prepaid,Value 50,50,15,2024-08-23,4,Mid Value,Medium,1,2024-08-23,2026-04-18 02:52:01
+CUST00145,+97476376393,Customer145,LastName145,36,Pakistani,Arabic,Al Wakrah,MiFi/Router,Postpaid,Executive 350,350,100,2020-04-12,57,Mid Value,Medium,1,2020-04-12,2026-04-18 02:52:01
+CUST00146,+97462965454,Customer146,LastName146,39,Qatari,English,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2021-10-16,39,High Value,Low,1,2021-10-16,2026-04-18 02:52:01
+CUST00147,+97452378034,Customer147,LastName147,68,Egyptian,Hindi,Doha,Feature Phone,Prepaid,Basic 10,10,1,2023-03-13,21,Low Value,High,1,2023-03-13,2026-04-18 02:52:01
+CUST00148,+97475824808,Customer148,LastName148,53,Indian,Hindi,Al Khor,Smartphone,Prepaid,Smart 25,25,5,2022-10-05,27,Low Value,High,1,2022-10-05,2026-04-18 02:52:01
+CUST00149,+97465568694,Customer149,LastName149,24,Indian,Hindi,Al Wakrah,Smartphone,Prepaid,Smart 25,25,5,2021-07-11,42,High Value,High,1,2021-07-11,2026-04-18 02:52:01
+CUST00150,+97459095491,Customer150,LastName150,31,Bangladeshi,Hindi,Mesaieed,Smartphone,Postpaid,Executive 350,350,100,2020-10-14,51,Low Value,Low,1,2020-10-14,2026-04-18 02:52:01
+CUST00151,+97434797909,Customer151,LastName151,48,Indian,Tagalog,Al Khor,Feature Phone,Prepaid,Super 100,100,30,2019-03-04,70,High Value,Low,1,2019-03-04,2026-04-18 02:52:01
+CUST00152,+97476489436,Customer152,LastName152,44,Indian,English,Doha,Feature Phone,Prepaid,Smart 25,25,5,2023-05-24,19,VIP,Low,1,2023-05-24,2026-04-18 02:52:01
+CUST00153,+97471749926,Customer153,LastName153,31,Indian,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-11-16,50,Mid Value,Medium,1,2020-11-16,2026-04-18 02:52:01
+CUST00154,+97455123514,Customer154,LastName154,42,Qatari,Tagalog,Doha,Smartphone,Postpaid,Executive 350,350,100,2023-12-13,12,Low Value,Medium,1,2023-12-13,2026-04-18 02:52:01
+CUST00155,+97461489311,Customer155,LastName155,32,British,English,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-06-10,55,Mid Value,Medium,1,2020-06-10,2026-04-18 02:52:01
+CUST00156,+97455126315,Customer156,LastName156,29,Egyptian,Hindi,Lusail,Feature Phone,Postpaid,Executive 350,350,100,2022-08-12,29,Mid Value,Medium,1,2022-08-12,2026-04-18 02:52:01
+CUST00157,+97432449415,Customer157,LastName157,35,Indian,Bengali,Lusail,Smartphone,Postpaid,Business 200,200,50,2023-04-21,20,High Value,High,1,2023-04-21,2026-04-18 02:52:01
+CUST00158,+97461193833,Customer158,LastName158,38,Pakistani,Bengali,Al Rayyan,MiFi/Router,Postpaid,Executive 350,350,100,2022-01-22,35,High Value,Low,1,2022-01-22,2026-04-18 02:52:01
+CUST00159,+97453315438,Customer159,LastName159,32,Jordanian,English,Al Khor,Tablet,Prepaid,Basic 10,10,1,2019-06-20,67,High Value,Low,1,2019-06-20,2026-04-18 02:52:01
+CUST00160,+97438201436,Customer160,LastName160,38,Filipino,Arabic,Lusail,Feature Phone,Postpaid,Elite 1000,1000,300,2021-10-08,39,Mid Value,High,1,2021-10-08,2026-04-18 02:52:01
+CUST00161,+97455253464,Customer161,LastName161,32,Bangladeshi,Hindi,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2019-01-25,72,Low Value,High,1,2019-01-25,2026-04-18 02:52:01
+CUST00162,+97469809059,Customer162,LastName162,26,Jordanian,Hindi,Al Khor,Smartphone,Postpaid,Premium 500,500,150,2020-04-19,57,Low Value,Low,1,2020-04-19,2026-04-18 02:52:01
+CUST00163,+97454427897,Customer163,LastName163,36,Jordanian,English,Al Rayyan,Feature Phone,Prepaid,Basic 10,10,1,2018-04-06,82,Mid Value,Medium,1,2018-04-06,2026-04-18 02:52:01
+CUST00164,+97472894969,Customer164,LastName164,29,Lebanese,Tagalog,Mesaieed,MiFi/Router,Prepaid,Smart 25,25,5,2021-04-03,45,Mid Value,Low,1,2021-04-03,2026-04-18 02:52:01
+CUST00165,+97439087000,Customer165,LastName165,37,Indian,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-05-24,19,Low Value,Medium,1,2023-05-24,2026-04-18 02:52:01
+CUST00166,+97474047771,Customer166,LastName166,65,Qatari,English,Al Wakrah,Smartphone,Postpaid,Business 200,200,50,2023-10-12,14,High Value,Medium,1,2023-10-12,2026-04-18 02:52:01
+CUST00167,+97455829108,Customer167,LastName167,33,Pakistani,Hindi,Al Wakrah,Smartphone,Prepaid,Smart 25,25,5,2019-05-08,68,High Value,Low,1,2019-05-08,2026-04-18 02:52:01
+CUST00168,+97473190868,Customer168,LastName168,21,Egyptian,Bengali,Al Wakrah,MiFi/Router,Prepaid,Basic 10,10,1,2020-04-25,57,High Value,Low,1,2020-04-25,2026-04-18 02:52:01
+CUST00169,+97462145162,Customer169,LastName169,62,Qatari,English,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-07-13,30,VIP,Low,1,2022-07-13,2026-04-18 02:52:01
+CUST00170,+97457913442,Customer170,LastName170,69,British,Tagalog,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2019-07-01,67,Low Value,Medium,1,2019-07-01,2026-04-18 02:52:01
+CUST00171,+97437858901,Customer171,LastName171,61,Qatari,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-08-03,78,Low Value,Low,1,2018-08-03,2026-04-18 02:52:01
+CUST00172,+97473307285,Customer172,LastName172,51,Bangladeshi,English,Doha,Smartphone,Prepaid,Super 100,100,30,2022-02-28,34,Mid Value,High,1,2022-02-28,2026-04-18 02:52:01
+CUST00173,+97467288426,Customer173,LastName173,61,Pakistani,Bengali,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-12-28,24,Mid Value,Low,1,2022-12-28,2026-04-18 02:52:01
+CUST00174,+97466239951,Customer174,LastName174,29,Jordanian,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2018-08-27,77,Mid Value,High,1,2018-08-27,2026-04-18 02:52:01
+CUST00175,+97462402748,Customer175,LastName175,34,Qatari,Tagalog,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2019-03-23,70,Mid Value,Medium,1,2019-03-23,2026-04-18 02:52:01
+CUST00176,+97438695861,Customer176,LastName176,30,Qatari,Urdu,Doha,Feature Phone,Prepaid,Value 50,50,15,2024-07-07,5,High Value,High,1,2024-07-07,2026-04-18 02:52:01
+CUST00177,+97475664650,Customer177,LastName177,34,Filipino,Urdu,Al Khor,Feature Phone,Prepaid,Smart 25,25,5,2021-01-13,48,Mid Value,Low,1,2021-01-13,2026-04-18 02:52:01
+CUST00178,+97479206803,Customer178,LastName178,64,Indian,Urdu,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2019-01-16,72,High Value,Low,1,2019-01-16,2026-04-18 02:52:01
+CUST00179,+97464359806,Customer179,LastName179,25,Pakistani,Arabic,Al Rayyan,Tablet,Prepaid,Super 100,100,30,2020-03-12,58,Low Value,Low,1,2020-03-12,2026-04-18 02:52:01
+CUST00180,+97453814290,Customer180,LastName180,29,Indian,English,Doha,Smartphone,Prepaid,Value 50,50,15,2021-06-11,43,Mid Value,Low,1,2021-06-11,2026-04-18 02:52:01
+CUST00181,+97468589270,Customer181,LastName181,37,Lebanese,Arabic,Doha,Smartphone,Postpaid,Business 200,200,50,2021-06-29,42,Low Value,Low,1,2021-06-29,2026-04-18 02:52:01
+CUST00182,+97459307103,Customer182,LastName182,31,Indian,Arabic,Al Rayyan,MiFi/Router,Prepaid,Super 100,100,30,2018-07-08,78,High Value,High,1,2018-07-08,2026-04-18 02:52:01
+CUST00183,+97468344564,Customer183,LastName183,40,Indian,Arabic,Lusail,Tablet,Prepaid,Value 50,50,15,2021-10-25,38,Low Value,Low,1,2021-10-25,2026-04-18 02:52:01
+CUST00184,+97457085056,Customer184,LastName184,26,Egyptian,Arabic,Al Wakrah,Tablet,Prepaid,Basic 10,10,1,2019-11-24,62,High Value,Low,1,2019-11-24,2026-04-18 02:52:01
+CUST00185,+97453592421,Customer185,LastName185,29,Pakistani,Tagalog,Doha,MiFi/Router,Prepaid,Super 100,100,30,2022-12-15,24,Low Value,High,1,2022-12-15,2026-04-18 02:52:01
+CUST00186,+97464665953,Customer186,LastName186,36,Qatari,English,Al Wakrah,MiFi/Router,Prepaid,Smart 25,25,5,2018-06-02,80,High Value,Low,1,2018-06-02,2026-04-18 02:52:01
+CUST00187,+97455712920,Customer187,LastName187,29,Bangladeshi,Urdu,Lusail,Smartphone,Prepaid,Value 50,50,15,2022-01-21,35,Low Value,High,0,2022-01-21,2026-04-18 02:52:01
+CUST00188,+97435727405,Customer188,LastName188,20,Qatari,Urdu,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2022-05-06,32,Mid Value,Medium,1,2022-05-06,2026-04-18 02:52:01
+CUST00189,+97471320160,Customer189,LastName189,30,Filipino,Urdu,Mesaieed,MiFi/Router,Postpaid,Elite 1000,1000,300,2023-07-24,17,VIP,Low,1,2023-07-24,2026-04-18 02:52:01
+CUST00190,+97459545621,Customer190,LastName190,30,Qatari,Hindi,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2019-01-06,72,High Value,Medium,1,2019-01-06,2026-04-18 02:52:01
+CUST00191,+97451229845,Customer191,LastName191,20,Indian,Tagalog,Al Khor,Smartphone,Prepaid,Value 50,50,15,2019-07-17,66,Low Value,Low,1,2019-07-17,2026-04-18 02:52:01
+CUST00192,+97437330570,Customer192,LastName192,20,Pakistani,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2020-06-19,55,High Value,Low,1,2020-06-19,2026-04-18 02:52:01
+CUST00193,+97477869320,Customer193,LastName193,37,Pakistani,Urdu,Lusail,Smartphone,Prepaid,Value 50,50,15,2020-07-01,54,Low Value,Medium,1,2020-07-01,2026-04-18 02:52:01
+CUST00194,+97431754440,Customer194,LastName194,37,Indian,Bengali,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2019-02-19,71,Low Value,Medium,1,2019-02-19,2026-04-18 02:52:01
+CUST00195,+97457958817,Customer195,LastName195,46,Indian,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2019-01-19,72,High Value,Low,1,2019-01-19,2026-04-18 02:52:01
+CUST00196,+97472506376,Customer196,LastName196,44,Qatari,English,Doha,MiFi/Router,Postpaid,Executive 350,350,100,2020-02-16,59,Low Value,Low,1,2020-02-16,2026-04-18 02:52:01
+CUST00197,+97463505633,Customer197,LastName197,33,Qatari,English,Al Rayyan,Feature Phone,Prepaid,Value 50,50,15,2019-12-01,61,VIP,Low,1,2019-12-01,2026-04-18 02:52:01
+CUST00198,+97463917332,Customer198,LastName198,25,Bangladeshi,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2018-05-29,80,Mid Value,Low,1,2018-05-29,2026-04-18 02:52:01
+CUST00199,+97436628976,Customer199,LastName199,48,Qatari,Urdu,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2022-01-13,36,Low Value,High,1,2022-01-13,2026-04-18 02:52:01
+CUST00200,+97466747766,Customer200,LastName200,25,Sri Lankan,English,Doha,Smartphone,Prepaid,Value 50,50,15,2019-06-02,67,Mid Value,Low,1,2019-06-02,2026-04-18 02:52:01
+CUST00201,+97439443537,Customer201,LastName201,29,Qatari,Arabic,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2022-02-23,34,Mid Value,Low,1,2022-02-23,2026-04-18 02:52:01
+CUST00202,+97475827851,Customer202,LastName202,40,Jordanian,Arabic,Mesaieed,Smartphone,Prepaid,Basic 10,10,1,2023-01-11,24,Mid Value,Low,1,2023-01-11,2026-04-18 02:52:01
+CUST00203,+97458930846,Customer203,LastName203,45,Indian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2024-07-26,5,Mid Value,High,1,2024-07-26,2026-04-18 02:52:01
+CUST00204,+97463888809,Customer204,LastName204,38,Egyptian,Tagalog,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2021-08-12,41,Low Value,Low,1,2021-08-12,2026-04-18 02:52:01
+CUST00205,+97456299436,Customer205,LastName205,36,Filipino,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2018-06-28,79,Low Value,Medium,1,2018-06-28,2026-04-18 02:52:01
+CUST00206,+97431638693,Customer206,LastName206,32,Bangladeshi,Urdu,Doha,Tablet,Prepaid,Smart 25,25,5,2024-12-23,1,Low Value,High,1,2024-12-23,2026-04-18 02:52:01
+CUST00207,+97475853008,Customer207,LastName207,25,Bangladeshi,Tagalog,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-06-14,31,High Value,Medium,1,2022-06-14,2026-04-18 02:52:01
+CUST00208,+97439916566,Customer208,LastName208,31,Bangladeshi,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2024-03-07,9,Low Value,High,1,2024-03-07,2026-04-18 02:52:01
+CUST00209,+97478116291,Customer209,LastName209,30,Filipino,Arabic,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2024-04-29,8,Mid Value,Medium,1,2024-04-29,2026-04-18 02:52:01
+CUST00210,+97434171285,Customer210,LastName210,33,Filipino,Tagalog,Al Khor,Smartphone,Postpaid,Premium 500,500,150,2018-02-18,83,Low Value,Low,1,2018-02-18,2026-04-18 02:52:01
+CUST00211,+97464542981,Customer211,LastName211,35,Indian,Urdu,Al Rayyan,Feature Phone,Postpaid,Business 200,200,50,2021-02-12,47,Low Value,Low,1,2021-02-12,2026-04-18 02:52:01
+CUST00212,+97465483224,Customer212,LastName212,39,Indian,English,Al Wakrah,Feature Phone,Prepaid,Basic 10,10,1,2018-10-18,75,VIP,Low,1,2018-10-18,2026-04-18 02:52:01
+CUST00213,+97478701330,Customer213,LastName213,35,Indian,Arabic,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2022-01-25,35,Mid Value,High,1,2022-01-25,2026-04-18 02:52:01
+CUST00214,+97471619705,Customer214,LastName214,29,Pakistani,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2018-04-06,82,Low Value,Low,1,2018-04-06,2026-04-18 02:52:01
+CUST00215,+97457190298,Customer215,LastName215,32,Pakistani,Bengali,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2021-10-12,39,Mid Value,Low,1,2021-10-12,2026-04-18 02:52:01
+CUST00216,+97461074214,Customer216,LastName216,35,Filipino,Tagalog,Al Wakrah,Smartphone,Postpaid,Business 200,200,50,2020-01-17,60,High Value,Low,1,2020-01-17,2026-04-18 02:52:01
+CUST00217,+97432712633,Customer217,LastName217,31,British,Urdu,Doha,MiFi/Router,Prepaid,Value 50,50,15,2024-04-08,8,Low Value,Low,0,2024-04-08,2026-04-18 02:52:01
+CUST00218,+97454669650,Customer218,LastName218,35,Qatari,English,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2021-04-10,45,Mid Value,Medium,1,2021-04-10,2026-04-18 02:52:01
+CUST00219,+97451221143,Customer219,LastName219,23,Egyptian,English,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-05-29,7,Low Value,High,1,2024-05-29,2026-04-18 02:52:01
+CUST00220,+97453143583,Customer220,LastName220,32,Indian,Urdu,Lusail,Smartphone,Postpaid,Business 200,200,50,2019-03-07,70,High Value,Low,1,2019-03-07,2026-04-18 02:52:01
+CUST00221,+97438937788,Customer221,LastName221,65,Indian,Tagalog,Al Rayyan,MiFi/Router,Postpaid,Premium 500,500,150,2024-04-16,8,Mid Value,Low,1,2024-04-16,2026-04-18 02:52:01
+CUST00222,+97458452967,Customer222,LastName222,51,Pakistani,Arabic,Al Khor,Tablet,Prepaid,Value 50,50,15,2020-01-23,60,Mid Value,High,1,2020-01-23,2026-04-18 02:52:01
+CUST00223,+97452016181,Customer223,LastName223,30,Pakistani,Tagalog,Doha,Smartphone,Prepaid,Smart 25,25,5,2020-06-07,55,Low Value,Medium,1,2020-06-07,2026-04-18 02:52:01
+CUST00224,+97473830230,Customer224,LastName224,33,Pakistani,Hindi,Mesaieed,Tablet,Postpaid,Premium 500,500,150,2022-09-07,28,High Value,Low,1,2022-09-07,2026-04-18 02:52:01
+CUST00225,+97458553639,Customer225,LastName225,30,Pakistani,English,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2024-01-15,11,Mid Value,Low,1,2024-01-15,2026-04-18 02:52:01
+CUST00226,+97468728412,Customer226,LastName226,68,Filipino,Tagalog,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2019-09-01,64,Low Value,High,1,2019-09-01,2026-04-18 02:52:01
+CUST00227,+97471513786,Customer227,LastName227,32,Qatari,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2020-01-15,60,Low Value,Low,1,2020-01-15,2026-04-18 02:52:01
+CUST00228,+97477914897,Customer228,LastName228,34,Lebanese,Arabic,Al Khor,Smartphone,Prepaid,Value 50,50,15,2023-07-09,18,Mid Value,Medium,1,2023-07-09,2026-04-18 02:52:01
+CUST00229,+97467842970,Customer229,LastName229,31,Pakistani,Bengali,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2024-01-10,11,Low Value,Medium,1,2024-01-10,2026-04-18 02:52:01
+CUST00230,+97458456503,Customer230,LastName230,37,Indian,Urdu,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-12-02,25,Low Value,Low,1,2022-12-02,2026-04-18 02:52:01
+CUST00231,+97478872880,Customer231,LastName231,37,Indian,Tagalog,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-03-27,21,Low Value,Medium,1,2023-03-27,2026-04-18 02:52:01
+CUST00232,+97465809682,Customer232,LastName232,36,Bangladeshi,Bengali,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2020-06-10,55,High Value,Low,1,2020-06-10,2026-04-18 02:52:01
+CUST00233,+97461985324,Customer233,LastName233,29,Pakistani,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2022-03-31,33,Mid Value,Low,1,2022-03-31,2026-04-18 02:52:01
+CUST00234,+97456098913,Customer234,LastName234,34,Lebanese,Arabic,Al Khor,Smartphone,Postpaid,Premium 500,500,150,2021-03-05,46,Mid Value,Low,1,2021-03-05,2026-04-18 02:52:01
+CUST00235,+97455345242,Customer235,LastName235,29,Egyptian,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2022-04-22,32,Low Value,Medium,1,2022-04-22,2026-04-18 02:52:01
+CUST00236,+97432805582,Customer236,LastName236,25,Filipino,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2022-07-30,29,Mid Value,Medium,1,2022-07-30,2026-04-18 02:52:01
+CUST00237,+97433564906,Customer237,LastName237,40,Sri Lankan,English,Lusail,Smartphone,Postpaid,Elite 1000,1000,300,2024-05-18,7,VIP,Low,1,2024-05-18,2026-04-18 02:52:01
+CUST00238,+97457006899,Customer238,LastName238,58,Qatari,Arabic,Al Wakrah,Feature Phone,Prepaid,Value 50,50,15,2019-07-01,67,High Value,Low,1,2019-07-01,2026-04-18 02:52:01
+CUST00239,+97458098122,Customer239,LastName239,60,Sri Lankan,Hindi,Lusail,Smartphone,Prepaid,Value 50,50,15,2024-09-05,3,High Value,Medium,1,2024-09-05,2026-04-18 02:52:01
+CUST00240,+97458132194,Customer240,LastName240,55,Indian,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2024-03-30,9,High Value,Medium,1,2024-03-30,2026-04-18 02:52:01
+CUST00241,+97436927338,Customer241,LastName241,40,Jordanian,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2020-03-27,58,Mid Value,Low,1,2020-03-27,2026-04-18 02:52:01
+CUST00242,+97438788577,Customer242,LastName242,34,Indian,Urdu,Al Rayyan,Feature Phone,Postpaid,Premium 500,500,150,2020-04-15,57,VIP,High,1,2020-04-15,2026-04-18 02:52:01
+CUST00243,+97462639302,Customer243,LastName243,30,British,Tagalog,Doha,Tablet,Prepaid,Value 50,50,15,2019-08-26,65,High Value,Low,0,2019-08-26,2026-04-18 02:52:01
+CUST00244,+97469973390,Customer244,LastName244,39,Qatari,Bengali,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2022-11-30,25,Low Value,High,1,2022-11-30,2026-04-18 02:52:01
+CUST00245,+97471319373,Customer245,LastName245,32,Filipino,Hindi,Doha,Feature Phone,Postpaid,Executive 350,350,100,2018-11-27,74,Low Value,Low,1,2018-11-27,2026-04-18 02:52:01
+CUST00246,+97477561201,Customer246,LastName246,31,Sri Lankan,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2023-05-27,19,Low Value,Medium,1,2023-05-27,2026-04-18 02:52:01
+CUST00247,+97454661702,Customer247,LastName247,60,Pakistani,Urdu,Lusail,Smartphone,Postpaid,Elite 1000,1000,300,2020-05-18,56,High Value,Low,1,2020-05-18,2026-04-18 02:52:01
+CUST00248,+97467511125,Customer248,LastName248,26,Indian,Hindi,Al Khor,MiFi/Router,Prepaid,Value 50,50,15,2019-02-08,71,VIP,Medium,1,2019-02-08,2026-04-18 02:52:01
+CUST00249,+97476803384,Customer249,LastName249,31,Indian,Hindi,Lusail,Feature Phone,Prepaid,Value 50,50,15,2020-03-09,58,Mid Value,Medium,1,2020-03-09,2026-04-18 02:52:01
+CUST00250,+97435887958,Customer250,LastName250,24,Indian,Urdu,Doha,Feature Phone,Postpaid,Business 200,200,50,2024-05-29,7,Low Value,Low,1,2024-05-29,2026-04-18 02:52:01
+CUST00251,+97432216846,Customer251,LastName251,68,Indian,Arabic,Doha,Feature Phone,Postpaid,Business 200,200,50,2022-06-15,31,Low Value,Medium,1,2022-06-15,2026-04-18 02:52:01
+CUST00252,+97473847100,Customer252,LastName252,34,Sri Lankan,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2021-09-21,39,VIP,Low,1,2021-09-21,2026-04-18 02:52:01
+CUST00253,+97471918105,Customer253,LastName253,31,British,English,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-11-01,50,High Value,Low,1,2020-11-01,2026-04-18 02:52:01
+CUST00254,+97459815045,Customer254,LastName254,58,Indian,Bengali,Al Rayyan,Tablet,Postpaid,Premium 500,500,150,2020-06-08,55,Low Value,Medium,1,2020-06-08,2026-04-18 02:52:01
+CUST00255,+97471260561,Customer255,LastName255,35,Indian,Tagalog,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2021-03-03,46,Low Value,Medium,1,2021-03-03,2026-04-18 02:52:01
+CUST00256,+97475143019,Customer256,LastName256,62,Lebanese,Hindi,Lusail,Smartphone,Prepaid,Basic 10,10,1,2018-10-04,76,Mid Value,Medium,1,2018-10-04,2026-04-18 02:52:01
+CUST00257,+97465478188,Customer257,LastName257,29,Jordanian,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-03-14,21,Low Value,Medium,1,2023-03-14,2026-04-18 02:52:01
+CUST00258,+97433955810,Customer258,LastName258,39,Indian,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2024-09-10,3,High Value,Low,1,2024-09-10,2026-04-18 02:52:01
+CUST00259,+97473968436,Customer259,LastName259,46,Jordanian,Bengali,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2020-12-27,48,Mid Value,High,1,2020-12-27,2026-04-18 02:52:01
+CUST00260,+97451162707,Customer260,LastName260,30,Indian,Arabic,Doha,MiFi/Router,Postpaid,Business 200,200,50,2021-10-23,38,Low Value,Medium,1,2021-10-23,2026-04-18 02:52:01
+CUST00261,+97451539506,Customer261,LastName261,51,Pakistani,Urdu,Doha,Smartphone,Prepaid,Super 100,100,30,2019-10-27,63,Low Value,Medium,1,2019-10-27,2026-04-18 02:52:01
+CUST00262,+97466641231,Customer262,LastName262,53,Pakistani,Tagalog,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2020-04-25,57,Low Value,High,1,2020-04-25,2026-04-18 02:52:01
+CUST00263,+97455531419,Customer263,LastName263,63,Indian,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2021-05-21,44,Low Value,Low,1,2021-05-21,2026-04-18 02:52:01
+CUST00264,+97462309632,Customer264,LastName264,39,Indian,Hindi,Al Wakrah,Feature Phone,Postpaid,Premium 500,500,150,2020-08-20,53,High Value,Low,1,2020-08-20,2026-04-18 02:52:01
+CUST00265,+97459322099,Customer265,LastName265,48,Sri Lankan,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2019-05-02,69,Low Value,High,1,2019-05-02,2026-04-18 02:52:01
+CUST00266,+97452204133,Customer266,LastName266,26,Egyptian,Hindi,Doha,MiFi/Router,Prepaid,Super 100,100,30,2019-12-13,61,Low Value,High,1,2019-12-13,2026-04-18 02:52:01
+CUST00267,+97453167667,Customer267,LastName267,60,Indian,Bengali,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-03-30,57,Low Value,Medium,1,2020-03-30,2026-04-18 02:52:01
+CUST00268,+97437751776,Customer268,LastName268,34,Indian,Arabic,Mesaieed,MiFi/Router,Prepaid,Basic 10,10,1,2020-06-04,55,Mid Value,Low,1,2020-06-04,2026-04-18 02:52:01
+CUST00269,+97464036964,Customer269,LastName269,36,Bangladeshi,Bengali,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2020-02-21,59,High Value,Low,1,2020-02-21,2026-04-18 02:52:01
+CUST00270,+97472854415,Customer270,LastName270,29,Filipino,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2024-08-08,4,Mid Value,Medium,1,2024-08-08,2026-04-18 02:52:01
+CUST00271,+97467612003,Customer271,LastName271,24,Filipino,Urdu,Al Khor,Smartphone,Prepaid,Value 50,50,15,2019-10-05,63,Low Value,Low,1,2019-10-05,2026-04-18 02:52:01
+CUST00272,+97465384596,Customer272,LastName272,40,Indian,Hindi,Doha,Tablet,Prepaid,Super 100,100,30,2018-01-25,84,High Value,Low,1,2018-01-25,2026-04-18 02:52:01
+CUST00273,+97456722865,Customer273,LastName273,52,Lebanese,English,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2020-08-14,53,Low Value,Medium,1,2020-08-14,2026-04-18 02:52:01
+CUST00274,+97435663883,Customer274,LastName274,29,Bangladeshi,Tagalog,Doha,Smartphone,Prepaid,Smart 25,25,5,2022-06-22,30,Mid Value,Low,1,2022-06-22,2026-04-18 02:52:01
+CUST00275,+97437635621,Customer275,LastName275,25,Sri Lankan,Hindi,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-09-28,64,High Value,High,1,2019-09-28,2026-04-18 02:52:01
+CUST00276,+97459487615,Customer276,LastName276,37,Indian,English,Doha,MiFi/Router,Prepaid,Super 100,100,30,2021-07-25,41,Mid Value,Medium,1,2021-07-25,2026-04-18 02:52:01
+CUST00277,+97464096654,Customer277,LastName277,21,Indian,English,Lusail,Smartphone,Postpaid,Executive 350,350,100,2020-12-03,49,Mid Value,Medium,1,2020-12-03,2026-04-18 02:52:01
+CUST00278,+97456271317,Customer278,LastName278,68,Egyptian,Hindi,Doha,Tablet,Prepaid,Smart 25,25,5,2024-05-09,7,Mid Value,Low,1,2024-05-09,2026-04-18 02:52:01
+CUST00279,+97476735347,Customer279,LastName279,30,Filipino,Urdu,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-06-26,30,High Value,Low,1,2022-06-26,2026-04-18 02:52:01
+CUST00280,+97468800293,Customer280,LastName280,68,Bangladeshi,Bengali,Doha,Feature Phone,Postpaid,Business 200,200,50,2024-09-30,3,Mid Value,Low,0,2024-09-30,2026-04-18 02:52:01
+CUST00281,+97457969980,Customer281,LastName281,35,Bangladeshi,Arabic,Al Wakrah,Tablet,Postpaid,Elite 1000,1000,300,2021-07-12,42,Low Value,Low,1,2021-07-12,2026-04-18 02:52:01
+CUST00282,+97465842219,Customer282,LastName282,29,Indian,Hindi,Doha,Smartphone,Postpaid,Executive 350,350,100,2023-06-28,18,Mid Value,Medium,1,2023-06-28,2026-04-18 02:52:01
+CUST00283,+97437314158,Customer283,LastName283,37,Indian,Hindi,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2023-07-04,18,Mid Value,Low,1,2023-07-04,2026-04-18 02:52:01
+CUST00284,+97471075731,Customer284,LastName284,35,Indian,Bengali,Al Wakrah,Tablet,Prepaid,Basic 10,10,1,2020-07-08,54,Mid Value,Low,1,2020-07-08,2026-04-18 02:52:01
+CUST00285,+97473465800,Customer285,LastName285,41,Pakistani,English,Doha,Feature Phone,Prepaid,Super 100,100,30,2023-02-09,23,Low Value,High,1,2023-02-09,2026-04-18 02:52:01
+CUST00286,+97475086326,Customer286,LastName286,31,Bangladeshi,Urdu,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2024-06-27,6,Mid Value,High,1,2024-06-27,2026-04-18 02:52:01
+CUST00287,+97436139773,Customer287,LastName287,38,Pakistani,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2024-05-16,7,High Value,High,1,2024-05-16,2026-04-18 02:52:01
+CUST00288,+97456108807,Customer288,LastName288,52,Qatari,Urdu,Lusail,Smartphone,Postpaid,Business 200,200,50,2024-10-27,2,Low Value,Low,0,2024-10-27,2026-04-18 02:52:01
+CUST00289,+97478167530,Customer289,LastName289,39,Pakistani,English,Al Khor,Smartphone,Postpaid,Business 200,200,50,2020-01-05,60,VIP,Medium,1,2020-01-05,2026-04-18 02:52:01
+CUST00290,+97438809042,Customer290,LastName290,36,Jordanian,Tagalog,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2018-12-24,73,High Value,Medium,1,2018-12-24,2026-04-18 02:52:01
+CUST00291,+97475478165,Customer291,LastName291,19,Indian,Urdu,Doha,Smartphone,Postpaid,Premium 500,500,150,2018-07-04,79,Mid Value,High,1,2018-07-04,2026-04-18 02:52:01
+CUST00292,+97468665287,Customer292,LastName292,42,Filipino,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2021-06-11,43,VIP,Medium,1,2021-06-11,2026-04-18 02:52:01
+CUST00293,+97477914897,Customer293,LastName293,41,British,Hindi,Lusail,Tablet,Prepaid,Super 100,100,30,2019-09-19,64,High Value,Low,0,2019-09-19,2026-04-18 02:52:01
+CUST00294,+97459651307,Customer294,LastName294,36,Indian,Arabic,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2020-11-24,49,Mid Value,Medium,1,2020-11-24,2026-04-18 02:52:01
+CUST00295,+97455004646,Customer295,LastName295,33,Lebanese,Tagalog,Al Rayyan,Feature Phone,Prepaid,Super 100,100,30,2021-03-27,45,High Value,Medium,1,2021-03-27,2026-04-18 02:52:01
+CUST00296,+97435563000,Customer296,LastName296,21,Bangladeshi,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2022-01-26,35,Mid Value,High,1,2022-01-26,2026-04-18 02:52:01
+CUST00297,+97476150673,Customer297,LastName297,31,Egyptian,Bengali,Al Rayyan,MiFi/Router,Postpaid,Business 200,200,50,2023-03-21,21,Low Value,Low,0,2023-03-21,2026-04-18 02:52:01
+CUST00298,+97476371048,Customer298,LastName298,29,Filipino,Bengali,Mesaieed,Tablet,Prepaid,Value 50,50,15,2018-04-09,81,Low Value,Medium,1,2018-04-09,2026-04-18 02:52:01
+CUST00299,+97471129924,Customer299,LastName299,33,Indian,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-12-28,24,Mid Value,High,1,2022-12-28,2026-04-18 02:52:01
+CUST00300,+97437820304,Customer300,LastName300,32,Egyptian,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2024-04-15,8,Low Value,Low,1,2024-04-15,2026-04-18 02:52:01
+CUST00301,+97474634659,Customer301,LastName301,42,Indian,Bengali,Doha,MiFi/Router,Prepaid,Super 100,100,30,2024-05-12,7,High Value,Low,1,2024-05-12,2026-04-18 02:52:01
+CUST00302,+97434628788,Customer302,LastName302,36,Pakistani,Tagalog,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2024-08-18,4,Low Value,High,1,2024-08-18,2026-04-18 02:52:01
+CUST00303,+97457236957,Customer303,LastName303,50,Pakistani,Bengali,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2023-04-19,20,High Value,Medium,1,2023-04-19,2026-04-18 02:52:01
+CUST00304,+97454954047,Customer304,LastName304,59,Lebanese,Arabic,Doha,Tablet,Prepaid,Super 100,100,30,2019-09-23,64,High Value,High,1,2019-09-23,2026-04-18 02:52:01
+CUST00305,+97475285514,Customer305,LastName305,31,Jordanian,Hindi,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2018-10-19,75,Low Value,High,1,2018-10-19,2026-04-18 02:52:01
+CUST00306,+97433919743,Customer306,LastName306,44,Qatari,English,Doha,Smartphone,Prepaid,Value 50,50,15,2022-02-21,34,High Value,High,1,2022-02-21,2026-04-18 02:52:01
+CUST00307,+97452730706,Customer307,LastName307,39,Egyptian,Tagalog,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2018-02-22,83,VIP,Low,1,2018-02-22,2026-04-18 02:52:01
+CUST00308,+97468724736,Customer308,LastName308,30,Pakistani,Urdu,Al Rayyan,Feature Phone,Prepaid,Basic 10,10,1,2023-12-15,12,Mid Value,Medium,1,2023-12-15,2026-04-18 02:52:01
+CUST00309,+97469197137,Customer309,LastName309,40,Qatari,Tagalog,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2019-11-03,62,Low Value,Medium,1,2019-11-03,2026-04-18 02:52:01
+CUST00310,+97463698998,Customer310,LastName310,31,Jordanian,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2021-04-27,44,Mid Value,Low,1,2021-04-27,2026-04-18 02:52:01
+CUST00311,+97434870616,Customer311,LastName311,39,Filipino,English,Lusail,Smartphone,Prepaid,Value 50,50,15,2021-06-03,43,VIP,Medium,1,2021-06-03,2026-04-18 02:52:01
+CUST00312,+97473105180,Customer312,LastName312,38,Pakistani,English,Doha,Smartphone,Prepaid,Super 100,100,30,2021-08-25,40,High Value,Low,1,2021-08-25,2026-04-18 02:52:01
+CUST00313,+97436861082,Customer313,LastName313,37,Indian,Tagalog,Doha,Tablet,Prepaid,Super 100,100,30,2024-06-27,6,High Value,Low,1,2024-06-27,2026-04-18 02:52:01
+CUST00314,+97438015482,Customer314,LastName314,35,Indian,Urdu,Lusail,Feature Phone,Postpaid,Premium 500,500,150,2021-02-19,47,Mid Value,Low,0,2021-02-19,2026-04-18 02:52:01
+CUST00315,+97464145055,Customer315,LastName315,37,Egyptian,Tagalog,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2022-06-22,30,VIP,Medium,1,2022-06-22,2026-04-18 02:52:01
+CUST00316,+97468692930,Customer316,LastName316,34,Qatari,English,Doha,Smartphone,Postpaid,Business 200,200,50,2020-03-08,58,Low Value,Low,1,2020-03-08,2026-04-18 02:52:01
+CUST00317,+97462913665,Customer317,LastName317,30,Egyptian,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2022-11-21,25,High Value,Low,1,2022-11-21,2026-04-18 02:52:01
+CUST00318,+97464627440,Customer318,LastName318,30,Lebanese,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2020-02-07,59,High Value,Low,1,2020-02-07,2026-04-18 02:52:01
+CUST00319,+97439230599,Customer319,LastName319,45,Filipino,Arabic,Al Wakrah,Smartphone,Prepaid,Super 100,100,30,2021-08-12,41,High Value,Low,1,2021-08-12,2026-04-18 02:52:01
+CUST00320,+97453187826,Customer320,LastName320,29,Pakistani,English,Doha,Smartphone,Prepaid,Value 50,50,15,2024-10-08,2,Mid Value,High,1,2024-10-08,2026-04-18 02:52:01
+CUST00321,+97462845018,Customer321,LastName321,34,Filipino,Tagalog,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2019-04-06,69,Low Value,Medium,1,2019-04-06,2026-04-18 02:52:01
+CUST00322,+97479022469,Customer322,LastName322,31,Pakistani,Bengali,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2018-03-09,82,Mid Value,Low,1,2018-03-09,2026-04-18 02:52:01
+CUST00323,+97479198991,Customer323,LastName323,33,Qatari,Arabic,Doha,Smartphone,Prepaid,Smart 25,25,5,2020-07-01,54,High Value,Medium,1,2020-07-01,2026-04-18 02:52:01
+CUST00324,+97477038575,Customer324,LastName324,30,Jordanian,Urdu,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2024-08-04,4,Low Value,Medium,1,2024-08-04,2026-04-18 02:52:01
+CUST00325,+97479882105,Customer325,LastName325,33,Jordanian,Bengali,Lusail,Smartphone,Postpaid,Elite 1000,1000,300,2022-02-05,35,Low Value,Low,0,2022-02-05,2026-04-18 02:52:01
+CUST00326,+97468597269,Customer326,LastName326,51,Indian,Urdu,Lusail,MiFi/Router,Postpaid,Executive 350,350,100,2020-09-10,52,High Value,Medium,1,2020-09-10,2026-04-18 02:52:01
+CUST00327,+97459640585,Customer327,LastName327,35,Pakistani,Arabic,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2018-10-15,75,VIP,Low,1,2018-10-15,2026-04-18 02:52:01
+CUST00328,+97431871059,Customer328,LastName328,30,Pakistani,Arabic,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-09-05,3,Mid Value,High,1,2024-09-05,2026-04-18 02:52:01
+CUST00329,+97466063349,Customer329,LastName329,22,Indian,English,Doha,Feature Phone,Postpaid,Executive 350,350,100,2021-01-26,47,Low Value,Low,1,2021-01-26,2026-04-18 02:52:01
+CUST00330,+97472926008,Customer330,LastName330,37,Sri Lankan,Urdu,Doha,Tablet,Prepaid,Super 100,100,30,2018-06-10,79,High Value,Medium,1,2018-06-10,2026-04-18 02:52:01
+CUST00331,+97456765683,Customer331,LastName331,33,British,Urdu,Doha,Feature Phone,Prepaid,Super 100,100,30,2024-01-29,11,Low Value,Medium,1,2024-01-29,2026-04-18 02:52:01
+CUST00332,+97433148238,Customer332,LastName332,36,Indian,Arabic,Doha,Feature Phone,Postpaid,Executive 350,350,100,2022-05-27,31,Mid Value,Medium,0,2022-05-27,2026-04-18 02:52:01
+CUST00333,+97433240006,Customer333,LastName333,34,Indian,English,Mesaieed,Smartphone,Postpaid,Executive 350,350,100,2018-07-26,78,Low Value,Low,1,2018-07-26,2026-04-18 02:52:01
+CUST00334,+97461476191,Customer334,LastName334,68,Filipino,Arabic,Al Wakrah,Feature Phone,Prepaid,Basic 10,10,1,2019-05-07,68,High Value,Low,1,2019-05-07,2026-04-18 02:52:01
+CUST00335,+97469754810,Customer335,LastName335,27,Filipino,Hindi,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2023-09-21,15,Mid Value,Low,1,2023-09-21,2026-04-18 02:52:01
+CUST00336,+97467328420,Customer336,LastName336,27,Indian,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2021-12-27,36,Mid Value,Medium,1,2021-12-27,2026-04-18 02:52:01
+CUST00337,+97461347114,Customer337,LastName337,35,Bangladeshi,Urdu,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2024-07-30,5,Mid Value,High,1,2024-07-30,2026-04-18 02:52:01
+CUST00338,+97432941449,Customer338,LastName338,33,Bangladeshi,Tagalog,Lusail,Smartphone,Postpaid,Premium 500,500,150,2019-08-04,65,VIP,Medium,1,2019-08-04,2026-04-18 02:52:01
+CUST00339,+97458269896,Customer339,LastName339,37,Lebanese,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2019-02-19,71,VIP,Low,1,2019-02-19,2026-04-18 02:52:01
+CUST00340,+97459346019,Customer340,LastName340,33,Indian,Urdu,Lusail,Smartphone,Prepaid,Basic 10,10,1,2024-04-26,8,Low Value,Low,1,2024-04-26,2026-04-18 02:52:01
+CUST00341,+97456444296,Customer341,LastName341,31,Lebanese,Tagalog,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2019-08-26,65,Mid Value,Low,1,2019-08-26,2026-04-18 02:52:01
+CUST00342,+97472610844,Customer342,LastName342,33,Filipino,Tagalog,Doha,Smartphone,Postpaid,Executive 350,350,100,2019-01-30,72,Low Value,Low,1,2019-01-30,2026-04-18 02:52:01
+CUST00343,+97477042290,Customer343,LastName343,47,Pakistani,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2019-03-21,70,Low Value,High,1,2019-03-21,2026-04-18 02:52:01
+CUST00344,+97462344757,Customer344,LastName344,26,Bangladeshi,Tagalog,Lusail,MiFi/Router,Prepaid,Value 50,50,15,2018-08-19,77,Low Value,High,1,2018-08-19,2026-04-18 02:52:01
+CUST00345,+97455369635,Customer345,LastName345,29,Qatari,Bengali,Doha,Tablet,Postpaid,Elite 1000,1000,300,2019-01-02,73,Mid Value,Low,1,2019-01-02,2026-04-18 02:52:01
+CUST00346,+97455652045,Customer346,LastName346,67,Bangladeshi,English,Doha,Smartphone,Prepaid,Super 100,100,30,2022-12-05,25,Low Value,Low,1,2022-12-05,2026-04-18 02:52:01
+CUST00347,+97477022702,Customer347,LastName347,43,Qatari,Tagalog,Doha,Tablet,Prepaid,Value 50,50,15,2020-01-04,60,High Value,Low,1,2020-01-04,2026-04-18 02:52:01
+CUST00348,+97463360393,Customer348,LastName348,32,Pakistani,Hindi,Mesaieed,MiFi/Router,Postpaid,Executive 350,350,100,2024-02-04,11,Low Value,Medium,1,2024-02-04,2026-04-18 02:52:01
+CUST00349,+97454110695,Customer349,LastName349,46,Lebanese,English,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2019-06-19,67,Mid Value,High,0,2019-06-19,2026-04-18 02:52:01
+CUST00350,+97432251339,Customer350,LastName350,35,Jordanian,English,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2023-04-25,20,Low Value,High,1,2023-04-25,2026-04-18 02:52:01
+CUST00351,+97458089556,Customer351,LastName351,41,Qatari,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-09-05,28,Mid Value,Medium,1,2022-09-05,2026-04-18 02:52:01
+CUST00352,+97473361998,Customer352,LastName352,34,Sri Lankan,Bengali,Al Wakrah,Smartphone,Prepaid,Smart 25,25,5,2019-07-03,66,Mid Value,Medium,1,2019-07-03,2026-04-18 02:52:01
+CUST00353,+97466732169,Customer353,LastName353,40,British,English,Doha,Feature Phone,Postpaid,Premium 500,500,150,2022-01-14,36,High Value,Medium,1,2022-01-14,2026-04-18 02:52:01
+CUST00354,+97439195598,Customer354,LastName354,20,Filipino,Bengali,Lusail,Smartphone,Prepaid,Basic 10,10,1,2018-02-05,84,VIP,Medium,1,2018-02-05,2026-04-18 02:52:01
+CUST00355,+97472524060,Customer355,LastName355,54,British,English,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2019-06-24,67,Mid Value,Medium,1,2019-06-24,2026-04-18 02:52:01
+CUST00356,+97437576862,Customer356,LastName356,27,Indian,Arabic,Doha,Smartphone,Postpaid,Business 200,200,50,2022-02-14,35,Mid Value,Low,1,2022-02-14,2026-04-18 02:52:01
+CUST00357,+97454443887,Customer357,LastName357,34,Filipino,Bengali,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2023-05-19,19,High Value,High,1,2023-05-19,2026-04-18 02:52:01
+CUST00358,+97472988141,Customer358,LastName358,33,Jordanian,Tagalog,Al Khor,Smartphone,Prepaid,Value 50,50,15,2023-12-05,13,Mid Value,Low,1,2023-12-05,2026-04-18 02:52:01
+CUST00359,+97461040519,Customer359,LastName359,39,Pakistani,Hindi,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2021-10-23,38,Mid Value,Low,1,2021-10-23,2026-04-18 02:52:01
+CUST00360,+97452132894,Customer360,LastName360,37,Bangladeshi,Urdu,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2020-08-20,53,Low Value,Medium,1,2020-08-20,2026-04-18 02:52:01
+CUST00361,+97475638278,Customer361,LastName361,34,Indian,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-06-12,31,High Value,Low,1,2022-06-12,2026-04-18 02:52:01
+CUST00362,+97465128380,Customer362,LastName362,68,Qatari,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2020-09-10,52,Low Value,High,0,2020-09-10,2026-04-18 02:52:01
+CUST00363,+97455810701,Customer363,LastName363,30,Egyptian,Hindi,Al Rayyan,MiFi/Router,Postpaid,Business 200,200,50,2023-12-20,12,Mid Value,Medium,1,2023-12-20,2026-04-18 02:52:01
+CUST00364,+97468163401,Customer364,LastName364,69,Indian,English,Al Wakrah,Smartphone,Postpaid,Premium 500,500,150,2020-05-17,56,Low Value,Low,1,2020-05-17,2026-04-18 02:52:01
+CUST00365,+97467004473,Customer365,LastName365,57,Sri Lankan,Bengali,Lusail,Smartphone,Prepaid,Basic 10,10,1,2019-09-17,64,VIP,Low,1,2019-09-17,2026-04-18 02:52:01
+CUST00366,+97463970781,Customer366,LastName366,39,Filipino,Bengali,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2024-06-07,6,High Value,Low,1,2024-06-07,2026-04-18 02:52:01
+CUST00367,+97475087977,Customer367,LastName367,63,Pakistani,Tagalog,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2022-01-07,36,Mid Value,Medium,1,2022-01-07,2026-04-18 02:52:01
+CUST00368,+97435128812,Customer368,LastName368,39,Egyptian,English,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2021-02-07,47,Mid Value,Medium,1,2021-02-07,2026-04-18 02:52:01
+CUST00369,+97476012339,Customer369,LastName369,30,Filipino,Urdu,Al Rayyan,Tablet,Postpaid,Executive 350,350,100,2018-05-11,80,VIP,Low,1,2018-05-11,2026-04-18 02:52:01
+CUST00370,+97434687992,Customer370,LastName370,28,Sri Lankan,English,Al Rayyan,Feature Phone,Postpaid,Elite 1000,1000,300,2018-02-10,83,Low Value,Low,1,2018-02-10,2026-04-18 02:52:01
+CUST00371,+97431510957,Customer371,LastName371,35,Pakistani,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2020-12-15,49,VIP,Low,1,2020-12-15,2026-04-18 02:52:01
+CUST00372,+97456793493,Customer372,LastName372,51,Pakistani,Tagalog,Al Rayyan,Feature Phone,Prepaid,Basic 10,10,1,2019-06-04,67,Low Value,High,1,2019-06-04,2026-04-18 02:52:01
+CUST00373,+97459226745,Customer373,LastName373,56,Filipino,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2023-10-04,15,Low Value,High,1,2023-10-04,2026-04-18 02:52:01
+CUST00374,+97456273764,Customer374,LastName374,24,Qatari,Arabic,Doha,MiFi/Router,Postpaid,Business 200,200,50,2018-06-29,79,Mid Value,Low,1,2018-06-29,2026-04-18 02:52:01
+CUST00375,+97457912976,Customer375,LastName375,36,Pakistani,Bengali,Al Wakrah,Feature Phone,Postpaid,Business 200,200,50,2019-03-03,71,High Value,Medium,1,2019-03-03,2026-04-18 02:52:01
+CUST00376,+97464874865,Customer376,LastName376,31,British,Urdu,Al Wakrah,Tablet,Postpaid,Executive 350,350,100,2023-12-12,12,Low Value,Medium,1,2023-12-12,2026-04-18 02:52:01
+CUST00377,+97453592644,Customer377,LastName377,23,Indian,Tagalog,Al Khor,Feature Phone,Postpaid,Business 200,200,50,2020-02-25,59,Low Value,Low,1,2020-02-25,2026-04-18 02:52:01
+CUST00378,+97456470176,Customer378,LastName378,27,Jordanian,Arabic,Doha,Feature Phone,Prepaid,Basic 10,10,1,2020-04-30,56,Mid Value,Medium,1,2020-04-30,2026-04-18 02:52:01
+CUST00379,+97476258046,Customer379,LastName379,26,Indian,English,Mesaieed,Tablet,Prepaid,Basic 10,10,1,2020-07-26,53,VIP,Low,1,2020-07-26,2026-04-18 02:52:01
+CUST00380,+97455326502,Customer380,LastName380,25,Qatari,Tagalog,Lusail,Smartphone,Postpaid,Business 200,200,50,2018-03-28,82,Mid Value,Medium,1,2018-03-28,2026-04-18 02:52:01
+CUST00381,+97431190771,Customer381,LastName381,58,Jordanian,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2019-05-23,68,Low Value,High,1,2019-05-23,2026-04-18 02:52:01
+CUST00382,+97455347665,Customer382,LastName382,33,Filipino,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2023-08-16,16,Low Value,Medium,1,2023-08-16,2026-04-18 02:52:01
+CUST00383,+97462020042,Customer383,LastName383,36,Lebanese,English,Doha,Feature Phone,Prepaid,Smart 25,25,5,2023-02-26,22,Mid Value,Medium,1,2023-02-26,2026-04-18 02:52:01
+CUST00384,+97471119443,Customer384,LastName384,34,Sri Lankan,Bengali,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2023-02-26,22,High Value,Low,1,2023-02-26,2026-04-18 02:52:01
+CUST00385,+97461047929,Customer385,LastName385,28,Indian,Bengali,Al Rayyan,MiFi/Router,Prepaid,Super 100,100,30,2024-07-24,5,High Value,Medium,1,2024-07-24,2026-04-18 02:52:01
+CUST00386,+97453920900,Customer386,LastName386,27,Jordanian,Arabic,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-04-08,8,Low Value,High,1,2024-04-08,2026-04-18 02:52:01
+CUST00387,+97476490591,Customer387,LastName387,18,Pakistani,Tagalog,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2024-04-06,8,High Value,Medium,1,2024-04-06,2026-04-18 02:52:01
+CUST00388,+97467623928,Customer388,LastName388,30,Filipino,Urdu,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2019-09-13,64,Low Value,Medium,1,2019-09-13,2026-04-18 02:52:01
+CUST00389,+97469554519,Customer389,LastName389,34,Pakistani,Tagalog,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2024-07-11,5,Mid Value,Medium,1,2024-07-11,2026-04-18 02:52:01
+CUST00390,+97431285175,Customer390,LastName390,33,Filipino,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2018-01-09,84,Mid Value,Low,1,2018-01-09,2026-04-18 02:52:01
+CUST00391,+97468976263,Customer391,LastName391,51,Qatari,Bengali,Mesaieed,Smartphone,Prepaid,Value 50,50,15,2024-06-06,6,Mid Value,Low,1,2024-06-06,2026-04-18 02:52:01
+CUST00392,+97471650639,Customer392,LastName392,28,Indian,Urdu,Doha,Feature Phone,Postpaid,Business 200,200,50,2018-05-07,81,Low Value,Medium,1,2018-05-07,2026-04-18 02:52:01
+CUST00393,+97439019408,Customer393,LastName393,35,Indian,Urdu,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2018-01-13,84,Mid Value,High,1,2018-01-13,2026-04-18 02:52:01
+CUST00394,+97456331661,Customer394,LastName394,35,Egyptian,English,Mesaieed,Feature Phone,Prepaid,Value 50,50,15,2021-02-23,46,Mid Value,Medium,1,2021-02-23,2026-04-18 02:52:01
+CUST00395,+97461471263,Customer395,LastName395,42,Pakistani,Hindi,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2023-09-15,15,Low Value,Low,1,2023-09-15,2026-04-18 02:52:01
+CUST00396,+97454330763,Customer396,LastName396,30,Lebanese,Tagalog,Al Rayyan,MiFi/Router,Prepaid,Value 50,50,15,2020-05-16,56,Mid Value,Medium,1,2020-05-16,2026-04-18 02:52:01
+CUST00397,+97467771288,Customer397,LastName397,31,Pakistani,Tagalog,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2020-04-29,56,Mid Value,High,1,2020-04-29,2026-04-18 02:52:01
+CUST00398,+97461190582,Customer398,LastName398,28,Sri Lankan,Bengali,Al Wakrah,Feature Phone,Prepaid,Super 100,100,30,2020-04-27,56,Low Value,Medium,1,2020-04-27,2026-04-18 02:52:01
+CUST00399,+97468744792,Customer399,LastName399,35,Indian,Urdu,Doha,Smartphone,Postpaid,Executive 350,350,100,2021-09-30,39,Mid Value,Low,1,2021-09-30,2026-04-18 02:52:01
+CUST00400,+97477988533,Customer400,LastName400,33,Bangladeshi,Arabic,Doha,Smartphone,Postpaid,Premium 500,500,150,2020-12-12,49,VIP,Low,1,2020-12-12,2026-04-18 02:52:01
+CUST00401,+97433312851,Customer401,LastName401,34,Lebanese,Hindi,Doha,MiFi/Router,Prepaid,Value 50,50,15,2018-01-12,84,Mid Value,Medium,0,2018-01-12,2026-04-18 02:52:01
+CUST00402,+97436580050,Customer402,LastName402,35,Filipino,Arabic,Doha,Feature Phone,Prepaid,Smart 25,25,5,2024-11-23,1,Mid Value,High,1,2024-11-23,2026-04-18 02:52:01
+CUST00403,+97463707927,Customer403,LastName403,53,British,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2022-04-26,32,High Value,Medium,1,2022-04-26,2026-04-18 02:52:01
+CUST00404,+97472719092,Customer404,LastName404,21,Pakistani,Hindi,Al Khor,Feature Phone,Prepaid,Smart 25,25,5,2022-02-28,34,Mid Value,Low,1,2022-02-28,2026-04-18 02:52:01
+CUST00405,+97438438173,Customer405,LastName405,33,Filipino,Hindi,Doha,Smartphone,Postpaid,Executive 350,350,100,2020-12-27,48,Low Value,Medium,1,2020-12-27,2026-04-18 02:52:01
+CUST00406,+97465765649,Customer406,LastName406,28,Indian,Tagalog,Doha,Smartphone,Postpaid,Executive 350,350,100,2021-07-26,41,Low Value,Medium,1,2021-07-26,2026-04-18 02:52:01
+CUST00407,+97464591295,Customer407,LastName407,29,Sri Lankan,Arabic,Doha,Smartphone,Postpaid,Business 200,200,50,2018-10-31,75,Low Value,Medium,1,2018-10-31,2026-04-18 02:52:01
+CUST00408,+97457648267,Customer408,LastName408,32,Sri Lankan,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2020-02-04,59,Mid Value,Low,1,2020-02-04,2026-04-18 02:52:01
+CUST00409,+97464889889,Customer409,LastName409,50,Bangladeshi,English,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2023-01-15,23,Mid Value,Medium,1,2023-01-15,2026-04-18 02:52:01
+CUST00410,+97438471209,Customer410,LastName410,22,Indian,Arabic,Mesaieed,MiFi/Router,Prepaid,Smart 25,25,5,2021-07-09,42,Mid Value,Medium,1,2021-07-09,2026-04-18 02:52:01
+CUST00411,+97479409890,Customer411,LastName411,30,Qatari,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-03-11,70,Mid Value,High,1,2019-03-11,2026-04-18 02:52:01
+CUST00412,+97464917691,Customer412,LastName412,32,Pakistani,English,Doha,Smartphone,Prepaid,Basic 10,10,1,2021-02-28,46,Low Value,Low,1,2021-02-28,2026-04-18 02:52:01
+CUST00413,+97432078734,Customer413,LastName413,30,British,Bengali,Al Rayyan,Tablet,Postpaid,Elite 1000,1000,300,2020-09-10,52,Low Value,Low,1,2020-09-10,2026-04-18 02:52:01
+CUST00414,+97474066393,Customer414,LastName414,37,Indian,Tagalog,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2018-08-06,77,Mid Value,Medium,1,2018-08-06,2026-04-18 02:52:01
+CUST00415,+97456960468,Customer415,LastName415,37,Qatari,Tagalog,Al Khor,Feature Phone,Postpaid,Executive 350,350,100,2022-10-25,26,Mid Value,Medium,1,2022-10-25,2026-04-18 02:52:01
+CUST00416,+97432435366,Customer416,LastName416,39,British,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2024-05-06,7,Low Value,High,1,2024-05-06,2026-04-18 02:52:01
+CUST00417,+97468412351,Customer417,LastName417,25,Jordanian,Tagalog,Doha,Smartphone,Postpaid,Premium 500,500,150,2023-07-28,17,VIP,Low,0,2023-07-28,2026-04-18 02:52:01
+CUST00418,+97478300478,Customer418,LastName418,60,Indian,Urdu,Doha,Smartphone,Postpaid,Business 200,200,50,2018-08-10,77,Low Value,Medium,1,2018-08-10,2026-04-18 02:52:01
+CUST00419,+97473420903,Customer419,LastName419,28,Bangladeshi,Hindi,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-11-13,74,Mid Value,Low,1,2018-11-13,2026-04-18 02:52:01
+CUST00420,+97466555390,Customer420,LastName420,38,Filipino,Arabic,Doha,Tablet,Postpaid,Business 200,200,50,2021-04-30,44,Low Value,High,1,2021-04-30,2026-04-18 02:52:01
+CUST00421,+97471727310,Customer421,LastName421,50,Indian,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2022-06-26,30,Mid Value,Low,1,2022-06-26,2026-04-18 02:52:01
+CUST00422,+97468831664,Customer422,LastName422,30,Egyptian,Bengali,Doha,Tablet,Postpaid,Executive 350,350,100,2018-10-23,75,High Value,Low,1,2018-10-23,2026-04-18 02:52:01
+CUST00423,+97452417387,Customer423,LastName423,23,Indian,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2018-01-15,84,Mid Value,Low,1,2018-01-15,2026-04-18 02:52:01
+CUST00424,+97454773479,Customer424,LastName424,28,Bangladeshi,Urdu,Lusail,Feature Phone,Postpaid,Premium 500,500,150,2021-04-19,45,Mid Value,Low,0,2021-04-19,2026-04-18 02:52:01
+CUST00425,+97476187230,Customer425,LastName425,38,Indian,English,Doha,Tablet,Postpaid,Elite 1000,1000,300,2019-07-04,66,High Value,Low,1,2019-07-04,2026-04-18 02:52:01
+CUST00426,+97453464880,Customer426,LastName426,30,Pakistani,Tagalog,Lusail,Feature Phone,Postpaid,Premium 500,500,150,2024-05-18,7,High Value,Medium,1,2024-05-18,2026-04-18 02:52:01
+CUST00427,+97457565078,Customer427,LastName427,32,Bangladeshi,Urdu,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2019-05-24,68,High Value,Low,1,2019-05-24,2026-04-18 02:52:01
+CUST00428,+97436857453,Customer428,LastName428,35,Qatari,Urdu,Al Rayyan,Feature Phone,Postpaid,Business 200,200,50,2018-09-22,76,Mid Value,High,1,2018-09-22,2026-04-18 02:52:01
+CUST00429,+97461512309,Customer429,LastName429,30,Pakistani,Bengali,Doha,Smartphone,Prepaid,Basic 10,10,1,2021-10-06,39,Low Value,Medium,1,2021-10-06,2026-04-18 02:52:01
+CUST00430,+97468534797,Customer430,LastName430,48,Jordanian,Hindi,Doha,Tablet,Prepaid,Basic 10,10,1,2022-06-01,31,High Value,Medium,1,2022-06-01,2026-04-18 02:52:01
+CUST00431,+97452318384,Customer431,LastName431,33,Bangladeshi,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2022-01-01,36,Low Value,Medium,1,2022-01-01,2026-04-18 02:52:01
+CUST00432,+97466823409,Customer432,LastName432,65,Jordanian,Hindi,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2019-10-01,63,Low Value,Low,1,2019-10-01,2026-04-18 02:52:01
+CUST00433,+97472219293,Customer433,LastName433,34,Indian,Arabic,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-06-22,55,Low Value,Low,1,2020-06-22,2026-04-18 02:52:01
+CUST00434,+97469363019,Customer434,LastName434,19,Qatari,English,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-11-10,74,Low Value,High,0,2018-11-10,2026-04-18 02:52:01
+CUST00435,+97435525148,Customer435,LastName435,36,Indian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2023-12-31,12,Low Value,Low,1,2023-12-31,2026-04-18 02:52:01
+CUST00436,+97433624315,Customer436,LastName436,34,Indian,Hindi,Lusail,Feature Phone,Prepaid,Super 100,100,30,2023-12-14,12,Low Value,Medium,1,2023-12-14,2026-04-18 02:52:01
+CUST00437,+97432483504,Customer437,LastName437,29,Pakistani,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2020-12-24,48,High Value,Medium,1,2020-12-24,2026-04-18 02:52:01
+CUST00438,+97455260038,Customer438,LastName438,32,Jordanian,Arabic,Lusail,Smartphone,Prepaid,Super 100,100,30,2020-10-22,51,VIP,Low,0,2020-10-22,2026-04-18 02:52:01
+CUST00439,+97433001904,Customer439,LastName439,49,Filipino,Bengali,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2023-12-04,13,Mid Value,Low,1,2023-12-04,2026-04-18 02:52:01
+CUST00440,+97468245060,Customer440,LastName440,30,Pakistani,English,Lusail,Smartphone,Postpaid,Premium 500,500,150,2022-07-13,30,Mid Value,Medium,1,2022-07-13,2026-04-18 02:52:01
+CUST00441,+97438974101,Customer441,LastName441,40,Indian,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2022-09-13,28,Mid Value,Medium,1,2022-09-13,2026-04-18 02:52:01
+CUST00442,+97451885410,Customer442,LastName442,34,Pakistani,Arabic,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-04-15,33,Mid Value,Medium,1,2022-04-15,2026-04-18 02:52:01
+CUST00443,+97454274785,Customer443,LastName443,25,Pakistani,Tagalog,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-01-08,84,Low Value,Medium,1,2018-01-08,2026-04-18 02:52:01
+CUST00444,+97465265133,Customer444,LastName444,37,Filipino,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2024-01-30,11,Low Value,High,1,2024-01-30,2026-04-18 02:52:01
+CUST00445,+97437895577,Customer445,LastName445,34,Jordanian,Bengali,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2022-09-08,28,VIP,Medium,1,2022-09-08,2026-04-18 02:52:01
+CUST00446,+97475541923,Customer446,LastName446,68,Indian,Bengali,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-12-25,24,Low Value,Low,1,2022-12-25,2026-04-18 02:52:01
+CUST00447,+97466405964,Customer447,LastName447,52,Indian,Hindi,Al Khor,Smartphone,Prepaid,Super 100,100,30,2023-02-17,22,Mid Value,Medium,1,2023-02-17,2026-04-18 02:52:01
+CUST00448,+97435715423,Customer448,LastName448,34,Indian,English,Mesaieed,Smartphone,Postpaid,Elite 1000,1000,300,2022-08-13,29,VIP,Medium,1,2022-08-13,2026-04-18 02:52:01
+CUST00449,+97456632472,Customer449,LastName449,19,Qatari,Tagalog,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2024-06-29,6,Low Value,Low,1,2024-06-29,2026-04-18 02:52:01
+CUST00450,+97474965494,Customer450,LastName450,50,British,Urdu,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2024-09-26,3,VIP,High,1,2024-09-26,2026-04-18 02:52:01
+CUST00451,+97435500951,Customer451,LastName451,26,Bangladeshi,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2022-03-12,34,Mid Value,Low,1,2022-03-12,2026-04-18 02:52:01
+CUST00452,+97451136331,Customer452,LastName452,34,Egyptian,Arabic,Mesaieed,Tablet,Postpaid,Executive 350,350,100,2024-10-30,2,High Value,Medium,0,2024-10-30,2026-04-18 02:52:01
+CUST00453,+97432693481,Customer453,LastName453,36,Sri Lankan,Urdu,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2023-06-08,19,Low Value,Medium,1,2023-06-08,2026-04-18 02:52:01
+CUST00454,+97463468464,Customer454,LastName454,68,Indian,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2023-11-22,13,VIP,Medium,1,2023-11-22,2026-04-18 02:52:01
+CUST00455,+97455801840,Customer455,LastName455,34,Qatari,Hindi,Doha,MiFi/Router,Postpaid,Business 200,200,50,2020-06-21,55,Low Value,High,1,2020-06-21,2026-04-18 02:52:01
+CUST00456,+97438028387,Customer456,LastName456,69,Jordanian,Arabic,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-04-08,57,Low Value,Medium,1,2020-04-08,2026-04-18 02:52:01
+CUST00457,+97437117386,Customer457,LastName457,57,Indian,Tagalog,Al Khor,Tablet,Prepaid,Smart 25,25,5,2022-10-17,26,Mid Value,Low,1,2022-10-17,2026-04-18 02:52:01
+CUST00458,+97479695172,Customer458,LastName458,37,Indian,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2019-05-18,68,High Value,Medium,1,2019-05-18,2026-04-18 02:52:01
+CUST00459,+97432603025,Customer459,LastName459,31,Bangladeshi,Tagalog,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-09-11,76,Mid Value,Medium,1,2018-09-11,2026-04-18 02:52:01
+CUST00460,+97432919043,Customer460,LastName460,30,Indian,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2020-08-01,53,Low Value,Low,1,2020-08-01,2026-04-18 02:52:01
+CUST00461,+97462275011,Customer461,LastName461,38,Pakistani,Tagalog,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-01-29,35,Low Value,Medium,1,2022-01-29,2026-04-18 02:52:01
+CUST00462,+97467130649,Customer462,LastName462,30,Lebanese,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2024-10-22,2,Low Value,Medium,1,2024-10-22,2026-04-18 02:52:01
+CUST00463,+97452275300,Customer463,LastName463,28,Filipino,English,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2018-02-28,83,High Value,Low,1,2018-02-28,2026-04-18 02:52:01
+CUST00464,+97458170524,Customer464,LastName464,66,Jordanian,Bengali,Doha,Feature Phone,Postpaid,Executive 350,350,100,2020-07-07,54,Mid Value,Low,1,2020-07-07,2026-04-18 02:52:01
+CUST00465,+97477212415,Customer465,LastName465,34,Bangladeshi,English,Doha,Smartphone,Prepaid,Smart 25,25,5,2021-08-29,40,High Value,High,1,2021-08-29,2026-04-18 02:52:01
+CUST00466,+97462240428,Customer466,LastName466,69,Filipino,Bengali,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-01-28,59,Low Value,High,1,2020-01-28,2026-04-18 02:52:01
+CUST00467,+97435198111,Customer467,LastName467,33,Bangladeshi,Tagalog,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2023-08-31,16,Low Value,High,1,2023-08-31,2026-04-18 02:52:01
+CUST00468,+97434701569,Customer468,LastName468,59,Qatari,Arabic,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2024-06-26,6,Mid Value,Low,1,2024-06-26,2026-04-18 02:52:01
+CUST00469,+97454860483,Customer469,LastName469,64,Pakistani,Tagalog,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2024-06-27,6,Mid Value,Medium,1,2024-06-27,2026-04-18 02:52:01
+CUST00470,+97458070563,Customer470,LastName470,45,Egyptian,Bengali,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2023-04-23,20,High Value,High,1,2023-04-23,2026-04-18 02:52:01
+CUST00471,+97475939337,Customer471,LastName471,36,Jordanian,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-07-04,18,Mid Value,Low,1,2023-07-04,2026-04-18 02:52:01
+CUST00472,+97465050721,Customer472,LastName472,31,Bangladeshi,Hindi,Doha,Feature Phone,Postpaid,Business 200,200,50,2022-03-21,33,Mid Value,High,1,2022-03-21,2026-04-18 02:52:01
+CUST00473,+97478968641,Customer473,LastName473,37,Filipino,Bengali,Al Khor,Smartphone,Prepaid,Value 50,50,15,2019-02-24,71,Mid Value,High,1,2019-02-24,2026-04-18 02:52:01
+CUST00474,+97464740439,Customer474,LastName474,33,Pakistani,Tagalog,Doha,Tablet,Postpaid,Executive 350,350,100,2023-07-05,18,Mid Value,Medium,1,2023-07-05,2026-04-18 02:52:01
+CUST00475,+97464334563,Customer475,LastName475,36,British,English,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2020-10-06,51,Low Value,Low,1,2020-10-06,2026-04-18 02:52:01
+CUST00476,+97458684749,Customer476,LastName476,65,Bangladeshi,English,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2020-03-30,57,Mid Value,High,1,2020-03-30,2026-04-18 02:52:01
+CUST00477,+97432836507,Customer477,LastName477,29,Pakistani,Arabic,Lusail,Smartphone,Prepaid,Basic 10,10,1,2018-05-01,81,Mid Value,Medium,1,2018-05-01,2026-04-18 02:52:01
+CUST00478,+97471290840,Customer478,LastName478,34,Pakistani,Tagalog,Al Wakrah,Smartphone,Prepaid,Smart 25,25,5,2023-05-29,19,Mid Value,Low,1,2023-05-29,2026-04-18 02:52:01
+CUST00479,+97457605335,Customer479,LastName479,34,Egyptian,Arabic,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-11-04,26,Mid Value,Low,1,2022-11-04,2026-04-18 02:52:01
+CUST00480,+97458288079,Customer480,LastName480,68,Pakistani,Arabic,Doha,Feature Phone,Prepaid,Smart 25,25,5,2022-01-30,35,Low Value,High,1,2022-01-30,2026-04-18 02:52:01
+CUST00481,+97453361141,Customer481,LastName481,48,Filipino,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2023-11-26,13,Low Value,Medium,1,2023-11-26,2026-04-18 02:52:01
+CUST00482,+97469979180,Customer482,LastName482,37,Indian,Bengali,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-02-13,59,Low Value,Low,1,2020-02-13,2026-04-18 02:52:01
+CUST00483,+97438386988,Customer483,LastName483,55,Jordanian,Arabic,Lusail,Feature Phone,Postpaid,Elite 1000,1000,300,2021-08-07,41,Low Value,High,0,2021-08-07,2026-04-18 02:52:01
+CUST00484,+97459770838,Customer484,LastName484,46,Egyptian,Arabic,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2018-08-11,77,Mid Value,Medium,1,2018-08-11,2026-04-18 02:52:01
+CUST00485,+97471107262,Customer485,LastName485,47,Indian,Bengali,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2020-04-18,57,Mid Value,Low,1,2020-04-18,2026-04-18 02:52:01
+CUST00486,+97455464510,Customer486,LastName486,27,Indian,Bengali,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2018-05-26,80,Mid Value,Medium,1,2018-05-26,2026-04-18 02:52:01
+CUST00487,+97436589702,Customer487,LastName487,23,Qatari,English,Lusail,Feature Phone,Prepaid,Super 100,100,30,2024-12-13,1,VIP,High,1,2024-12-13,2026-04-18 02:52:01
+CUST00488,+97457857052,Customer488,LastName488,33,Filipino,Hindi,Lusail,MiFi/Router,Postpaid,Business 200,200,50,2018-07-02,79,Mid Value,Low,1,2018-07-02,2026-04-18 02:52:01
+CUST00489,+97456997254,Customer489,LastName489,26,Indian,Urdu,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-06-09,31,Mid Value,Medium,1,2022-06-09,2026-04-18 02:52:01
+CUST00490,+97458887296,Customer490,LastName490,29,Filipino,Tagalog,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-11-10,74,Mid Value,High,1,2018-11-10,2026-04-18 02:52:01
+CUST00491,+97431107175,Customer491,LastName491,24,Jordanian,Arabic,Al Wakrah,Smartphone,Postpaid,Premium 500,500,150,2018-03-27,82,Mid Value,Low,1,2018-03-27,2026-04-18 02:52:01
+CUST00492,+97457530227,Customer492,LastName492,32,Indian,Bengali,Doha,Tablet,Postpaid,Executive 350,350,100,2022-10-21,26,Low Value,Low,1,2022-10-21,2026-04-18 02:52:01
+CUST00493,+97476778648,Customer493,LastName493,35,Indian,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2024-02-18,10,Mid Value,Medium,1,2024-02-18,2026-04-18 02:52:01
+CUST00494,+97432176193,Customer494,LastName494,29,Lebanese,English,Mesaieed,Smartphone,Postpaid,Executive 350,350,100,2024-09-29,3,Low Value,High,1,2024-09-29,2026-04-18 02:52:01
+CUST00495,+97459091543,Customer495,LastName495,29,Filipino,Arabic,Doha,Feature Phone,Prepaid,Value 50,50,15,2020-06-02,55,Low Value,Low,1,2020-06-02,2026-04-18 02:52:01
+CUST00496,+97474801733,Customer496,LastName496,26,Jordanian,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2023-06-18,18,Mid Value,Medium,1,2023-06-18,2026-04-18 02:52:01
+CUST00497,+97435860135,Customer497,LastName497,52,British,Tagalog,Doha,MiFi/Router,Prepaid,Smart 25,25,5,2023-10-05,15,High Value,Medium,1,2023-10-05,2026-04-18 02:52:01
+CUST00498,+97437687270,Customer498,LastName498,18,Pakistani,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-05-25,80,Low Value,Medium,1,2018-05-25,2026-04-18 02:52:01
+CUST00499,+97434185850,Customer499,LastName499,28,Jordanian,Hindi,Doha,Feature Phone,Prepaid,Super 100,100,30,2018-10-17,75,Low Value,High,1,2018-10-17,2026-04-18 02:52:01
+CUST00500,+97473583343,Customer500,LastName500,26,Bangladeshi,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2019-04-13,69,Mid Value,High,1,2019-04-13,2026-04-18 02:52:01
+CUST00501,+97471904070,Customer501,LastName501,33,British,English,Lusail,Smartphone,Prepaid,Smart 25,25,5,2019-02-06,71,Mid Value,Low,1,2019-02-06,2026-04-18 02:52:01
+CUST00502,+97471626274,Customer502,LastName502,50,Indian,Tagalog,Mesaieed,Smartphone,Prepaid,Value 50,50,15,2020-06-14,55,Low Value,High,1,2020-06-14,2026-04-18 02:52:01
+CUST00503,+97434485789,Customer503,LastName503,34,Indian,Tagalog,Al Wakrah,Smartphone,Prepaid,Super 100,100,30,2023-06-24,18,Low Value,Medium,1,2023-06-24,2026-04-18 02:52:01
+CUST00504,+97469028688,Customer504,LastName504,33,Pakistani,Urdu,Al Rayyan,MiFi/Router,Postpaid,Premium 500,500,150,2018-05-12,80,Low Value,Low,1,2018-05-12,2026-04-18 02:52:01
+CUST00505,+97463891024,Customer505,LastName505,65,Indian,Arabic,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2021-09-01,40,High Value,Low,1,2021-09-01,2026-04-18 02:52:01
+CUST00506,+97479188602,Customer506,LastName506,65,Indian,English,Doha,Smartphone,Prepaid,Super 100,100,30,2020-01-07,60,Low Value,Medium,1,2020-01-07,2026-04-18 02:52:01
+CUST00507,+97459989056,Customer507,LastName507,19,Pakistani,Urdu,Lusail,Smartphone,Postpaid,Business 200,200,50,2020-02-13,59,Mid Value,Low,1,2020-02-13,2026-04-18 02:52:01
+CUST00508,+97459862514,Customer508,LastName508,35,Filipino,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2023-01-16,23,Mid Value,Medium,1,2023-01-16,2026-04-18 02:52:01
+CUST00509,+97451751521,Customer509,LastName509,32,Pakistani,Arabic,Doha,Smartphone,Postpaid,Business 200,200,50,2021-12-31,36,High Value,Low,1,2021-12-31,2026-04-18 02:52:01
+CUST00510,+97431234966,Customer510,LastName510,38,Lebanese,Arabic,Al Rayyan,MiFi/Router,Prepaid,Basic 10,10,1,2019-12-16,61,High Value,Low,1,2019-12-16,2026-04-18 02:52:01
+CUST00511,+97473845974,Customer511,LastName511,39,Pakistani,Urdu,Al Khor,Smartphone,Prepaid,Basic 10,10,1,2018-12-26,73,Low Value,Medium,0,2018-12-26,2026-04-18 02:52:01
+CUST00512,+97455996791,Customer512,LastName512,56,Filipino,English,Doha,Smartphone,Prepaid,Super 100,100,30,2023-11-26,13,Mid Value,Medium,1,2023-11-26,2026-04-18 02:52:01
+CUST00513,+97471602358,Customer513,LastName513,38,Indian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2021-08-17,41,Low Value,Low,1,2021-08-17,2026-04-18 02:52:01
+CUST00514,+97462797473,Customer514,LastName514,32,Pakistani,Bengali,Doha,Feature Phone,Prepaid,Smart 25,25,5,2019-01-29,72,Mid Value,Low,1,2019-01-29,2026-04-18 02:52:01
+CUST00515,+97476783124,Customer515,LastName515,42,Bangladeshi,English,Doha,Smartphone,Prepaid,Super 100,100,30,2019-12-13,61,Low Value,Medium,1,2019-12-13,2026-04-18 02:52:01
+CUST00516,+97469288684,Customer516,LastName516,36,Qatari,Hindi,Al Khor,Smartphone,Prepaid,Value 50,50,15,2019-08-16,65,Low Value,Low,1,2019-08-16,2026-04-18 02:52:01
+CUST00517,+97439755729,Customer517,LastName517,46,Filipino,Hindi,Al Khor,Smartphone,Prepaid,Value 50,50,15,2023-10-20,14,Low Value,High,1,2023-10-20,2026-04-18 02:52:01
+CUST00518,+97476014639,Customer518,LastName518,18,Lebanese,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2022-07-22,29,Mid Value,Medium,1,2022-07-22,2026-04-18 02:52:01
+CUST00519,+97462584006,Customer519,LastName519,29,Pakistani,Hindi,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2020-04-25,57,VIP,Medium,1,2020-04-25,2026-04-18 02:52:01
+CUST00520,+97475128937,Customer520,LastName520,31,Filipino,English,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2024-10-05,2,High Value,High,1,2024-10-05,2026-04-18 02:52:01
+CUST00521,+97478963695,Customer521,LastName521,35,Jordanian,Bengali,Doha,MiFi/Router,Prepaid,Value 50,50,15,2018-11-28,74,High Value,Low,1,2018-11-28,2026-04-18 02:52:01
+CUST00522,+97435474563,Customer522,LastName522,30,Indian,English,Al Rayyan,Tablet,Postpaid,Executive 350,350,100,2022-06-26,30,Low Value,High,1,2022-06-26,2026-04-18 02:52:01
+CUST00523,+97466896871,Customer523,LastName523,30,Lebanese,Hindi,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2024-08-15,4,Mid Value,Medium,1,2024-08-15,2026-04-18 02:52:01
+CUST00524,+97457698986,Customer524,LastName524,32,Indian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2018-06-02,80,Mid Value,Medium,1,2018-06-02,2026-04-18 02:52:01
+CUST00525,+97459029292,Customer525,LastName525,34,Qatari,Arabic,Doha,MiFi/Router,Prepaid,Value 50,50,15,2023-03-28,21,Mid Value,Medium,1,2023-03-28,2026-04-18 02:52:01
+CUST00526,+97431678594,Customer526,LastName526,33,Egyptian,Urdu,Doha,Feature Phone,Postpaid,Business 200,200,50,2020-03-09,58,Low Value,Low,1,2020-03-09,2026-04-18 02:52:01
+CUST00527,+97477701208,Customer527,LastName527,30,Filipino,Tagalog,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2023-04-16,20,Mid Value,Low,1,2023-04-16,2026-04-18 02:52:01
+CUST00528,+97431941897,Customer528,LastName528,33,Filipino,Arabic,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2023-10-08,15,VIP,High,1,2023-10-08,2026-04-18 02:52:01
+CUST00529,+97452356841,Customer529,LastName529,38,Jordanian,Urdu,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2022-10-25,26,Mid Value,Medium,1,2022-10-25,2026-04-18 02:52:01
+CUST00530,+97458971310,Customer530,LastName530,57,Qatari,Arabic,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-01-08,24,High Value,Medium,1,2023-01-08,2026-04-18 02:52:01
+CUST00531,+97462874067,Customer531,LastName531,31,Pakistani,Hindi,Lusail,Smartphone,Prepaid,Basic 10,10,1,2018-02-06,84,VIP,Low,1,2018-02-06,2026-04-18 02:52:01
+CUST00532,+97432983240,Customer532,LastName532,36,Indian,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2023-09-11,15,Mid Value,Medium,1,2023-09-11,2026-04-18 02:52:01
+CUST00533,+97456235776,Customer533,LastName533,53,Filipino,Bengali,Al Wakrah,MiFi/Router,Postpaid,Elite 1000,1000,300,2020-05-15,56,Low Value,Medium,1,2020-05-15,2026-04-18 02:52:01
+CUST00534,+97475316226,Customer534,LastName534,36,Jordanian,Tagalog,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2022-05-29,31,Low Value,Medium,1,2022-05-29,2026-04-18 02:52:01
+CUST00535,+97464994943,Customer535,LastName535,32,Lebanese,Tagalog,Lusail,Smartphone,Prepaid,Basic 10,10,1,2022-07-11,30,Mid Value,Medium,0,2022-07-11,2026-04-18 02:52:01
+CUST00536,+97475202564,Customer536,LastName536,33,Bangladeshi,Hindi,Doha,Smartphone,Postpaid,Executive 350,350,100,2019-05-19,68,Low Value,Medium,1,2019-05-19,2026-04-18 02:52:01
+CUST00537,+97465457003,Customer537,LastName537,20,Jordanian,English,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2021-04-05,45,Mid Value,Medium,1,2021-04-05,2026-04-18 02:52:01
+CUST00538,+97434614259,Customer538,LastName538,38,Indian,Urdu,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2019-07-07,66,Mid Value,Medium,1,2019-07-07,2026-04-18 02:52:01
+CUST00539,+97478361666,Customer539,LastName539,33,British,Arabic,Al Wakrah,MiFi/Router,Prepaid,Value 50,50,15,2019-01-06,72,Mid Value,Medium,1,2019-01-06,2026-04-18 02:52:01
+CUST00540,+97431134156,Customer540,LastName540,54,Sri Lankan,English,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2019-04-20,69,Mid Value,High,1,2019-04-20,2026-04-18 02:52:01
+CUST00541,+97432853444,Customer541,LastName541,34,Egyptian,Arabic,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2024-11-20,1,Low Value,Medium,1,2024-11-20,2026-04-18 02:52:01
+CUST00542,+97472170115,Customer542,LastName542,32,Pakistani,Urdu,Doha,Smartphone,Postpaid,Business 200,200,50,2022-04-17,32,High Value,Low,1,2022-04-17,2026-04-18 02:52:01
+CUST00543,+97436835073,Customer543,LastName543,31,Jordanian,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-09-23,76,High Value,Low,1,2018-09-23,2026-04-18 02:52:01
+CUST00544,+97467643047,Customer544,LastName544,31,Filipino,Bengali,Mesaieed,Smartphone,Prepaid,Basic 10,10,1,2019-06-30,67,High Value,Low,1,2019-06-30,2026-04-18 02:52:01
+CUST00545,+97469046564,Customer545,LastName545,38,Sri Lankan,Bengali,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2021-06-14,43,Low Value,Medium,1,2021-06-14,2026-04-18 02:52:01
+CUST00546,+97435520466,Customer546,LastName546,32,Pakistani,Bengali,Lusail,Smartphone,Postpaid,Executive 350,350,100,2021-06-12,43,Low Value,Low,1,2021-06-12,2026-04-18 02:52:01
+CUST00547,+97476595091,Customer547,LastName547,59,Bangladeshi,Urdu,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2021-05-07,44,High Value,Low,1,2021-05-07,2026-04-18 02:52:01
+CUST00548,+97466503061,Customer548,LastName548,20,Qatari,Arabic,Lusail,Smartphone,Prepaid,Smart 25,25,5,2022-01-23,35,High Value,Medium,1,2022-01-23,2026-04-18 02:52:01
+CUST00549,+97435656616,Customer549,LastName549,35,Indian,English,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2019-07-14,66,Mid Value,Medium,1,2019-07-14,2026-04-18 02:52:01
+CUST00550,+97474979005,Customer550,LastName550,33,Filipino,Bengali,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2022-05-27,31,Low Value,Medium,1,2022-05-27,2026-04-18 02:52:01
+CUST00551,+97464751552,Customer551,LastName551,34,Filipino,Arabic,Mesaieed,MiFi/Router,Postpaid,Elite 1000,1000,300,2023-12-27,12,Mid Value,Low,1,2023-12-27,2026-04-18 02:52:01
+CUST00552,+97463791758,Customer552,LastName552,25,Qatari,Arabic,Doha,Tablet,Prepaid,Basic 10,10,1,2024-05-20,7,Low Value,High,1,2024-05-20,2026-04-18 02:52:01
+CUST00553,+97454842164,Customer553,LastName553,36,Filipino,Arabic,Lusail,Tablet,Prepaid,Basic 10,10,1,2020-02-11,59,Mid Value,Low,1,2020-02-11,2026-04-18 02:52:01
+CUST00554,+97475212482,Customer554,LastName554,54,Bangladeshi,Tagalog,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2022-02-09,35,High Value,High,1,2022-02-09,2026-04-18 02:52:01
+CUST00555,+97437963391,Customer555,LastName555,30,British,Hindi,Lusail,Smartphone,Postpaid,Executive 350,350,100,2018-07-21,78,VIP,Medium,1,2018-07-21,2026-04-18 02:52:01
+CUST00556,+97437464387,Customer556,LastName556,28,Jordanian,Arabic,Al Rayyan,MiFi/Router,Postpaid,Executive 350,350,100,2024-07-01,6,Mid Value,High,1,2024-07-01,2026-04-18 02:52:01
+CUST00557,+97479351166,Customer557,LastName557,57,Bangladeshi,Hindi,Doha,Feature Phone,Prepaid,Value 50,50,15,2024-09-19,3,Mid Value,Low,1,2024-09-19,2026-04-18 02:52:01
+CUST00558,+97434161606,Customer558,LastName558,48,Pakistani,Hindi,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-02-14,83,Mid Value,Low,1,2018-02-14,2026-04-18 02:52:01
+CUST00559,+97479550148,Customer559,LastName559,29,British,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-09-21,15,Low Value,High,1,2023-09-21,2026-04-18 02:52:01
+CUST00560,+97474043757,Customer560,LastName560,41,Qatari,Urdu,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-10-18,75,Low Value,Medium,1,2018-10-18,2026-04-18 02:52:01
+CUST00561,+97458759360,Customer561,LastName561,39,Sri Lankan,Hindi,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-10-03,51,Low Value,High,1,2020-10-03,2026-04-18 02:52:01
+CUST00562,+97477379293,Customer562,LastName562,39,Indian,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2021-10-06,39,Mid Value,High,1,2021-10-06,2026-04-18 02:52:01
+CUST00563,+97479961723,Customer563,LastName563,36,Pakistani,Bengali,Al Rayyan,Tablet,Prepaid,Smart 25,25,5,2018-12-29,73,VIP,Low,1,2018-12-29,2026-04-18 02:52:01
+CUST00564,+97462204869,Customer564,LastName564,33,Filipino,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2019-11-10,62,Mid Value,Medium,1,2019-11-10,2026-04-18 02:52:01
+CUST00565,+97478092930,Customer565,LastName565,33,Egyptian,Arabic,Al Khor,Smartphone,Prepaid,Value 50,50,15,2020-04-17,57,High Value,High,1,2020-04-17,2026-04-18 02:52:01
+CUST00566,+97477370074,Customer566,LastName566,64,Sri Lankan,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2021-10-16,39,Mid Value,Medium,1,2021-10-16,2026-04-18 02:52:01
+CUST00567,+97437766512,Customer567,LastName567,29,Pakistani,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2018-02-25,83,Mid Value,High,0,2018-02-25,2026-04-18 02:52:01
+CUST00568,+97439056262,Customer568,LastName568,54,Egyptian,Urdu,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2021-03-07,46,Mid Value,Medium,1,2021-03-07,2026-04-18 02:52:01
+CUST00569,+97436729449,Customer569,LastName569,31,Qatari,Urdu,Mesaieed,Smartphone,Postpaid,Elite 1000,1000,300,2020-10-15,51,High Value,Low,1,2020-10-15,2026-04-18 02:52:01
+CUST00570,+97434030178,Customer570,LastName570,43,Qatari,Hindi,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2018-12-03,74,Mid Value,Low,1,2018-12-03,2026-04-18 02:52:01
+CUST00571,+97479501814,Customer571,LastName571,51,Qatari,English,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2022-10-20,26,Mid Value,Low,1,2022-10-20,2026-04-18 02:52:01
+CUST00572,+97473078817,Customer572,LastName572,27,Pakistani,Hindi,Mesaieed,MiFi/Router,Postpaid,Premium 500,500,150,2022-09-13,28,Mid Value,Medium,1,2022-09-13,2026-04-18 02:52:01
+CUST00573,+97466014482,Customer573,LastName573,34,Indian,Urdu,Doha,Smartphone,Postpaid,Executive 350,350,100,2021-08-08,41,High Value,Low,1,2021-08-08,2026-04-18 02:52:01
+CUST00574,+97458282903,Customer574,LastName574,31,Pakistani,Arabic,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2020-07-22,54,Mid Value,Medium,1,2020-07-22,2026-04-18 02:52:01
+CUST00575,+97439574566,Customer575,LastName575,33,Qatari,Urdu,Doha,Smartphone,Postpaid,Business 200,200,50,2020-02-16,59,Mid Value,Low,1,2020-02-16,2026-04-18 02:52:01
+CUST00576,+97433618615,Customer576,LastName576,32,Qatari,Hindi,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2018-08-27,77,Low Value,Medium,1,2018-08-27,2026-04-18 02:52:01
+CUST00577,+97476765708,Customer577,LastName577,22,Filipino,Arabic,Lusail,Smartphone,Prepaid,Super 100,100,30,2022-02-20,34,Mid Value,Low,0,2022-02-20,2026-04-18 02:52:01
+CUST00578,+97474182471,Customer578,LastName578,28,Egyptian,Arabic,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2023-10-21,14,High Value,Medium,1,2023-10-21,2026-04-18 02:52:01
+CUST00579,+97465272269,Customer579,LastName579,37,Indian,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-03-20,82,High Value,Low,0,2018-03-20,2026-04-18 02:52:01
+CUST00580,+97457753239,Customer580,LastName580,30,Qatari,Bengali,Al Rayyan,MiFi/Router,Prepaid,Value 50,50,15,2022-02-02,35,VIP,Low,1,2022-02-02,2026-04-18 02:52:01
+CUST00581,+97454070023,Customer581,LastName581,25,Qatari,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2024-10-26,2,High Value,Medium,0,2024-10-26,2026-04-18 02:52:01
+CUST00582,+97469978234,Customer582,LastName582,35,Sri Lankan,Hindi,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2021-02-23,46,High Value,Low,1,2021-02-23,2026-04-18 02:52:01
+CUST00583,+97471078039,Customer583,LastName583,32,Indian,Bengali,Doha,Smartphone,Prepaid,Basic 10,10,1,2024-03-16,9,High Value,Low,1,2024-03-16,2026-04-18 02:52:01
+CUST00584,+97432928277,Customer584,LastName584,32,Pakistani,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2019-11-12,62,Mid Value,Low,1,2019-11-12,2026-04-18 02:52:01
+CUST00585,+97461784978,Customer585,LastName585,42,Qatari,Bengali,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2021-09-21,39,Low Value,Low,1,2021-09-21,2026-04-18 02:52:01
+CUST00586,+97457416514,Customer586,LastName586,31,Filipino,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2023-04-14,20,Mid Value,High,1,2023-04-14,2026-04-18 02:52:01
+CUST00587,+97469199397,Customer587,LastName587,30,Egyptian,English,Doha,Smartphone,Postpaid,Business 200,200,50,2024-09-18,3,Low Value,Medium,1,2024-09-18,2026-04-18 02:52:01
+CUST00588,+97465498341,Customer588,LastName588,38,Pakistani,Bengali,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2018-06-20,79,Low Value,Low,1,2018-06-20,2026-04-18 02:52:01
+CUST00589,+97463010419,Customer589,LastName589,67,Indian,Hindi,Lusail,Feature Phone,Postpaid,Elite 1000,1000,300,2023-04-12,20,High Value,Low,1,2023-04-12,2026-04-18 02:52:01
+CUST00590,+97469408029,Customer590,LastName590,46,Indian,English,Doha,Smartphone,Prepaid,Super 100,100,30,2019-03-31,70,Mid Value,Medium,1,2019-03-31,2026-04-18 02:52:01
+CUST00591,+97437016178,Customer591,LastName591,35,Qatari,English,Doha,Smartphone,Postpaid,Business 200,200,50,2018-07-09,78,Mid Value,Medium,1,2018-07-09,2026-04-18 02:52:01
+CUST00592,+97455263550,Customer592,LastName592,33,Pakistani,Arabic,Doha,Smartphone,Prepaid,Smart 25,25,5,2018-10-04,76,Mid Value,Medium,1,2018-10-04,2026-04-18 02:52:01
+CUST00593,+97478653595,Customer593,LastName593,36,Qatari,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2022-04-28,32,Low Value,High,1,2022-04-28,2026-04-18 02:52:01
+CUST00594,+97453873303,Customer594,LastName594,35,Pakistani,English,Doha,Smartphone,Prepaid,Value 50,50,15,2020-02-06,59,Low Value,High,1,2020-02-06,2026-04-18 02:52:01
+CUST00595,+97463011701,Customer595,LastName595,49,Bangladeshi,Bengali,Lusail,Smartphone,Prepaid,Basic 10,10,1,2024-04-21,8,Low Value,Medium,1,2024-04-21,2026-04-18 02:52:01
+CUST00596,+97439964130,Customer596,LastName596,24,Indian,Urdu,Al Rayyan,MiFi/Router,Postpaid,Elite 1000,1000,300,2019-12-22,61,Mid Value,Medium,1,2019-12-22,2026-04-18 02:52:01
+CUST00597,+97436078792,Customer597,LastName597,34,Bangladeshi,English,Mesaieed,Smartphone,Postpaid,Premium 500,500,150,2020-10-12,51,Mid Value,Medium,1,2020-10-12,2026-04-18 02:52:01
+CUST00598,+97435235678,Customer598,LastName598,36,Bangladeshi,Arabic,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-09-03,28,High Value,Low,1,2022-09-03,2026-04-18 02:52:01
+CUST00599,+97431087398,Customer599,LastName599,45,Jordanian,Bengali,Mesaieed,Tablet,Postpaid,Premium 500,500,150,2024-10-04,2,Low Value,High,1,2024-10-04,2026-04-18 02:52:01
+CUST00600,+97436660475,Customer600,LastName600,33,Sri Lankan,Arabic,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2018-12-23,73,Low Value,Medium,1,2018-12-23,2026-04-18 02:52:01
+CUST00601,+97433502053,Customer601,LastName601,31,Indian,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2020-09-17,52,Mid Value,Medium,1,2020-09-17,2026-04-18 02:52:01
+CUST00602,+97433396131,Customer602,LastName602,37,Qatari,Bengali,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2019-04-14,69,Mid Value,Medium,1,2019-04-14,2026-04-18 02:52:01
+CUST00603,+97468504973,Customer603,LastName603,42,Indian,Hindi,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2022-03-18,33,High Value,Medium,1,2022-03-18,2026-04-18 02:52:01
+CUST00604,+97452283963,Customer604,LastName604,33,Qatari,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2021-03-11,46,Mid Value,Medium,1,2021-03-11,2026-04-18 02:52:01
+CUST00605,+97455880250,Customer605,LastName605,33,Indian,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-07-14,78,Low Value,Medium,1,2018-07-14,2026-04-18 02:52:01
+CUST00606,+97462830762,Customer606,LastName606,39,Indian,Hindi,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-02-24,83,Mid Value,Medium,1,2018-02-24,2026-04-18 02:52:01
+CUST00607,+97453971007,Customer607,LastName607,29,Sri Lankan,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2024-08-23,4,Low Value,Medium,1,2024-08-23,2026-04-18 02:52:01
+CUST00608,+97476981232,Customer608,LastName608,23,Qatari,Arabic,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-04-27,32,Low Value,Medium,1,2022-04-27,2026-04-18 02:52:01
+CUST00609,+97431965874,Customer609,LastName609,30,Filipino,Tagalog,Mesaieed,Smartphone,Postpaid,Business 200,200,50,2020-12-10,49,Mid Value,Medium,1,2020-12-10,2026-04-18 02:52:01
+CUST00610,+97462247571,Customer610,LastName610,37,Pakistani,Tagalog,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2023-08-17,16,Low Value,Low,1,2023-08-17,2026-04-18 02:52:01
+CUST00611,+97439071403,Customer611,LastName611,31,Bangladeshi,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2024-04-14,8,Low Value,Medium,1,2024-04-14,2026-04-18 02:52:01
+CUST00612,+97476846880,Customer612,LastName612,33,Qatari,Urdu,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2022-03-29,33,Mid Value,Low,1,2022-03-29,2026-04-18 02:52:01
+CUST00613,+97474466981,Customer613,LastName613,32,Indian,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2023-04-05,21,High Value,Low,1,2023-04-05,2026-04-18 02:52:01
+CUST00614,+97478536518,Customer614,LastName614,40,Indian,Hindi,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2018-02-04,84,Low Value,Medium,1,2018-02-04,2026-04-18 02:52:01
+CUST00615,+97459461306,Customer615,LastName615,33,Sri Lankan,English,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-09-24,76,Low Value,Medium,1,2018-09-24,2026-04-18 02:52:01
+CUST00616,+97438692868,Customer616,LastName616,59,Sri Lankan,Tagalog,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2020-01-07,60,Low Value,High,0,2020-01-07,2026-04-18 02:52:01
+CUST00617,+97466382328,Customer617,LastName617,38,Indian,Urdu,Doha,Smartphone,Postpaid,Business 200,200,50,2022-02-02,35,High Value,Low,1,2022-02-02,2026-04-18 02:52:01
+CUST00618,+97463174641,Customer618,LastName618,49,Indian,Urdu,Al Wakrah,Feature Phone,Prepaid,Smart 25,25,5,2022-03-15,34,VIP,Medium,1,2022-03-15,2026-04-18 02:52:01
+CUST00619,+97476142811,Customer619,LastName619,19,Pakistani,Urdu,Al Rayyan,MiFi/Router,Postpaid,Executive 350,350,100,2021-11-26,37,Mid Value,Medium,1,2021-11-26,2026-04-18 02:52:01
+CUST00620,+97462412099,Customer620,LastName620,35,Indian,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2022-06-24,30,High Value,High,1,2022-06-24,2026-04-18 02:52:01
+CUST00621,+97462202910,Customer621,LastName621,34,Sri Lankan,Arabic,Doha,Smartphone,Postpaid,Executive 350,350,100,2019-02-11,71,Low Value,Medium,1,2019-02-11,2026-04-18 02:52:01
+CUST00622,+97477988517,Customer622,LastName622,34,Egyptian,English,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2020-10-05,51,Low Value,Low,1,2020-10-05,2026-04-18 02:52:01
+CUST00623,+97474877411,Customer623,LastName623,31,Pakistani,Arabic,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-10-23,51,Mid Value,Low,1,2020-10-23,2026-04-18 02:52:01
+CUST00624,+97471431430,Customer624,LastName624,25,Filipino,Arabic,Al Rayyan,Tablet,Prepaid,Smart 25,25,5,2024-08-17,4,Low Value,High,1,2024-08-17,2026-04-18 02:52:01
+CUST00625,+97472191604,Customer625,LastName625,62,Indian,Urdu,Al Rayyan,Feature Phone,Postpaid,Elite 1000,1000,300,2019-04-07,69,Mid Value,High,1,2019-04-07,2026-04-18 02:52:01
+CUST00626,+97458378441,Customer626,LastName626,23,Egyptian,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2020-05-08,56,Low Value,Low,1,2020-05-08,2026-04-18 02:52:01
+CUST00627,+97463114123,Customer627,LastName627,46,Indian,Bengali,Al Wakrah,Feature Phone,Prepaid,Super 100,100,30,2023-04-30,20,Low Value,Medium,1,2023-04-30,2026-04-18 02:52:01
+CUST00628,+97479477175,Customer628,LastName628,34,Indian,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2022-12-04,25,Low Value,Medium,1,2022-12-04,2026-04-18 02:52:01
+CUST00629,+97471575377,Customer629,LastName629,34,Pakistani,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2021-04-11,45,VIP,Low,1,2021-04-11,2026-04-18 02:52:01
+CUST00630,+97434142759,Customer630,LastName630,28,British,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2021-05-30,43,Low Value,High,1,2021-05-30,2026-04-18 02:52:01
+CUST00631,+97477372436,Customer631,LastName631,31,Qatari,Hindi,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2018-05-31,80,VIP,Low,1,2018-05-31,2026-04-18 02:52:01
+CUST00632,+97452952178,Customer632,LastName632,43,Indian,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-09-05,76,Low Value,Medium,0,2018-09-05,2026-04-18 02:52:01
+CUST00633,+97439574621,Customer633,LastName633,53,Qatari,Arabic,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-03-06,34,Mid Value,Low,1,2022-03-06,2026-04-18 02:52:01
+CUST00634,+97455194055,Customer634,LastName634,38,Egyptian,Bengali,Doha,MiFi/Router,Prepaid,Value 50,50,15,2018-06-25,79,High Value,Low,1,2018-06-25,2026-04-18 02:52:01
+CUST00635,+97467034993,Customer635,LastName635,31,Bangladeshi,Urdu,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2018-10-30,75,VIP,Low,1,2018-10-30,2026-04-18 02:52:01
+CUST00636,+97452981267,Customer636,LastName636,52,Pakistani,Arabic,Doha,MiFi/Router,Prepaid,Smart 25,25,5,2024-03-31,9,Mid Value,Low,1,2024-03-31,2026-04-18 02:52:01
+CUST00637,+97435005267,Customer637,LastName637,31,Filipino,Tagalog,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2018-04-11,81,High Value,Medium,1,2018-04-11,2026-04-18 02:52:01
+CUST00638,+97476606907,Customer638,LastName638,33,Filipino,English,Doha,Smartphone,Prepaid,Value 50,50,15,2019-04-28,69,Mid Value,Medium,1,2019-04-28,2026-04-18 02:52:01
+CUST00639,+97457589867,Customer639,LastName639,33,Qatari,Tagalog,Lusail,Smartphone,Postpaid,Elite 1000,1000,300,2019-09-25,64,Low Value,High,1,2019-09-25,2026-04-18 02:52:01
+CUST00640,+97435081537,Customer640,LastName640,29,Qatari,Urdu,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2018-11-09,74,Mid Value,Low,1,2018-11-09,2026-04-18 02:52:01
+CUST00641,+97463752389,Customer641,LastName641,47,Indian,English,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2021-11-27,37,High Value,Low,1,2021-11-27,2026-04-18 02:52:01
+CUST00642,+97461538884,Customer642,LastName642,25,Sri Lankan,Urdu,Al Rayyan,MiFi/Router,Postpaid,Elite 1000,1000,300,2018-01-30,84,Low Value,Medium,1,2018-01-30,2026-04-18 02:52:01
+CUST00643,+97433936287,Customer643,LastName643,37,Jordanian,Tagalog,Doha,Smartphone,Prepaid,Smart 25,25,5,2024-07-03,6,Mid Value,Medium,1,2024-07-03,2026-04-18 02:52:01
+CUST00644,+97438463035,Customer644,LastName644,42,Pakistani,Tagalog,Al Khor,Smartphone,Prepaid,Super 100,100,30,2018-08-05,78,Mid Value,Medium,1,2018-08-05,2026-04-18 02:52:01
+CUST00645,+97454627403,Customer645,LastName645,32,Pakistani,Arabic,Doha,MiFi/Router,Prepaid,Value 50,50,15,2023-12-17,12,Low Value,High,1,2023-12-17,2026-04-18 02:52:01
+CUST00646,+97433251817,Customer646,LastName646,27,Egyptian,Urdu,Doha,Feature Phone,Prepaid,Value 50,50,15,2023-02-23,22,Mid Value,Low,1,2023-02-23,2026-04-18 02:52:01
+CUST00647,+97432843981,Customer647,LastName647,31,Qatari,English,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2020-09-28,51,Low Value,High,1,2020-09-28,2026-04-18 02:52:01
+CUST00648,+97459348054,Customer648,LastName648,32,Filipino,Tagalog,Al Rayyan,MiFi/Router,Prepaid,Super 100,100,30,2024-12-10,1,Low Value,Medium,1,2024-12-10,2026-04-18 02:52:01
+CUST00649,+97473947458,Customer649,LastName649,33,Indian,Arabic,Al Khor,MiFi/Router,Prepaid,Super 100,100,30,2019-10-23,63,Low Value,High,1,2019-10-23,2026-04-18 02:52:01
+CUST00650,+97438252546,Customer650,LastName650,35,Egyptian,Hindi,Al Rayyan,MiFi/Router,Postpaid,Premium 500,500,150,2020-07-02,54,Low Value,Low,1,2020-07-02,2026-04-18 02:52:01
+CUST00651,+97468836906,Customer651,LastName651,32,Indian,Arabic,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-12-21,24,Low Value,Low,1,2022-12-21,2026-04-18 02:52:01
+CUST00652,+97478103850,Customer652,LastName652,43,British,Tagalog,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2022-07-14,30,Low Value,Medium,1,2022-07-14,2026-04-18 02:52:01
+CUST00653,+97456091820,Customer653,LastName653,29,British,Bengali,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2024-07-26,5,Low Value,High,1,2024-07-26,2026-04-18 02:52:01
+CUST00654,+97451680233,Customer654,LastName654,22,Pakistani,Urdu,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2022-05-30,31,Low Value,Low,1,2022-05-30,2026-04-18 02:52:01
+CUST00655,+97457667542,Customer655,LastName655,30,Filipino,Urdu,Lusail,Smartphone,Prepaid,Super 100,100,30,2023-08-03,17,Low Value,Medium,1,2023-08-03,2026-04-18 02:52:01
+CUST00656,+97451842264,Customer656,LastName656,27,Pakistani,Tagalog,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2024-11-05,1,Low Value,High,1,2024-11-05,2026-04-18 02:52:01
+CUST00657,+97472626963,Customer657,LastName657,20,Indian,Bengali,Lusail,Smartphone,Prepaid,Value 50,50,15,2023-11-15,13,Low Value,Medium,1,2023-11-15,2026-04-18 02:52:01
+CUST00658,+97433914065,Customer658,LastName658,29,Egyptian,Arabic,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2020-11-09,50,Mid Value,Medium,1,2020-11-09,2026-04-18 02:52:01
+CUST00659,+97464593171,Customer659,LastName659,33,Sri Lankan,Urdu,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2023-11-15,13,High Value,Low,1,2023-11-15,2026-04-18 02:52:01
+CUST00660,+97434528789,Customer660,LastName660,40,Indian,Urdu,Al Khor,Smartphone,Postpaid,Executive 350,350,100,2024-01-25,11,Low Value,Medium,1,2024-01-25,2026-04-18 02:52:01
+CUST00661,+97477491015,Customer661,LastName661,29,Pakistani,Tagalog,Al Khor,MiFi/Router,Prepaid,Basic 10,10,1,2022-08-22,28,Mid Value,Low,1,2022-08-22,2026-04-18 02:52:01
+CUST00662,+97438700870,Customer662,LastName662,36,Qatari,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2019-11-05,62,Low Value,Medium,0,2019-11-05,2026-04-18 02:52:01
+CUST00663,+97454427369,Customer663,LastName663,28,Indian,English,Al Wakrah,Smartphone,Postpaid,Premium 500,500,150,2022-01-13,36,Mid Value,Low,1,2022-01-13,2026-04-18 02:52:01
+CUST00664,+97472369601,Customer664,LastName664,27,Sri Lankan,Urdu,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2018-02-06,84,High Value,Medium,1,2018-02-06,2026-04-18 02:52:01
+CUST00665,+97464847856,Customer665,LastName665,58,British,Bengali,Mesaieed,Smartphone,Postpaid,Business 200,200,50,2021-09-05,40,Mid Value,Medium,1,2021-09-05,2026-04-18 02:52:01
+CUST00666,+97477168640,Customer666,LastName666,49,Indian,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2019-01-27,72,Low Value,Low,0,2019-01-27,2026-04-18 02:52:01
+CUST00667,+97454320676,Customer667,LastName667,39,Pakistani,Hindi,Al Khor,Smartphone,Prepaid,Basic 10,10,1,2018-08-12,77,Mid Value,Low,1,2018-08-12,2026-04-18 02:52:01
+CUST00668,+97435225186,Customer668,LastName668,32,Filipino,Arabic,Doha,Smartphone,Postpaid,Business 200,200,50,2018-10-27,75,High Value,Low,1,2018-10-27,2026-04-18 02:52:01
+CUST00669,+97457882638,Customer669,LastName669,30,Indian,Tagalog,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2021-03-27,45,Low Value,High,1,2021-03-27,2026-04-18 02:52:01
+CUST00670,+97476251808,Customer670,LastName670,30,Indian,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2018-03-02,83,Low Value,High,1,2018-03-02,2026-04-18 02:52:01
+CUST00671,+97451300086,Customer671,LastName671,32,Qatari,English,Al Rayyan,MiFi/Router,Postpaid,Business 200,200,50,2023-02-05,23,Mid Value,Low,1,2023-02-05,2026-04-18 02:52:01
+CUST00672,+97466347563,Customer672,LastName672,32,Filipino,English,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2019-02-25,71,Mid Value,Low,1,2019-02-25,2026-04-18 02:52:01
+CUST00673,+97477586391,Customer673,LastName673,32,Pakistani,Hindi,Doha,Smartphone,Postpaid,Executive 350,350,100,2024-12-01,1,Mid Value,High,1,2024-12-01,2026-04-18 02:52:01
+CUST00674,+97459586594,Customer674,LastName674,22,Indian,Tagalog,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2024-03-07,9,Mid Value,Low,1,2024-03-07,2026-04-18 02:52:01
+CUST00675,+97465636008,Customer675,LastName675,20,Indian,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2023-10-18,14,High Value,High,1,2023-10-18,2026-04-18 02:52:01
+CUST00676,+97431816416,Customer676,LastName676,28,Pakistani,Urdu,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2023-01-09,24,Mid Value,Low,1,2023-01-09,2026-04-18 02:52:01
+CUST00677,+97437155168,Customer677,LastName677,40,Pakistani,Urdu,Al Khor,Smartphone,Prepaid,Smart 25,25,5,2018-08-06,77,Low Value,Low,1,2018-08-06,2026-04-18 02:52:01
+CUST00678,+97472813095,Customer678,LastName678,34,Indian,Urdu,Doha,Tablet,Prepaid,Basic 10,10,1,2022-10-18,26,Low Value,Medium,1,2022-10-18,2026-04-18 02:52:01
+CUST00679,+97457030833,Customer679,LastName679,31,Egyptian,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-10-28,50,Mid Value,Low,1,2020-10-28,2026-04-18 02:52:01
+CUST00680,+97463546756,Customer680,LastName680,60,Pakistani,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2018-02-13,83,Mid Value,Low,1,2018-02-13,2026-04-18 02:52:01
+CUST00681,+97452161314,Customer681,LastName681,33,Filipino,Hindi,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2018-06-15,79,Low Value,Medium,1,2018-06-15,2026-04-18 02:52:01
+CUST00682,+97452492639,Customer682,LastName682,26,Pakistani,Hindi,Al Rayyan,MiFi/Router,Postpaid,Business 200,200,50,2021-06-23,42,Low Value,Low,1,2021-06-23,2026-04-18 02:52:01
+CUST00683,+97459077142,Customer683,LastName683,66,Indian,Arabic,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-03-17,34,Low Value,High,0,2022-03-17,2026-04-18 02:52:01
+CUST00684,+97437960857,Customer684,LastName684,32,British,Hindi,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2021-12-10,37,Mid Value,Medium,1,2021-12-10,2026-04-18 02:52:01
+CUST00685,+97433418783,Customer685,LastName685,34,Indian,English,Doha,Smartphone,Prepaid,Super 100,100,30,2020-01-23,60,Mid Value,Low,1,2020-01-23,2026-04-18 02:52:01
+CUST00686,+97461013927,Customer686,LastName686,27,Indian,Hindi,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2019-02-17,71,Low Value,Low,1,2019-02-17,2026-04-18 02:52:01
+CUST00687,+97468851802,Customer687,LastName687,34,Qatari,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-04-26,57,Mid Value,High,1,2020-04-26,2026-04-18 02:52:01
+CUST00688,+97451345855,Customer688,LastName688,29,Filipino,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2023-12-02,13,Mid Value,Medium,1,2023-12-02,2026-04-18 02:52:01
+CUST00689,+97438700542,Customer689,LastName689,39,Pakistani,Arabic,Doha,Smartphone,Prepaid,Value 50,50,15,2019-10-08,63,High Value,Medium,1,2019-10-08,2026-04-18 02:52:01
+CUST00690,+97433196969,Customer690,LastName690,30,Filipino,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2018-12-19,73,High Value,Low,1,2018-12-19,2026-04-18 02:52:01
+CUST00691,+97434470700,Customer691,LastName691,46,Filipino,Hindi,Doha,MiFi/Router,Prepaid,Smart 25,25,5,2018-06-24,79,Mid Value,Low,1,2018-06-24,2026-04-18 02:52:01
+CUST00692,+97456782117,Customer692,LastName692,29,Bangladeshi,English,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2022-01-01,36,Low Value,High,1,2022-01-01,2026-04-18 02:52:01
+CUST00693,+97432022645,Customer693,LastName693,41,Filipino,Tagalog,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2018-08-09,77,High Value,Low,1,2018-08-09,2026-04-18 02:52:01
+CUST00694,+97463933312,Customer694,LastName694,33,Bangladeshi,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-06-12,6,High Value,High,0,2024-06-12,2026-04-18 02:52:01
+CUST00695,+97459985001,Customer695,LastName695,44,Indian,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2019-01-27,72,Mid Value,Medium,1,2019-01-27,2026-04-18 02:52:01
+CUST00696,+97467773896,Customer696,LastName696,30,Sri Lankan,English,Doha,Feature Phone,Postpaid,Premium 500,500,150,2021-11-29,37,Low Value,Low,0,2021-11-29,2026-04-18 02:52:01
+CUST00697,+97437666083,Customer697,LastName697,38,Indian,Hindi,Doha,Smartphone,Postpaid,Executive 350,350,100,2020-03-01,58,Mid Value,Low,1,2020-03-01,2026-04-18 02:52:01
+CUST00698,+97456384660,Customer698,LastName698,44,Indian,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2024-02-17,10,VIP,Medium,1,2024-02-17,2026-04-18 02:52:01
+CUST00699,+97461285794,Customer699,LastName699,35,Indian,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2023-03-19,21,Mid Value,Low,1,2023-03-19,2026-04-18 02:52:01
+CUST00700,+97478540853,Customer700,LastName700,31,Indian,Bengali,Mesaieed,Smartphone,Postpaid,Premium 500,500,150,2023-04-16,20,Low Value,Low,1,2023-04-16,2026-04-18 02:52:01
+CUST00701,+97478579343,Customer701,LastName701,32,Pakistani,Hindi,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2023-01-17,23,Low Value,Low,1,2023-01-17,2026-04-18 02:52:01
+CUST00702,+97434120948,Customer702,LastName702,23,Pakistani,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2021-12-22,36,Mid Value,Medium,1,2021-12-22,2026-04-18 02:52:01
+CUST00703,+97439663646,Customer703,LastName703,34,Sri Lankan,Hindi,Doha,Smartphone,Postpaid,Executive 350,350,100,2023-06-16,18,Mid Value,High,1,2023-06-16,2026-04-18 02:52:01
+CUST00704,+97438936727,Customer704,LastName704,29,Egyptian,Urdu,Doha,Smartphone,Postpaid,Business 200,200,50,2019-10-25,63,Low Value,Low,1,2019-10-25,2026-04-18 02:52:01
+CUST00705,+97475897677,Customer705,LastName705,26,Pakistani,Tagalog,Doha,Tablet,Prepaid,Super 100,100,30,2024-06-04,7,High Value,Low,0,2024-06-04,2026-04-18 02:52:01
+CUST00706,+97471694640,Customer706,LastName706,31,Sri Lankan,Arabic,Al Rayyan,Feature Phone,Prepaid,Smart 25,25,5,2023-04-23,20,Mid Value,High,1,2023-04-23,2026-04-18 02:52:01
+CUST00707,+97451136308,Customer707,LastName707,67,Filipino,Bengali,Doha,Feature Phone,Postpaid,Executive 350,350,100,2022-06-29,30,Mid Value,Low,1,2022-06-29,2026-04-18 02:52:01
+CUST00708,+97455709356,Customer708,LastName708,28,Qatari,English,Mesaieed,Smartphone,Postpaid,Elite 1000,1000,300,2022-10-03,27,Mid Value,Medium,1,2022-10-03,2026-04-18 02:52:01
+CUST00709,+97439533015,Customer709,LastName709,35,Indian,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2021-11-10,38,High Value,Low,0,2021-11-10,2026-04-18 02:52:01
+CUST00710,+97459783004,Customer710,LastName710,67,Qatari,Tagalog,Al Rayyan,Feature Phone,Prepaid,Basic 10,10,1,2020-08-19,53,Mid Value,Medium,1,2020-08-19,2026-04-18 02:52:01
+CUST00711,+97456801531,Customer711,LastName711,32,Indian,Urdu,Al Rayyan,Tablet,Postpaid,Business 200,200,50,2020-06-09,55,Low Value,Low,1,2020-06-09,2026-04-18 02:52:01
+CUST00712,+97474835089,Customer712,LastName712,35,Filipino,English,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2021-06-08,43,Low Value,Medium,1,2021-06-08,2026-04-18 02:52:01
+CUST00713,+97459919685,Customer713,LastName713,34,Indian,Hindi,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2024-08-04,4,Mid Value,High,1,2024-08-04,2026-04-18 02:52:01
+CUST00714,+97439021270,Customer714,LastName714,35,Qatari,English,Al Rayyan,Feature Phone,Prepaid,Smart 25,25,5,2020-04-13,57,Mid Value,Low,1,2020-04-13,2026-04-18 02:52:01
+CUST00715,+97472522560,Customer715,LastName715,27,Filipino,Hindi,Lusail,Smartphone,Prepaid,Value 50,50,15,2018-07-25,78,Low Value,High,1,2018-07-25,2026-04-18 02:52:01
+CUST00716,+97433713632,Customer716,LastName716,43,Indian,Urdu,Lusail,Tablet,Prepaid,Basic 10,10,1,2022-01-14,36,Mid Value,Medium,1,2022-01-14,2026-04-18 02:52:01
+CUST00717,+97456947809,Customer717,LastName717,28,Bangladeshi,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2021-04-21,45,Mid Value,High,1,2021-04-21,2026-04-18 02:52:01
+CUST00718,+97471131897,Customer718,LastName718,31,Qatari,English,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2023-06-30,18,High Value,Low,1,2023-06-30,2026-04-18 02:52:01
+CUST00719,+97456634781,Customer719,LastName719,23,Sri Lankan,Bengali,Lusail,Smartphone,Prepaid,Super 100,100,30,2022-09-08,28,VIP,Low,1,2022-09-08,2026-04-18 02:52:01
+CUST00720,+97471396996,Customer720,LastName720,25,Filipino,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2022-02-13,35,Mid Value,Low,1,2022-02-13,2026-04-18 02:52:01
+CUST00721,+97454414704,Customer721,LastName721,69,Pakistani,Arabic,Al Khor,Smartphone,Prepaid,Super 100,100,30,2023-02-08,23,Low Value,Medium,1,2023-02-08,2026-04-18 02:52:01
+CUST00722,+97453275602,Customer722,LastName722,37,Filipino,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-10-20,2,High Value,Medium,1,2024-10-20,2026-04-18 02:52:01
+CUST00723,+97435636111,Customer723,LastName723,32,Bangladeshi,Tagalog,Al Wakrah,Tablet,Postpaid,Premium 500,500,150,2018-06-12,79,Mid Value,Medium,1,2018-06-12,2026-04-18 02:52:01
+CUST00724,+97437404392,Customer724,LastName724,34,Qatari,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2022-04-26,32,Low Value,Medium,1,2022-04-26,2026-04-18 02:52:01
+CUST00725,+97435127807,Customer725,LastName725,38,Bangladeshi,Tagalog,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-12-24,24,High Value,Low,1,2022-12-24,2026-04-18 02:52:01
+CUST00726,+97453486389,Customer726,LastName726,35,Indian,Urdu,Doha,Smartphone,Postpaid,Premium 500,500,150,2024-03-01,10,Low Value,Low,1,2024-03-01,2026-04-18 02:52:01
+CUST00727,+97433862738,Customer727,LastName727,47,Indian,Urdu,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2022-06-09,31,High Value,High,1,2022-06-09,2026-04-18 02:52:01
+CUST00728,+97472369876,Customer728,LastName728,37,Indian,Hindi,Al Khor,Smartphone,Postpaid,Executive 350,350,100,2024-01-17,11,High Value,High,1,2024-01-17,2026-04-18 02:52:01
+CUST00729,+97437275943,Customer729,LastName729,27,Indian,Urdu,Doha,Smartphone,Postpaid,Business 200,200,50,2020-12-06,49,High Value,Medium,1,2020-12-06,2026-04-18 02:52:01
+CUST00730,+97478124437,Customer730,LastName730,30,Qatari,Bengali,Doha,Tablet,Prepaid,Value 50,50,15,2018-08-02,78,High Value,Low,1,2018-08-02,2026-04-18 02:52:01
+CUST00731,+97453734970,Customer731,LastName731,20,Indian,Arabic,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2019-12-27,61,VIP,Low,1,2019-12-27,2026-04-18 02:52:01
+CUST00732,+97465169239,Customer732,LastName732,27,Filipino,Hindi,Mesaieed,Smartphone,Postpaid,Premium 500,500,150,2024-11-27,1,High Value,High,1,2024-11-27,2026-04-18 02:52:01
+CUST00733,+97473787158,Customer733,LastName733,40,British,Hindi,Al Rayyan,MiFi/Router,Postpaid,Elite 1000,1000,300,2019-11-03,62,Mid Value,Medium,1,2019-11-03,2026-04-18 02:52:01
+CUST00734,+97453016851,Customer734,LastName734,29,Indian,Arabic,Doha,Feature Phone,Postpaid,Business 200,200,50,2023-06-02,19,Mid Value,Low,1,2023-06-02,2026-04-18 02:52:01
+CUST00735,+97466766913,Customer735,LastName735,58,Sri Lankan,Urdu,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2024-04-09,8,Low Value,Low,1,2024-04-09,2026-04-18 02:52:01
+CUST00736,+97433300374,Customer736,LastName736,33,Lebanese,Arabic,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2021-05-17,44,Low Value,Medium,1,2021-05-17,2026-04-18 02:52:01
+CUST00737,+97476017065,Customer737,LastName737,28,Lebanese,Arabic,Doha,Smartphone,Postpaid,Executive 350,350,100,2020-07-30,53,Low Value,High,1,2020-07-30,2026-04-18 02:52:01
+CUST00738,+97468089180,Customer738,LastName738,39,Indian,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2022-12-16,24,High Value,Low,1,2022-12-16,2026-04-18 02:52:01
+CUST00739,+97459862003,Customer739,LastName739,33,Pakistani,Hindi,Doha,Smartphone,Postpaid,Premium 500,500,150,2019-11-29,61,Mid Value,Low,1,2019-11-29,2026-04-18 02:52:01
+CUST00740,+97477368345,Customer740,LastName740,33,Indian,Bengali,Al Rayyan,MiFi/Router,Prepaid,Smart 25,25,5,2018-11-11,74,Low Value,High,1,2018-11-11,2026-04-18 02:52:01
+CUST00741,+97439855225,Customer741,LastName741,37,Filipino,Hindi,Mesaieed,Feature Phone,Prepaid,Smart 25,25,5,2018-08-14,77,Mid Value,High,1,2018-08-14,2026-04-18 02:52:01
+CUST00742,+97468659443,Customer742,LastName742,49,Egyptian,Tagalog,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2019-01-15,72,Low Value,Low,1,2019-01-15,2026-04-18 02:52:01
+CUST00743,+97454549298,Customer743,LastName743,34,Bangladeshi,Hindi,Al Khor,Smartphone,Postpaid,Premium 500,500,150,2018-02-19,83,Mid Value,High,1,2018-02-19,2026-04-18 02:52:01
+CUST00744,+97466453588,Customer744,LastName744,18,Qatari,Arabic,Lusail,Smartphone,Prepaid,Smart 25,25,5,2020-12-26,48,Low Value,Medium,1,2020-12-26,2026-04-18 02:52:01
+CUST00745,+97457476387,Customer745,LastName745,32,Sri Lankan,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2024-01-28,11,Mid Value,Medium,1,2024-01-28,2026-04-18 02:52:01
+CUST00746,+97453129667,Customer746,LastName746,23,Indian,Hindi,Al Rayyan,MiFi/Router,Prepaid,Smart 25,25,5,2024-05-17,7,Low Value,Medium,1,2024-05-17,2026-04-18 02:52:01
+CUST00747,+97464436386,Customer747,LastName747,40,British,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2019-03-13,70,Mid Value,Low,0,2019-03-13,2026-04-18 02:52:01
+CUST00748,+97474883923,Customer748,LastName748,52,Indian,Tagalog,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2023-01-28,23,Mid Value,Low,1,2023-01-28,2026-04-18 02:52:01
+CUST00749,+97461364095,Customer749,LastName749,31,Pakistani,Bengali,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2020-07-07,54,Mid Value,Low,1,2020-07-07,2026-04-18 02:52:01
+CUST00750,+97468064973,Customer750,LastName750,34,Bangladeshi,Arabic,Lusail,Smartphone,Prepaid,Super 100,100,30,2022-11-04,26,Mid Value,Low,1,2022-11-04,2026-04-18 02:52:01
+CUST00751,+97453674964,Customer751,LastName751,67,Bangladeshi,Hindi,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2021-08-31,40,Low Value,Medium,1,2021-08-31,2026-04-18 02:52:01
+CUST00752,+97456966785,Customer752,LastName752,34,Indian,English,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2020-09-23,52,Low Value,High,1,2020-09-23,2026-04-18 02:52:01
+CUST00753,+97458635697,Customer753,LastName753,66,Sri Lankan,Arabic,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2020-12-25,48,Mid Value,Low,1,2020-12-25,2026-04-18 02:52:01
+CUST00754,+97467445412,Customer754,LastName754,26,Jordanian,Urdu,Al Wakrah,Smartphone,Postpaid,Business 200,200,50,2020-05-04,56,Mid Value,Medium,1,2020-05-04,2026-04-18 02:52:01
+CUST00755,+97434073527,Customer755,LastName755,37,Sri Lankan,Bengali,Doha,Feature Phone,Postpaid,Premium 500,500,150,2019-06-29,67,High Value,Medium,1,2019-06-29,2026-04-18 02:52:01
+CUST00756,+97451413182,Customer756,LastName756,32,Egyptian,English,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2018-10-27,75,VIP,High,1,2018-10-27,2026-04-18 02:52:01
+CUST00757,+97475113117,Customer757,LastName757,33,Qatari,Tagalog,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2019-07-22,66,Mid Value,Low,1,2019-07-22,2026-04-18 02:52:01
+CUST00758,+97462028995,Customer758,LastName758,31,Qatari,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2024-11-19,1,Low Value,High,1,2024-11-19,2026-04-18 02:52:01
+CUST00759,+97433512181,Customer759,LastName759,33,Indian,English,Lusail,Smartphone,Prepaid,Smart 25,25,5,2020-10-31,50,High Value,Medium,1,2020-10-31,2026-04-18 02:52:01
+CUST00760,+97475947880,Customer760,LastName760,39,Egyptian,Hindi,Al Rayyan,Tablet,Postpaid,Executive 350,350,100,2022-05-22,31,High Value,Low,1,2022-05-22,2026-04-18 02:52:01
+CUST00761,+97463873525,Customer761,LastName761,33,Indian,Tagalog,Doha,MiFi/Router,Prepaid,Super 100,100,30,2019-01-24,72,Mid Value,Low,1,2019-01-24,2026-04-18 02:52:01
+CUST00762,+97462916219,Customer762,LastName762,26,Pakistani,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2023-02-20,22,Low Value,Low,1,2023-02-20,2026-04-18 02:52:01
+CUST00763,+97464986872,Customer763,LastName763,39,Filipino,Tagalog,Lusail,Smartphone,Prepaid,Basic 10,10,1,2023-10-23,14,Mid Value,Medium,1,2023-10-23,2026-04-18 02:52:01
+CUST00764,+97432985325,Customer764,LastName764,63,Pakistani,Urdu,Al Wakrah,Smartphone,Postpaid,Business 200,200,50,2019-08-04,65,Mid Value,Low,1,2019-08-04,2026-04-18 02:52:01
+CUST00765,+97453065616,Customer765,LastName765,32,Pakistani,Tagalog,Mesaieed,Smartphone,Prepaid,Smart 25,25,5,2021-05-24,43,VIP,Medium,1,2021-05-24,2026-04-18 02:52:01
+CUST00766,+97433564975,Customer766,LastName766,34,Indian,Arabic,Lusail,MiFi/Router,Postpaid,Premium 500,500,150,2019-12-19,61,High Value,Low,1,2019-12-19,2026-04-18 02:52:01
+CUST00767,+97473339262,Customer767,LastName767,22,Indian,Urdu,Doha,MiFi/Router,Postpaid,Business 200,200,50,2019-08-02,65,High Value,Low,1,2019-08-02,2026-04-18 02:52:01
+CUST00768,+97472957242,Customer768,LastName768,64,Lebanese,English,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2020-07-08,54,Mid Value,Low,1,2020-07-08,2026-04-18 02:52:01
+CUST00769,+97462009013,Customer769,LastName769,44,Indian,Arabic,Lusail,Feature Phone,Postpaid,Executive 350,350,100,2019-08-06,65,Low Value,Low,1,2019-08-06,2026-04-18 02:52:01
+CUST00770,+97436559949,Customer770,LastName770,60,Qatari,Tagalog,Al Khor,Smartphone,Postpaid,Premium 500,500,150,2021-04-13,45,Mid Value,Low,1,2021-04-13,2026-04-18 02:52:01
+CUST00771,+97466961367,Customer771,LastName771,24,Pakistani,Tagalog,Mesaieed,MiFi/Router,Postpaid,Premium 500,500,150,2023-10-07,15,High Value,Medium,1,2023-10-07,2026-04-18 02:52:01
+CUST00772,+97478618179,Customer772,LastName772,33,Pakistani,Bengali,Al Wakrah,Tablet,Prepaid,Super 100,100,30,2019-05-15,68,Mid Value,Medium,1,2019-05-15,2026-04-18 02:52:01
+CUST00773,+97464513306,Customer773,LastName773,63,Indian,Arabic,Doha,Feature Phone,Postpaid,Business 200,200,50,2018-06-06,80,VIP,Low,1,2018-06-06,2026-04-18 02:52:01
+CUST00774,+97437166713,Customer774,LastName774,26,Bangladeshi,Tagalog,Al Khor,Smartphone,Prepaid,Basic 10,10,1,2020-08-08,53,Low Value,Medium,1,2020-08-08,2026-04-18 02:52:01
+CUST00775,+97457933722,Customer775,LastName775,33,Bangladeshi,Tagalog,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2024-07-30,5,Low Value,Medium,1,2024-07-30,2026-04-18 02:52:01
+CUST00776,+97478732536,Customer776,LastName776,32,Bangladeshi,Urdu,Doha,Tablet,Postpaid,Premium 500,500,150,2023-07-04,18,Mid Value,Low,1,2023-07-04,2026-04-18 02:52:01
+CUST00777,+97478211526,Customer777,LastName777,27,Indian,Bengali,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2020-10-12,51,Mid Value,Low,1,2020-10-12,2026-04-18 02:52:01
+CUST00778,+97464483413,Customer778,LastName778,63,Pakistani,Arabic,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2024-07-06,5,Low Value,High,1,2024-07-06,2026-04-18 02:52:01
+CUST00779,+97471249430,Customer779,LastName779,35,Pakistani,Hindi,Doha,Feature Phone,Prepaid,Basic 10,10,1,2022-01-30,35,Mid Value,Low,1,2022-01-30,2026-04-18 02:52:01
+CUST00780,+97473468931,Customer780,LastName780,27,Filipino,Urdu,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-08-29,77,Low Value,Low,0,2018-08-29,2026-04-18 02:52:01
+CUST00781,+97477604409,Customer781,LastName781,33,Egyptian,Tagalog,Mesaieed,Smartphone,Prepaid,Basic 10,10,1,2023-10-13,14,Low Value,High,1,2023-10-13,2026-04-18 02:52:01
+CUST00782,+97454878986,Customer782,LastName782,27,Egyptian,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2023-11-26,13,Low Value,High,1,2023-11-26,2026-04-18 02:52:01
+CUST00783,+97457921996,Customer783,LastName783,31,British,English,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-08-17,65,Mid Value,High,1,2019-08-17,2026-04-18 02:52:01
+CUST00784,+97471769756,Customer784,LastName784,33,Indian,Hindi,Al Rayyan,Tablet,Prepaid,Value 50,50,15,2023-05-14,19,Mid Value,Low,1,2023-05-14,2026-04-18 02:52:01
+CUST00785,+97479781456,Customer785,LastName785,30,Pakistani,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2019-05-27,68,Mid Value,Low,0,2019-05-27,2026-04-18 02:52:01
+CUST00786,+97459020056,Customer786,LastName786,31,Pakistani,Bengali,Doha,Smartphone,Postpaid,Executive 350,350,100,2024-12-10,1,Low Value,Medium,1,2024-12-10,2026-04-18 02:52:01
+CUST00787,+97475421196,Customer787,LastName787,24,Jordanian,English,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2020-06-22,55,Mid Value,Medium,1,2020-06-22,2026-04-18 02:52:01
+CUST00788,+97454821193,Customer788,LastName788,30,Bangladeshi,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2019-10-30,62,High Value,Medium,1,2019-10-30,2026-04-18 02:52:01
+CUST00789,+97451063225,Customer789,LastName789,39,Pakistani,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2021-01-25,47,High Value,Low,1,2021-01-25,2026-04-18 02:52:01
+CUST00790,+97454856948,Customer790,LastName790,30,Jordanian,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2019-05-04,68,Low Value,Low,1,2019-05-04,2026-04-18 02:52:01
+CUST00791,+97476984361,Customer791,LastName791,35,Filipino,Tagalog,Al Wakrah,Smartphone,Postpaid,Business 200,200,50,2022-03-02,34,High Value,Medium,1,2022-03-02,2026-04-18 02:52:01
+CUST00792,+97479537905,Customer792,LastName792,68,Indian,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2024-06-28,6,Low Value,Low,1,2024-06-28,2026-04-18 02:52:01
+CUST00793,+97438988107,Customer793,LastName793,30,Indian,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2024-06-13,6,Low Value,Low,1,2024-06-13,2026-04-18 02:52:01
+CUST00794,+97479617889,Customer794,LastName794,34,Indian,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2020-02-14,59,Low Value,High,1,2020-02-14,2026-04-18 02:52:01
+CUST00795,+97459588949,Customer795,LastName795,40,Indian,Tagalog,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2018-08-05,78,Low Value,Medium,1,2018-08-05,2026-04-18 02:52:01
+CUST00796,+97439165829,Customer796,LastName796,66,Indian,Hindi,Doha,Tablet,Prepaid,Smart 25,25,5,2022-10-24,26,High Value,High,1,2022-10-24,2026-04-18 02:52:01
+CUST00797,+97454961192,Customer797,LastName797,32,Bangladeshi,English,Al Rayyan,Feature Phone,Prepaid,Basic 10,10,1,2024-11-24,1,Low Value,Low,1,2024-11-24,2026-04-18 02:52:01
+CUST00798,+97464691114,Customer798,LastName798,31,Egyptian,Tagalog,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2018-10-08,75,VIP,Low,1,2018-10-08,2026-04-18 02:52:01
+CUST00799,+97431629088,Customer799,LastName799,34,Egyptian,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2020-07-20,54,Low Value,Medium,1,2020-07-20,2026-04-18 02:52:01
+CUST00800,+97473755712,Customer800,LastName800,25,Pakistani,Tagalog,Al Wakrah,Feature Phone,Prepaid,Smart 25,25,5,2021-01-17,48,Low Value,High,1,2021-01-17,2026-04-18 02:52:01
+CUST00801,+97461891697,Customer801,LastName801,25,Pakistani,English,Lusail,Smartphone,Prepaid,Super 100,100,30,2024-04-01,9,Low Value,Medium,1,2024-04-01,2026-04-18 02:52:01
+CUST00802,+97469689936,Customer802,LastName802,42,Indian,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2019-12-03,61,Mid Value,Medium,1,2019-12-03,2026-04-18 02:52:01
+CUST00803,+97465701500,Customer803,LastName803,20,Jordanian,Urdu,Doha,Smartphone,Prepaid,Super 100,100,30,2024-04-09,8,Mid Value,Low,1,2024-04-09,2026-04-18 02:52:01
+CUST00804,+97431581811,Customer804,LastName804,40,Filipino,English,Doha,Smartphone,Prepaid,Value 50,50,15,2023-11-17,13,Low Value,High,1,2023-11-17,2026-04-18 02:52:01
+CUST00805,+97437124042,Customer805,LastName805,37,Indian,Hindi,Mesaieed,Smartphone,Postpaid,Executive 350,350,100,2023-01-10,24,High Value,High,1,2023-01-10,2026-04-18 02:52:01
+CUST00806,+97472879498,Customer806,LastName806,40,Egyptian,Urdu,Doha,Smartphone,Prepaid,Basic 10,10,1,2023-02-23,22,High Value,High,1,2023-02-23,2026-04-18 02:52:01
+CUST00807,+97437638529,Customer807,LastName807,29,Indian,English,Al Rayyan,Feature Phone,Postpaid,Premium 500,500,150,2021-10-29,38,High Value,Low,1,2021-10-29,2026-04-18 02:52:01
+CUST00808,+97438041625,Customer808,LastName808,27,Pakistani,Urdu,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2023-03-05,22,Mid Value,Low,1,2023-03-05,2026-04-18 02:52:01
+CUST00809,+97464281855,Customer809,LastName809,26,Jordanian,Urdu,Doha,Feature Phone,Postpaid,Business 200,200,50,2020-12-17,49,High Value,High,1,2020-12-17,2026-04-18 02:52:01
+CUST00810,+97453236824,Customer810,LastName810,34,Pakistani,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2019-01-20,72,Mid Value,Low,1,2019-01-20,2026-04-18 02:52:01
+CUST00811,+97456488654,Customer811,LastName811,28,Sri Lankan,Bengali,Doha,Tablet,Prepaid,Smart 25,25,5,2022-06-06,31,Mid Value,Medium,1,2022-06-06,2026-04-18 02:52:01
+CUST00812,+97473544310,Customer812,LastName812,67,Jordanian,Urdu,Mesaieed,Smartphone,Prepaid,Smart 25,25,5,2021-03-22,46,Mid Value,Low,1,2021-03-22,2026-04-18 02:52:01
+CUST00813,+97439767333,Customer813,LastName813,30,Indian,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2020-02-16,59,Mid Value,Medium,1,2020-02-16,2026-04-18 02:52:01
+CUST00814,+97457901328,Customer814,LastName814,26,Sri Lankan,Bengali,Al Khor,Tablet,Prepaid,Smart 25,25,5,2021-08-21,40,Mid Value,High,1,2021-08-21,2026-04-18 02:52:01
+CUST00815,+97431683918,Customer815,LastName815,29,Indian,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-01-03,72,Low Value,Low,1,2019-01-03,2026-04-18 02:52:01
+CUST00816,+97456742162,Customer816,LastName816,56,British,Bengali,Al Khor,Smartphone,Prepaid,Smart 25,25,5,2019-04-23,69,High Value,Low,1,2019-04-23,2026-04-18 02:52:01
+CUST00817,+97468706505,Customer817,LastName817,59,Pakistani,English,Al Rayyan,MiFi/Router,Prepaid,Value 50,50,15,2023-12-10,12,Mid Value,Low,1,2023-12-10,2026-04-18 02:52:01
+CUST00818,+97477399695,Customer818,LastName818,37,Qatari,Bengali,Doha,Smartphone,Postpaid,Premium 500,500,150,2024-07-22,5,Mid Value,Low,1,2024-07-22,2026-04-18 02:52:01
+CUST00819,+97456995917,Customer819,LastName819,39,Filipino,Hindi,Doha,Feature Phone,Postpaid,Elite 1000,1000,300,2020-10-02,51,Mid Value,Medium,1,2020-10-02,2026-04-18 02:52:01
+CUST00820,+97466263165,Customer820,LastName820,31,Pakistani,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-07-04,66,VIP,Low,1,2019-07-04,2026-04-18 02:52:01
+CUST00821,+97465648768,Customer821,LastName821,32,Pakistani,Arabic,Doha,MiFi/Router,Postpaid,Business 200,200,50,2024-03-22,9,Mid Value,Medium,1,2024-03-22,2026-04-18 02:52:01
+CUST00822,+97455099225,Customer822,LastName822,67,British,Arabic,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-08-11,29,Mid Value,Low,1,2022-08-11,2026-04-18 02:52:01
+CUST00823,+97434056448,Customer823,LastName823,32,Pakistani,Arabic,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2018-02-22,83,Mid Value,Medium,1,2018-02-22,2026-04-18 02:52:01
+CUST00824,+97452847777,Customer824,LastName824,29,Bangladeshi,Hindi,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2018-06-15,79,High Value,Medium,1,2018-06-15,2026-04-18 02:52:01
+CUST00825,+97472885954,Customer825,LastName825,31,Bangladeshi,Arabic,Doha,Smartphone,Prepaid,Smart 25,25,5,2020-05-25,56,Low Value,High,1,2020-05-25,2026-04-18 02:52:01
+CUST00826,+97471471413,Customer826,LastName826,54,Sri Lankan,Hindi,Doha,Feature Phone,Prepaid,Basic 10,10,1,2019-08-11,65,Mid Value,Medium,1,2019-08-11,2026-04-18 02:52:01
+CUST00827,+97455706941,Customer827,LastName827,52,Pakistani,Urdu,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-03-29,33,Mid Value,Low,1,2022-03-29,2026-04-18 02:52:01
+CUST00828,+97474612204,Customer828,LastName828,34,Qatari,Tagalog,Doha,Smartphone,Postpaid,Executive 350,350,100,2020-02-16,59,High Value,Low,1,2020-02-16,2026-04-18 02:52:01
+CUST00829,+97462248256,Customer829,LastName829,19,Indian,Hindi,Al Wakrah,Smartphone,Prepaid,Super 100,100,30,2018-02-02,84,High Value,Low,1,2018-02-02,2026-04-18 02:52:01
+CUST00830,+97454007347,Customer830,LastName830,38,Filipino,Bengali,Doha,MiFi/Router,Prepaid,Super 100,100,30,2024-05-09,7,Mid Value,Low,1,2024-05-09,2026-04-18 02:52:01
+CUST00831,+97474008120,Customer831,LastName831,28,Bangladeshi,Arabic,Al Wakrah,Smartphone,Prepaid,Smart 25,25,5,2018-08-07,77,Low Value,High,1,2018-08-07,2026-04-18 02:52:01
+CUST00832,+97433411056,Customer832,LastName832,33,Indian,Urdu,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2019-07-25,66,Mid Value,Medium,1,2019-07-25,2026-04-18 02:52:01
+CUST00833,+97434987196,Customer833,LastName833,38,Lebanese,Arabic,Doha,Feature Phone,Prepaid,Value 50,50,15,2024-06-24,6,Mid Value,Medium,1,2024-06-24,2026-04-18 02:52:01
+CUST00834,+97474607741,Customer834,LastName834,58,Qatari,English,Al Khor,Smartphone,Postpaid,Executive 350,350,100,2022-02-16,34,Mid Value,Medium,1,2022-02-16,2026-04-18 02:52:01
+CUST00835,+97479811781,Customer835,LastName835,34,Filipino,English,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2020-08-17,53,Mid Value,Medium,1,2020-08-17,2026-04-18 02:52:01
+CUST00836,+97459790604,Customer836,LastName836,32,Egyptian,Bengali,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2020-07-01,54,Mid Value,Low,1,2020-07-01,2026-04-18 02:52:01
+CUST00837,+97453096718,Customer837,LastName837,31,Indian,Arabic,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2024-05-13,7,Low Value,Low,1,2024-05-13,2026-04-18 02:52:01
+CUST00838,+97456225985,Customer838,LastName838,56,British,Bengali,Al Rayyan,Tablet,Postpaid,Premium 500,500,150,2021-12-13,37,Low Value,High,1,2021-12-13,2026-04-18 02:52:01
+CUST00839,+97471810762,Customer839,LastName839,52,Qatari,Arabic,Lusail,Smartphone,Prepaid,Basic 10,10,1,2023-06-15,18,Low Value,Medium,1,2023-06-15,2026-04-18 02:52:01
+CUST00840,+97472396444,Customer840,LastName840,64,Bangladeshi,Tagalog,Al Wakrah,MiFi/Router,Prepaid,Basic 10,10,1,2023-08-09,17,Mid Value,Low,1,2023-08-09,2026-04-18 02:52:01
+CUST00841,+97476191658,Customer841,LastName841,29,Filipino,Hindi,Lusail,Smartphone,Prepaid,Basic 10,10,1,2021-12-07,37,High Value,Medium,1,2021-12-07,2026-04-18 02:52:01
+CUST00842,+97455312277,Customer842,LastName842,34,Filipino,Bengali,Doha,Smartphone,Prepaid,Basic 10,10,1,2022-07-05,30,Mid Value,Low,1,2022-07-05,2026-04-18 02:52:01
+CUST00843,+97471890157,Customer843,LastName843,34,Qatari,Hindi,Al Wakrah,Smartphone,Postpaid,Premium 500,500,150,2024-06-23,6,High Value,Low,1,2024-06-23,2026-04-18 02:52:01
+CUST00844,+97477280049,Customer844,LastName844,37,Qatari,Bengali,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2023-06-24,18,Mid Value,High,1,2023-06-24,2026-04-18 02:52:01
+CUST00845,+97461151143,Customer845,LastName845,38,Jordanian,Hindi,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2021-08-11,41,Low Value,High,1,2021-08-11,2026-04-18 02:52:01
+CUST00846,+97462558930,Customer846,LastName846,30,Qatari,Hindi,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2023-02-21,22,High Value,Medium,1,2023-02-21,2026-04-18 02:52:01
+CUST00847,+97464339321,Customer847,LastName847,29,Egyptian,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2018-04-14,81,Mid Value,Low,0,2018-04-14,2026-04-18 02:52:01
+CUST00848,+97473481182,Customer848,LastName848,26,Indian,Arabic,Doha,Feature Phone,Prepaid,Super 100,100,30,2019-11-27,62,Mid Value,Medium,1,2019-11-27,2026-04-18 02:52:01
+CUST00849,+97438660079,Customer849,LastName849,19,Qatari,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2019-12-25,61,Mid Value,Low,1,2019-12-25,2026-04-18 02:52:01
+CUST00850,+97462633859,Customer850,LastName850,35,Indian,Bengali,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2021-11-20,37,Mid Value,Low,1,2021-11-20,2026-04-18 02:52:01
+CUST00851,+97477280174,Customer851,LastName851,19,Indian,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2021-07-02,42,Mid Value,Medium,1,2021-07-02,2026-04-18 02:52:01
+CUST00852,+97476822767,Customer852,LastName852,25,Pakistani,Tagalog,Doha,Smartphone,Postpaid,Business 200,200,50,2022-04-23,32,Low Value,Low,1,2022-04-23,2026-04-18 02:52:01
+CUST00853,+97433030549,Customer853,LastName853,27,Lebanese,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2019-04-11,69,High Value,High,1,2019-04-11,2026-04-18 02:52:01
+CUST00854,+97431071682,Customer854,LastName854,30,Filipino,English,Doha,Smartphone,Postpaid,Business 200,200,50,2019-09-27,64,Mid Value,Low,1,2019-09-27,2026-04-18 02:52:01
+CUST00855,+97469248737,Customer855,LastName855,34,Filipino,Bengali,Doha,Smartphone,Postpaid,Premium 500,500,150,2020-11-13,50,Low Value,Low,1,2020-11-13,2026-04-18 02:52:01
+CUST00856,+97433499959,Customer856,LastName856,31,Pakistani,Urdu,Doha,Smartphone,Prepaid,Super 100,100,30,2018-07-01,79,High Value,Low,1,2018-07-01,2026-04-18 02:52:01
+CUST00857,+97467290842,Customer857,LastName857,53,Pakistani,Hindi,Doha,Smartphone,Prepaid,Smart 25,25,5,2021-02-06,47,High Value,Low,1,2021-02-06,2026-04-18 02:52:01
+CUST00858,+97452677049,Customer858,LastName858,38,Qatari,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2021-12-31,36,Mid Value,Low,1,2021-12-31,2026-04-18 02:52:01
+CUST00859,+97455456327,Customer859,LastName859,40,Indian,Urdu,Al Rayyan,Tablet,Prepaid,Super 100,100,30,2022-03-28,33,Low Value,High,1,2022-03-28,2026-04-18 02:52:01
+CUST00860,+97471733870,Customer860,LastName860,39,Filipino,Hindi,Doha,MiFi/Router,Prepaid,Value 50,50,15,2022-02-17,34,High Value,Medium,1,2022-02-17,2026-04-18 02:52:01
+CUST00861,+97435463173,Customer861,LastName861,27,Indian,Hindi,Al Wakrah,Tablet,Postpaid,Executive 350,350,100,2021-02-07,47,High Value,Medium,1,2021-02-07,2026-04-18 02:52:01
+CUST00862,+97479635147,Customer862,LastName862,32,Indian,Tagalog,Al Khor,Smartphone,Prepaid,Super 100,100,30,2019-08-24,65,Mid Value,Low,1,2019-08-24,2026-04-18 02:52:01
+CUST00863,+97462677554,Customer863,LastName863,42,Bangladeshi,Arabic,Al Khor,Smartphone,Postpaid,Executive 350,350,100,2019-03-29,70,High Value,Low,1,2019-03-29,2026-04-18 02:52:01
+CUST00864,+97472657425,Customer864,LastName864,31,Indian,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2022-03-27,33,VIP,Medium,1,2022-03-27,2026-04-18 02:52:01
+CUST00865,+97434846629,Customer865,LastName865,32,Pakistani,Arabic,Doha,Tablet,Prepaid,Smart 25,25,5,2021-04-21,45,Mid Value,Medium,1,2021-04-21,2026-04-18 02:52:01
+CUST00866,+97433546969,Customer866,LastName866,27,Filipino,Arabic,Doha,Smartphone,Prepaid,Basic 10,10,1,2019-08-03,65,Mid Value,Medium,1,2019-08-03,2026-04-18 02:52:01
+CUST00867,+97466173357,Customer867,LastName867,28,British,Arabic,Lusail,Smartphone,Prepaid,Basic 10,10,1,2022-09-20,27,High Value,High,1,2022-09-20,2026-04-18 02:52:01
+CUST00868,+97466617735,Customer868,LastName868,31,Indian,Arabic,Doha,Smartphone,Prepaid,Value 50,50,15,2024-11-28,1,Low Value,Medium,1,2024-11-28,2026-04-18 02:52:01
+CUST00869,+97463841260,Customer869,LastName869,26,Indian,Bengali,Lusail,Smartphone,Prepaid,Value 50,50,15,2023-01-31,23,VIP,Low,1,2023-01-31,2026-04-18 02:52:01
+CUST00870,+97452827697,Customer870,LastName870,36,British,Arabic,Doha,Smartphone,Prepaid,Super 100,100,30,2018-05-10,80,Low Value,Medium,1,2018-05-10,2026-04-18 02:52:01
+CUST00871,+97479398811,Customer871,LastName871,28,Jordanian,English,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2024-03-27,9,Mid Value,High,0,2024-03-27,2026-04-18 02:52:01
+CUST00872,+97458930242,Customer872,LastName872,36,Sri Lankan,Urdu,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2024-03-21,9,Low Value,High,1,2024-03-21,2026-04-18 02:52:01
+CUST00873,+97432256580,Customer873,LastName873,27,Lebanese,Tagalog,Lusail,Smartphone,Postpaid,Executive 350,350,100,2018-09-17,76,High Value,Low,1,2018-09-17,2026-04-18 02:52:01
+CUST00874,+97477560865,Customer874,LastName874,27,Pakistani,Tagalog,Doha,MiFi/Router,Postpaid,Executive 350,350,100,2021-06-16,43,Mid Value,Medium,0,2021-06-16,2026-04-18 02:52:01
+CUST00875,+97467517284,Customer875,LastName875,27,Indian,Arabic,Al Wakrah,Feature Phone,Prepaid,Value 50,50,15,2018-01-29,84,Low Value,Low,1,2018-01-29,2026-04-18 02:52:01
+CUST00876,+97467209438,Customer876,LastName876,64,Pakistani,Tagalog,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2018-11-25,74,Low Value,Medium,1,2018-11-25,2026-04-18 02:52:01
+CUST00877,+97457643329,Customer877,LastName877,24,Qatari,Bengali,Doha,Feature Phone,Prepaid,Value 50,50,15,2018-08-07,77,VIP,Low,1,2018-08-07,2026-04-18 02:52:01
+CUST00878,+97468777734,Customer878,LastName878,27,Indian,English,Lusail,Smartphone,Postpaid,Premium 500,500,150,2022-11-21,25,Mid Value,Low,1,2022-11-21,2026-04-18 02:52:01
+CUST00879,+97463202391,Customer879,LastName879,22,Indian,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2022-09-07,28,Mid Value,Low,1,2022-09-07,2026-04-18 02:52:01
+CUST00880,+97435197725,Customer880,LastName880,51,British,Bengali,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2022-02-17,34,Low Value,High,1,2022-02-17,2026-04-18 02:52:01
+CUST00881,+97436750073,Customer881,LastName881,27,Qatari,Urdu,Mesaieed,Smartphone,Prepaid,Basic 10,10,1,2024-01-31,11,VIP,Medium,1,2024-01-31,2026-04-18 02:52:01
+CUST00882,+97457066694,Customer882,LastName882,68,Lebanese,Hindi,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2024-07-01,6,Mid Value,Medium,1,2024-07-01,2026-04-18 02:52:01
+CUST00883,+97476432995,Customer883,LastName883,36,British,Arabic,Al Khor,Smartphone,Postpaid,Elite 1000,1000,300,2019-03-13,70,Low Value,Low,1,2019-03-13,2026-04-18 02:52:01
+CUST00884,+97468254704,Customer884,LastName884,32,Bangladeshi,Bengali,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2020-07-24,54,Mid Value,Medium,1,2020-07-24,2026-04-18 02:52:01
+CUST00885,+97468364798,Customer885,LastName885,55,Filipino,English,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2022-01-18,35,Mid Value,Low,1,2022-01-18,2026-04-18 02:52:01
+CUST00886,+97461036107,Customer886,LastName886,38,Indian,Hindi,Doha,Tablet,Prepaid,Smart 25,25,5,2024-04-03,9,Low Value,Medium,1,2024-04-03,2026-04-18 02:52:01
+CUST00887,+97431373038,Customer887,LastName887,52,Lebanese,Hindi,Doha,Tablet,Prepaid,Basic 10,10,1,2023-10-15,14,High Value,Low,1,2023-10-15,2026-04-18 02:52:01
+CUST00888,+97438547565,Customer888,LastName888,29,Egyptian,Arabic,Al Rayyan,Feature Phone,Prepaid,Basic 10,10,1,2020-06-08,55,Mid Value,High,1,2020-06-08,2026-04-18 02:52:01
+CUST00889,+97438621501,Customer889,LastName889,29,Qatari,Tagalog,Al Khor,Smartphone,Prepaid,Basic 10,10,1,2024-07-10,5,Mid Value,Low,1,2024-07-10,2026-04-18 02:52:01
+CUST00890,+97477858514,Customer890,LastName890,68,Indian,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2019-12-08,61,Mid Value,Low,1,2019-12-08,2026-04-18 02:52:01
+CUST00891,+97436404638,Customer891,LastName891,21,Pakistani,Urdu,Al Rayyan,Tablet,Postpaid,Premium 500,500,150,2019-07-10,66,Low Value,High,1,2019-07-10,2026-04-18 02:52:01
+CUST00892,+97437329211,Customer892,LastName892,66,Pakistani,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2022-03-22,33,Low Value,Medium,1,2022-03-22,2026-04-18 02:52:01
+CUST00893,+97456749223,Customer893,LastName893,30,Pakistani,Hindi,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2024-06-04,7,Mid Value,Medium,1,2024-06-04,2026-04-18 02:52:01
+CUST00894,+97478160032,Customer894,LastName894,38,Pakistani,Tagalog,Doha,Smartphone,Prepaid,Basic 10,10,1,2018-03-07,83,Mid Value,Low,1,2018-03-07,2026-04-18 02:52:01
+CUST00895,+97453926398,Customer895,LastName895,61,Qatari,Bengali,Doha,Smartphone,Postpaid,Executive 350,350,100,2022-12-12,25,High Value,Medium,1,2022-12-12,2026-04-18 02:52:01
+CUST00896,+97474320536,Customer896,LastName896,45,Pakistani,Bengali,Doha,Smartphone,Prepaid,Value 50,50,15,2020-09-27,51,Low Value,Medium,1,2020-09-27,2026-04-18 02:52:01
+CUST00897,+97459794271,Customer897,LastName897,36,Filipino,Urdu,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2024-12-03,1,High Value,High,1,2024-12-03,2026-04-18 02:52:01
+CUST00898,+97475623467,Customer898,LastName898,36,Indian,Urdu,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-05-13,80,High Value,Low,1,2018-05-13,2026-04-18 02:52:01
+CUST00899,+97451852296,Customer899,LastName899,19,Indian,Hindi,Lusail,Smartphone,Prepaid,Value 50,50,15,2024-02-05,11,Mid Value,Low,1,2024-02-05,2026-04-18 02:52:01
+CUST00900,+97471218678,Customer900,LastName900,27,Pakistani,Tagalog,Al Wakrah,Smartphone,Prepaid,Value 50,50,15,2019-10-26,63,Mid Value,Medium,1,2019-10-26,2026-04-18 02:52:01
+CUST00901,+97463140493,Customer901,LastName901,31,Bangladeshi,Arabic,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2024-09-21,3,Low Value,High,0,2024-09-21,2026-04-18 02:52:01
+CUST00902,+97439776934,Customer902,LastName902,33,Indian,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2018-11-11,74,Low Value,Low,1,2018-11-11,2026-04-18 02:52:01
+CUST00903,+97467270563,Customer903,LastName903,37,Bangladeshi,Hindi,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2020-06-02,55,High Value,Low,1,2020-06-02,2026-04-18 02:52:01
+CUST00904,+97463421386,Customer904,LastName904,40,Jordanian,Hindi,Doha,Smartphone,Postpaid,Business 200,200,50,2018-02-25,83,Low Value,Low,1,2018-02-25,2026-04-18 02:52:01
+CUST00905,+97464871122,Customer905,LastName905,52,Pakistani,Urdu,Doha,MiFi/Router,Prepaid,Super 100,100,30,2023-05-25,19,Mid Value,Low,1,2023-05-25,2026-04-18 02:52:01
+CUST00906,+97457388677,Customer906,LastName906,39,Bangladeshi,Tagalog,Al Wakrah,MiFi/Router,Prepaid,Super 100,100,30,2021-07-17,42,High Value,Medium,1,2021-07-17,2026-04-18 02:52:01
+CUST00907,+97437812808,Customer907,LastName907,60,Indian,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2020-08-12,53,Mid Value,Low,0,2020-08-12,2026-04-18 02:52:01
+CUST00908,+97436154381,Customer908,LastName908,61,Filipino,English,Doha,Smartphone,Postpaid,Premium 500,500,150,2022-07-20,29,VIP,Medium,1,2022-07-20,2026-04-18 02:52:01
+CUST00909,+97451930217,Customer909,LastName909,27,Qatari,Hindi,Al Khor,Smartphone,Postpaid,Executive 350,350,100,2022-06-28,30,Mid Value,Medium,1,2022-06-28,2026-04-18 02:52:01
+CUST00910,+97436235660,Customer910,LastName910,34,Indian,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2021-10-28,38,High Value,Low,1,2021-10-28,2026-04-18 02:52:01
+CUST00911,+97439973148,Customer911,LastName911,31,Indian,Urdu,Al Rayyan,MiFi/Router,Prepaid,Super 100,100,30,2021-06-13,43,Low Value,Low,1,2021-06-13,2026-04-18 02:52:01
+CUST00912,+97435909765,Customer912,LastName912,29,British,English,Lusail,Smartphone,Postpaid,Executive 350,350,100,2023-02-19,22,Mid Value,Low,1,2023-02-19,2026-04-18 02:52:01
+CUST00913,+97436437772,Customer913,LastName913,26,Indian,Urdu,Al Rayyan,Tablet,Postpaid,Business 200,200,50,2019-03-02,71,Low Value,Low,1,2019-03-02,2026-04-18 02:52:01
+CUST00914,+97452036033,Customer914,LastName914,36,Pakistani,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2019-11-14,62,Mid Value,Medium,1,2019-11-14,2026-04-18 02:52:01
+CUST00915,+97437595964,Customer915,LastName915,38,Indian,Hindi,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-06-14,55,High Value,Medium,1,2020-06-14,2026-04-18 02:52:01
+CUST00916,+97451870922,Customer916,LastName916,24,Indian,Arabic,Doha,Smartphone,Postpaid,Elite 1000,1000,300,2020-09-08,52,Mid Value,Medium,1,2020-09-08,2026-04-18 02:52:01
+CUST00917,+97431833261,Customer917,LastName917,36,Bangladeshi,Hindi,Doha,Smartphone,Prepaid,Value 50,50,15,2021-05-08,44,Mid Value,Low,1,2021-05-08,2026-04-18 02:52:01
+CUST00918,+97465110818,Customer918,LastName918,49,Pakistani,English,Al Wakrah,Feature Phone,Prepaid,Super 100,100,30,2018-03-31,82,Mid Value,Low,1,2018-03-31,2026-04-18 02:52:01
+CUST00919,+97467497761,Customer919,LastName919,38,Indian,Bengali,Al Wakrah,Smartphone,Prepaid,Super 100,100,30,2024-09-02,4,Mid Value,High,1,2024-09-02,2026-04-18 02:52:01
+CUST00920,+97459660331,Customer920,LastName920,31,Pakistani,Urdu,Al Wakrah,MiFi/Router,Prepaid,Value 50,50,15,2022-12-31,24,Low Value,Medium,1,2022-12-31,2026-04-18 02:52:01
+CUST00921,+97477111729,Customer921,LastName921,27,Pakistani,Arabic,Doha,Tablet,Prepaid,Basic 10,10,1,2023-06-13,18,Mid Value,Medium,1,2023-06-13,2026-04-18 02:52:01
+CUST00922,+97477990165,Customer922,LastName922,27,Pakistani,Urdu,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2019-10-01,63,High Value,Low,1,2019-10-01,2026-04-18 02:52:01
+CUST00923,+97463905698,Customer923,LastName923,21,British,Arabic,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2024-12-03,1,Low Value,Medium,1,2024-12-03,2026-04-18 02:52:01
+CUST00924,+97475826767,Customer924,LastName924,41,Indian,Hindi,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2019-04-05,69,Low Value,Medium,1,2019-04-05,2026-04-18 02:52:01
+CUST00925,+97474922549,Customer925,LastName925,28,Qatari,Urdu,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2021-07-25,41,Low Value,Low,1,2021-07-25,2026-04-18 02:52:01
+CUST00926,+97479986828,Customer926,LastName926,39,Indian,Bengali,Al Wakrah,Smartphone,Postpaid,Premium 500,500,150,2018-01-24,84,Mid Value,Medium,1,2018-01-24,2026-04-18 02:52:01
+CUST00927,+97461859598,Customer927,LastName927,35,Lebanese,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2020-05-05,56,Mid Value,Low,1,2020-05-05,2026-04-18 02:52:01
+CUST00928,+97434191556,Customer928,LastName928,30,Indian,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2020-07-20,54,Low Value,Low,1,2020-07-20,2026-04-18 02:52:01
+CUST00929,+97479198284,Customer929,LastName929,32,Indian,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2020-10-27,50,Mid Value,Medium,1,2020-10-27,2026-04-18 02:52:01
+CUST00930,+97462775404,Customer930,LastName930,28,Bangladeshi,Arabic,Doha,Smartphone,Postpaid,Business 200,200,50,2024-10-05,2,High Value,Medium,1,2024-10-05,2026-04-18 02:52:01
+CUST00931,+97459864134,Customer931,LastName931,55,Indian,Tagalog,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2021-07-08,42,VIP,Low,1,2021-07-08,2026-04-18 02:52:01
+CUST00932,+97436453833,Customer932,LastName932,61,Pakistani,English,Mesaieed,Smartphone,Prepaid,Super 100,100,30,2018-04-12,81,Mid Value,Low,1,2018-04-12,2026-04-18 02:52:01
+CUST00933,+97439628778,Customer933,LastName933,32,Indian,Urdu,Al Wakrah,Smartphone,Prepaid,Basic 10,10,1,2021-02-18,47,Low Value,High,1,2021-02-18,2026-04-18 02:52:01
+CUST00934,+97435484405,Customer934,LastName934,59,Qatari,Hindi,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2023-12-14,12,Low Value,Medium,1,2023-12-14,2026-04-18 02:52:01
+CUST00935,+97454564079,Customer935,LastName935,27,Sri Lankan,Tagalog,Doha,MiFi/Router,Prepaid,Super 100,100,30,2021-08-02,41,VIP,Medium,1,2021-08-02,2026-04-18 02:52:01
+CUST00936,+97436853799,Customer936,LastName936,31,Indian,English,Doha,MiFi/Router,Postpaid,Business 200,200,50,2020-04-07,57,Mid Value,Medium,1,2020-04-07,2026-04-18 02:52:01
+CUST00937,+97454694846,Customer937,LastName937,34,Jordanian,Arabic,Al Rayyan,Tablet,Prepaid,Smart 25,25,5,2020-05-27,55,High Value,Low,1,2020-05-27,2026-04-18 02:52:01
+CUST00938,+97454555354,Customer938,LastName938,36,Filipino,Urdu,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2024-01-31,11,Low Value,High,1,2024-01-31,2026-04-18 02:52:01
+CUST00939,+97457655853,Customer939,LastName939,33,Indian,Urdu,Doha,Smartphone,Prepaid,Value 50,50,15,2019-09-19,64,Low Value,Medium,1,2019-09-19,2026-04-18 02:52:01
+CUST00940,+97433729585,Customer940,LastName940,33,Qatari,Hindi,Al Rayyan,Feature Phone,Prepaid,Smart 25,25,5,2019-08-01,65,Low Value,High,1,2019-08-01,2026-04-18 02:52:01
+CUST00941,+97452816890,Customer941,LastName941,34,Qatari,English,Doha,Smartphone,Postpaid,Business 200,200,50,2024-12-16,1,Mid Value,Medium,1,2024-12-16,2026-04-18 02:52:01
+CUST00942,+97479464344,Customer942,LastName942,26,Bangladeshi,Tagalog,Doha,Smartphone,Prepaid,Super 100,100,30,2024-09-24,3,Mid Value,High,1,2024-09-24,2026-04-18 02:52:01
+CUST00943,+97467849507,Customer943,LastName943,27,Indian,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2018-08-21,77,Low Value,Low,1,2018-08-21,2026-04-18 02:52:01
+CUST00944,+97461324979,Customer944,LastName944,32,Sri Lankan,Urdu,Doha,Smartphone,Prepaid,Smart 25,25,5,2019-03-23,70,Mid Value,Low,1,2019-03-23,2026-04-18 02:52:01
+CUST00945,+97466092818,Customer945,LastName945,21,Qatari,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-11-24,74,Low Value,Medium,1,2018-11-24,2026-04-18 02:52:01
+CUST00946,+97438293132,Customer946,LastName946,37,Indian,English,Mesaieed,Smartphone,Postpaid,Elite 1000,1000,300,2024-01-11,11,Mid Value,Low,1,2024-01-11,2026-04-18 02:52:01
+CUST00947,+97459146991,Customer947,LastName947,65,Lebanese,Arabic,Doha,Smartphone,Prepaid,Value 50,50,15,2021-06-21,42,High Value,Medium,1,2021-06-21,2026-04-18 02:52:01
+CUST00948,+97452638178,Customer948,LastName948,65,Pakistani,English,Al Wakrah,Smartphone,Postpaid,Elite 1000,1000,300,2022-10-29,26,Mid Value,Low,1,2022-10-29,2026-04-18 02:52:01
+CUST00949,+97477183857,Customer949,LastName949,59,Egyptian,Bengali,Mesaieed,Smartphone,Prepaid,Smart 25,25,5,2018-07-09,78,Low Value,High,1,2018-07-09,2026-04-18 02:52:01
+CUST00950,+97466624625,Customer950,LastName950,32,Indian,Urdu,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2022-11-23,25,Low Value,Medium,1,2022-11-23,2026-04-18 02:52:01
+CUST00951,+97436147191,Customer951,LastName951,28,Pakistani,Hindi,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2018-07-31,78,Low Value,High,1,2018-07-31,2026-04-18 02:52:01
+CUST00952,+97455073670,Customer952,LastName952,34,Indian,English,Doha,Smartphone,Postpaid,Business 200,200,50,2024-05-21,7,Low Value,Low,1,2024-05-21,2026-04-18 02:52:01
+CUST00953,+97469514247,Customer953,LastName953,33,Filipino,Bengali,Doha,MiFi/Router,Prepaid,Smart 25,25,5,2023-05-27,19,Low Value,Medium,0,2023-05-27,2026-04-18 02:52:01
+CUST00954,+97478902948,Customer954,LastName954,31,Pakistani,Arabic,Al Rayyan,Smartphone,Prepaid,Super 100,100,30,2023-12-18,12,High Value,Medium,1,2023-12-18,2026-04-18 02:52:01
+CUST00955,+97455049472,Customer955,LastName955,62,Filipino,English,Lusail,Tablet,Postpaid,Premium 500,500,150,2023-11-26,13,High Value,Medium,1,2023-11-26,2026-04-18 02:52:01
+CUST00956,+97473870289,Customer956,LastName956,31,Indian,Bengali,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2019-12-09,61,Mid Value,High,1,2019-12-09,2026-04-18 02:52:01
+CUST00957,+97463102192,Customer957,LastName957,35,Sri Lankan,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2021-04-01,45,High Value,Low,1,2021-04-01,2026-04-18 02:52:01
+CUST00958,+97458750581,Customer958,LastName958,29,Filipino,Bengali,Lusail,Smartphone,Prepaid,Value 50,50,15,2019-04-18,69,Mid Value,High,1,2019-04-18,2026-04-18 02:52:01
+CUST00959,+97475839857,Customer959,LastName959,31,Filipino,Arabic,Al Khor,Smartphone,Prepaid,Smart 25,25,5,2024-07-25,5,Low Value,Medium,1,2024-07-25,2026-04-18 02:52:01
+CUST00960,+97461111598,Customer960,LastName960,35,Egyptian,Tagalog,Al Wakrah,Smartphone,Postpaid,Executive 350,350,100,2024-04-19,8,Mid Value,Medium,1,2024-04-19,2026-04-18 02:52:01
+CUST00961,+97454146582,Customer961,LastName961,39,Sri Lankan,Bengali,Doha,Smartphone,Prepaid,Super 100,100,30,2019-11-20,62,Low Value,High,1,2019-11-20,2026-04-18 02:52:01
+CUST00962,+97464171928,Customer962,LastName962,32,Indian,Hindi,Doha,Tablet,Postpaid,Premium 500,500,150,2022-02-07,35,Mid Value,Low,1,2022-02-07,2026-04-18 02:52:01
+CUST00963,+97477510480,Customer963,LastName963,37,Lebanese,Bengali,Doha,Smartphone,Prepaid,Smart 25,25,5,2022-06-07,31,High Value,Low,1,2022-06-07,2026-04-18 02:52:01
+CUST00964,+97452629968,Customer964,LastName964,33,Sri Lankan,Hindi,Al Rayyan,Smartphone,Postpaid,Premium 500,500,150,2019-06-05,67,Mid Value,Medium,1,2019-06-05,2026-04-18 02:52:01
+CUST00965,+97473402611,Customer965,LastName965,19,Filipino,Bengali,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2024-10-17,2,Low Value,Low,1,2024-10-17,2026-04-18 02:52:01
+CUST00966,+97435206329,Customer966,LastName966,42,Indian,Arabic,Al Rayyan,Feature Phone,Prepaid,Smart 25,25,5,2021-07-05,42,High Value,Low,1,2021-07-05,2026-04-18 02:52:01
+CUST00967,+97456819818,Customer967,LastName967,33,Indian,English,Doha,Smartphone,Postpaid,Executive 350,350,100,2023-03-23,21,High Value,Low,1,2023-03-23,2026-04-18 02:52:01
+CUST00968,+97479927639,Customer968,LastName968,43,Pakistani,Hindi,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2022-07-21,29,Low Value,Medium,1,2022-07-21,2026-04-18 02:52:01
+CUST00969,+97476820396,Customer969,LastName969,28,Filipino,Bengali,Doha,MiFi/Router,Postpaid,Premium 500,500,150,2021-10-28,38,Mid Value,Low,1,2021-10-28,2026-04-18 02:52:01
+CUST00970,+97467415044,Customer970,LastName970,27,Filipino,Bengali,Doha,Smartphone,Postpaid,Business 200,200,50,2020-02-26,59,Mid Value,Low,1,2020-02-26,2026-04-18 02:52:01
+CUST00971,+97471805664,Customer971,LastName971,20,Lebanese,Bengali,Al Khor,Smartphone,Prepaid,Value 50,50,15,2019-10-25,63,Mid Value,Low,1,2019-10-25,2026-04-18 02:52:01
+CUST00972,+97432648238,Customer972,LastName972,27,Indian,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2023-10-11,14,Low Value,Medium,1,2023-10-11,2026-04-18 02:52:01
+CUST00973,+97435967775,Customer973,LastName973,27,Filipino,Arabic,Doha,Feature Phone,Prepaid,Basic 10,10,1,2018-07-14,78,Mid Value,High,1,2018-07-14,2026-04-18 02:52:01
+CUST00974,+97453677314,Customer974,LastName974,31,Sri Lankan,English,Doha,Smartphone,Prepaid,Smart 25,25,5,2023-12-03,13,Mid Value,Low,1,2023-12-03,2026-04-18 02:52:01
+CUST00975,+97458920991,Customer975,LastName975,36,British,English,Al Khor,Smartphone,Prepaid,Super 100,100,30,2019-12-07,61,High Value,Low,1,2019-12-07,2026-04-18 02:52:01
+CUST00976,+97471626998,Customer976,LastName976,26,Lebanese,Urdu,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-06-05,55,Mid Value,Medium,1,2020-06-05,2026-04-18 02:52:01
+CUST00977,+97436965013,Customer977,LastName977,40,Indian,Hindi,Doha,Feature Phone,Postpaid,Premium 500,500,150,2019-08-04,65,VIP,Low,1,2019-08-04,2026-04-18 02:52:01
+CUST00978,+97454566061,Customer978,LastName978,31,Pakistani,Bengali,Al Khor,Smartphone,Prepaid,Value 50,50,15,2024-12-24,1,Mid Value,Medium,1,2024-12-24,2026-04-18 02:52:01
+CUST00979,+97437163341,Customer979,LastName979,39,Lebanese,Arabic,Al Rayyan,MiFi/Router,Postpaid,Business 200,200,50,2019-06-11,67,High Value,Low,1,2019-06-11,2026-04-18 02:52:01
+CUST00980,+97455657300,Customer980,LastName980,27,Sri Lankan,English,Al Wakrah,Feature Phone,Prepaid,Value 50,50,15,2018-11-26,74,High Value,Low,1,2018-11-26,2026-04-18 02:52:01
+CUST00981,+97461071484,Customer981,LastName981,27,Indian,Tagalog,Doha,Smartphone,Postpaid,Premium 500,500,150,2024-12-18,1,Low Value,Low,1,2024-12-18,2026-04-18 02:52:01
+CUST00982,+97465475622,Customer982,LastName982,32,Jordanian,Arabic,Al Rayyan,Tablet,Postpaid,Premium 500,500,150,2022-05-03,32,Low Value,Low,1,2022-05-03,2026-04-18 02:52:01
+CUST00983,+97451908730,Customer983,LastName983,31,Filipino,Urdu,Al Rayyan,Feature Phone,Postpaid,Executive 350,350,100,2019-10-24,63,Mid Value,Low,1,2019-10-24,2026-04-18 02:52:01
+CUST00984,+97471085128,Customer984,LastName984,21,Bangladeshi,Urdu,Al Rayyan,Smartphone,Prepaid,Smart 25,25,5,2018-10-02,76,Mid Value,High,1,2018-10-02,2026-04-18 02:52:01
+CUST00985,+97461300121,Customer985,LastName985,33,Pakistani,English,Al Rayyan,Smartphone,Postpaid,Business 200,200,50,2018-05-21,80,Low Value,Low,1,2018-05-21,2026-04-18 02:52:01
+CUST00986,+97452877035,Customer986,LastName986,37,Indian,Hindi,Al Rayyan,Smartphone,Prepaid,Basic 10,10,1,2021-12-25,36,VIP,Medium,0,2021-12-25,2026-04-18 02:52:01
+CUST00987,+97435793939,Customer987,LastName987,39,Egyptian,Arabic,Al Wakrah,Smartphone,Postpaid,Premium 500,500,150,2021-12-17,37,High Value,Low,1,2021-12-17,2026-04-18 02:52:01
+CUST00988,+97478056549,Customer988,LastName988,58,Jordanian,Hindi,Al Rayyan,Feature Phone,Prepaid,Value 50,50,15,2019-03-21,70,Mid Value,Low,1,2019-03-21,2026-04-18 02:52:01
+CUST00989,+97462726362,Customer989,LastName989,68,Jordanian,Hindi,Doha,Smartphone,Prepaid,Super 100,100,30,2020-03-05,58,High Value,Medium,1,2020-03-05,2026-04-18 02:52:01
+CUST00990,+97452150751,Customer990,LastName990,24,Pakistani,Urdu,Doha,MiFi/Router,Postpaid,Elite 1000,1000,300,2021-03-31,45,Mid Value,High,1,2021-03-31,2026-04-18 02:52:01
+CUST00991,+97462926202,Customer991,LastName991,36,Pakistani,Urdu,Al Rayyan,Smartphone,Postpaid,Elite 1000,1000,300,2020-12-08,49,Mid Value,Medium,1,2020-12-08,2026-04-18 02:52:01
+CUST00992,+97469605084,Customer992,LastName992,67,Qatari,Hindi,Doha,MiFi/Router,Prepaid,Basic 10,10,1,2019-08-07,65,Low Value,Low,1,2019-08-07,2026-04-18 02:52:01
+CUST00993,+97468338715,Customer993,LastName993,36,Indian,Arabic,Doha,Tablet,Postpaid,Elite 1000,1000,300,2020-04-04,57,Mid Value,Low,1,2020-04-04,2026-04-18 02:52:01
+CUST00994,+97471534437,Customer994,LastName994,38,Pakistani,Hindi,Al Khor,Feature Phone,Prepaid,Basic 10,10,1,2020-12-02,49,Mid Value,Low,0,2020-12-02,2026-04-18 02:52:01
+CUST00995,+97457240222,Customer995,LastName995,65,Filipino,Hindi,Al Khor,Feature Phone,Prepaid,Basic 10,10,1,2019-10-07,63,Low Value,Medium,1,2019-10-07,2026-04-18 02:52:01
+CUST00996,+97453150717,Customer996,LastName996,35,Bangladeshi,Tagalog,Al Rayyan,Smartphone,Postpaid,Executive 350,350,100,2024-02-03,11,Mid Value,High,1,2024-02-03,2026-04-18 02:52:01
+CUST00997,+97439154789,Customer997,LastName997,35,Sri Lankan,English,Al Rayyan,MiFi/Router,Prepaid,Basic 10,10,1,2022-08-16,28,Mid Value,Low,1,2022-08-16,2026-04-18 02:52:01
+CUST00998,+97475249746,Customer998,LastName998,27,Qatari,Tagalog,Al Wakrah,MiFi/Router,Postpaid,Elite 1000,1000,300,2018-08-22,77,Low Value,Medium,1,2018-08-22,2026-04-18 02:52:01
+CUST00999,+97456000603,Customer999,LastName999,56,Qatari,Tagalog,Doha,Smartphone,Prepaid,Value 50,50,15,2018-09-03,77,Low Value,High,1,2018-09-03,2026-04-18 02:52:01
+CUST01000,+97458382952,Customer1000,LastName1000,37,Filipino,Hindi,Al Rayyan,Smartphone,Prepaid,Value 50,50,15,2023-01-10,24,High Value,Low,1,2023-01-10,2026-04-18 02:52:01
