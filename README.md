@@ -289,7 +289,7 @@ access for regulatory compliance.
 Senior Data Engineer → Azure & GCP Data Architect  
 15 years experience | NCR Atleos · Cognizant · Wipro  
 📍 Doha, Qatar   
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/pawand2002)
+🔗 [LinkedIn](https://www.linkedin.com/in/pawandubey1990/) | [GitHub](https://github.com/pawand2002)
 
 ---
 
